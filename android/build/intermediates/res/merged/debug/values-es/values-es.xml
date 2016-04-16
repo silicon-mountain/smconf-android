@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="schedule_block_subtitle">
+    <item quantity="one">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> sesión disponible</item>
+    <item quantity="other">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> sesiones disponibles</item>
+  </plurals>
+    <plurals name="session_notification_text">
+    <item quantity="one">y otra dentro de <ns1:g id="remaining_time">%1$d</ns1:g> min.</item>
+    <item quantity="other">y otras <ns1:g id="num_sessions">%2$d</ns1:g> dentro de <ns1:g id="remaining_time">%1$d</ns1:g> min.</item>
+  </plurals>
+    <plurals name="session_notification_ticker">
+    <item quantity="one">1 sesión está a punto de comenzar.</item>
+    <item quantity="other">%d sesiones están a punto de comenzar.</item>
+  </plurals>
+    <plurals name="session_notification_title">
+    <item quantity="one">1 sesión empieza en <ns1:g id="remaining_time">%1$d</ns1:g> min.</item>
+    <item quantity="other">
+      <ns1:g id="num_sessions">%2$d</ns1:g> sesiones empiezan en <ns1:g id="remaining_time">%1$d</ns1:g> min.</item>
+  </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="about_body">&lt;b>Google I/O 2015&lt;/b>&lt;br> Versión
+        %s&lt;br>&lt;br> &lt;a href=http://m.google.com/utos> Términos de servicio &lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/> Política de privacidad &lt;/a></string>
+    <string name="about_eula">Contrato de licencia de usuario final</string>
+    <string name="about_licenses">Licencias de código abierto</string>
+    <string name="accept">Aceptar</string>
+    <string name="add_account">Agregar cuenta</string>
+    <string name="add_to_schedule">Añadir a la agenda</string>
+    <string name="add_to_schedule_desc">Botón para agregar una sesión a tu agenda</string>
+    <string description="Label of filter option that allow to display all elements" name="all">TODOS</string>
+    <string name="all_sessions">Todas las sesiones</string>
+    <string name="all_themes">Todos los objetivos</string>
+    <string name="all_topics">Todos los temas</string>
+    <string name="all_types">Todos los tipos</string>
+    <string name="all_years">Todos los años</string>
+    <string description="This string is the message of the notification shown to the user when Google Play services          can&apos;t connect from a background sync." name="app_data_notification_resolution_content">La app I/O necesita acción para completar la sincronización en segundo plano.</string>
+    <string descripton="This string is the title of a notification shown to the user when Google Play         services can&apos;t connect." name="app_data_notification_resolution_title">La app I/O necesita permiso</string>
+    <string name="app_name">Google I/O 2015</string>
+    <string name="attending_in_person">En persona</string>
+    <string name="attending_remotely">En remoto</string>
+    <string name="browse_events">Buscar acontecimientos</string>
+    <string name="browse_sessions">EXPLORAR SESIONES</string>
+    <string name="calltoaction_wifi_configure">&lt;br>&lt;br> Pulsa en \"Añadir red Wi-Fi\" para proceder.</string>
+    <string name="calltoaction_wifi_settings">&lt;br>&lt;br> Pestaña \"Configuración de Wi-Fi abierta\" para activar Wi-Fi.</string>
+    <string name="cancel">Cancelar</string>
+    <string description="Accessibility description for a control that allows the user to close the current screen          and go back to the previous one." name="close_and_go_back">Cerrar y volver</string>
+    <string name="close_detail_pane">Cerrar panel de detalles</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Una aplicación necesita que Android Wear se actualice."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Esta aplicación no se ejecutará hasta que actualices Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Actualizar Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Habilitar servicios de Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Esta aplicación no funcionará si no habilitas los servicios de Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Habilitar servicios de Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Solicitada por <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Descargar servicios de Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Esta aplicación no se ejecutará si tu teléfono no tiene instalados los servicios de Google Play."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Esta aplicación no se ejecutará si tu tablet no tiene instalados los servicios de Google Play."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Descargar servicios de Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Cuenta no válida"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Una aplicación requiere que se habiliten los servicios de Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Se necesita una conexión de datos para establecer conexión con los servicios de Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Error de red"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Una aplicación requiere la instalación de servicios de Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Una aplicación requiere una actualización de servicios de Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Error de servicios de Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Error al iniciar sesión en la cuenta especificada. Selecciona otra cuenta."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Error al iniciar sesión"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Error desconocido relacionado con los servicios de Google Play"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Tu dispositivo no es compatible con los servicios de Google Play, de los cuales dependen tus aplicaciones. Para obtener asistencia, ponte en contacto el fabricante."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Servicios de Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Esta aplicación no se ejecutará si no actualizas los servicios de Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Actualizar servicios de Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Esta aplicación requiere uno o varios servicios de Google Play que no están disponibles en este momento. Para obtener ayuda, ponte en contacto con el desarrollador."</string>
+    <string name="data_stale_warning">Los datos que estás viendo pueden estar obsoletos.</string>
+    <string description="Shown as the titles of the tabs for the user&apos;s schedule" name="day_n">DÍA %d</string>
+    <string name="day_title_today">Hoy</string>
+    <string name="day_title_tomorrow">Mañana</string>
+    <string name="day_title_yesterday">Ayer</string>
+    <string name="decline">Rechazar</string>
+    <string name="description_about">Acerca de</string>
+    <string name="description_add_schedule">Añadir a la agenda</string>
+    <string name="description_app_feedback">Opinión sobre la aplicación</string>
+    <string name="description_app_feedback_old">Opinión</string>
+    <string name="description_captions">Subtítulos</string>
+    <string name="description_configure_wifi">Configurar Wi-Fi</string>
+    <string name="description_filter">Filtro</string>
+    <string name="description_i_o_extended">I/O Extended</string>
+    <string name="description_map">Mapa</string>
+    <string name="description_presentation">Pasar a otra pantalla</string>
+    <string name="description_refresh">Actualizar</string>
+    <string name="description_remove_schedule">Eliminar de la agenda</string>
+    <string name="description_search">Búsqueda</string>
+    <string name="description_settings">Ajustes</string>
+    <string name="description_setup_wifi_body">Puesto que estás asistiendo en persona, podemos configurar este dispositivo para que acceda a la red Wi-Fi de la conferencia (solamente 5Ghz). Si configuras ahora tu red Wi-Fi, ayudarás a prevenir la saturación de la red.</string>
+    <string name="description_share">Compartir</string>
+    <string name="description_social_stream">Ver novedades de Google+</string>
+    <string name="drawer_close">Panel de navegación cerrado</string>
+    <string name="drawer_open">Panel de navegación abierto</string>
+    <string name="empty_captions">No se han encontrado subtítulos para esta sesión.</string>
+    <string name="empty_session_detail">No se han encontrado detalles de la sesión.</string>
+    <string name="empty_sessions">No se han encontrado sesiones.</string>
+    <string name="empty_waiting_for_sync">Esperando sincronización…</string>
+    <string name="empty_widget_text">No hay más sesiones. \n¡Hasta el año que viene!</string>
+    <string name="empty_widget_text_signed_out">Pulsa en el logo de Google I/O 2015 de arriba para iniciar sesión y comenzar a utilizar la aplicación.</string>
+    <string name="ended_sessions">Sesiones finalizadas</string>
+    <string name="eula_legal_text">El uso que usted le dé a esta aplicación está regido por: a) las Condiciones de servicio de Google (http://www.google.com/intl/es/policies/terms/); b) la Política de privacidad de Google (http://www.google.com/intl/es/policies/privacy/); y c) cualesquiera otras condiciones de servicio específicas al servicio de Google u otras políticas de privacidad aplicables. Las condiciones de servicio o políticas de privacidad de Google pueden ser actualizadas periódicamente y sin previo aviso.\n\nEsta aplicación recoge determinada información a medida que usted la utiliza, incluso a través de Google Analytics. La Política de privacidad de Google explica el tratamiento que Google da a su información y protege su privacidad cuando usted usa la aplicación. Mediante el uso de la aplicación, usted acepta el uso de sus datos de acuerdo con la Política de privacidad de Google.</string>
+    <string name="explore_attending_in_person_toast">Asistiré a I/O en persona (puedes modificar esta opción en Ajustes)</string>
+    <string name="explore_attending_remotely_toast">Asistiré a I/O en remoto (puedes modificar esta opción en Ajustes)</string>
+    <string description="A message card displayed in the Explore I/O page that asks users to opt into a                          feature." name="explore_io_msgcards_after_hours_card">&lt;b>After Hours&lt;/b>&lt;br>&lt;/br> ¡Esta es  una fiesta que no te querrás perder! La noche del 28 de mayo, los asistentes están invitados a disfrutar de comida, bebidas, música, juegos y mucho más. Para entrar se requiere la tarjeta de identificación de la conferencia y la pulsera NFC.</string>
+    <string name="explore_io_msgcards_answer_no">No, gracias.</string>
+    <string name="explore_io_msgcards_answer_yes">Sí, ¡de acuerdo!</string>
+    <string description="This message is displayed on the Explore I/O screen to ask users whether             they would like to opt in to receive messages regarding the conference." name="explore_io_msgcards_ask_opt_in">
+        &lt;b>Mensajes de la conferencia&lt;/b>&lt;br/>
+        Le gustaría recibir mensajes importantes sobre la conferencia? Estos están basados en el horario y pueden incluir mensajes promocionales de socios.</string>
+    <string name="explore_io_msgcards_conf_creds_card">&lt;b>Identificación en la conferencia&lt;/b>&lt;br> Este año cada asistente recibirá una pulsera no transferible habilitada con NFC. Tu pulsera y tarjeta de identificación I/O te permitirán tener acceso a las presentaciones, sesiones, entorno de pruebas y fiesta. Recuerda llevarla puesta todo el tiempo.</string>
+    <string description="A message card displayed in the Explore I/O page that tells users" name="explore_io_msgcards_keynote_access_card">&lt;b>Acceso al keynote&lt;/b>&lt;br> El color de tu pulsera indica tu acceso al keynote.&lt;br>&lt;br> &lt;b>Pulsera azul&lt;/b>&lt;br> Acceso al keynote: la fila comienza en Moscone West en 4th Street.&lt;br>&lt;br> &lt;b>Pulsera gris&lt;/b>&lt;br> Asientos reservados para el keynote: la fila comienza en Moscone West en 4th Street.&lt;br>&lt;br> &lt;b>Pulsera naranja&lt;/b>&lt;br> Playground: la fila comienza en Moscone West en Howard Street.</string>
+    <string description="This string is presented to users when they attempt to click something that indicates they          can watch a video but it turns out we can&apos;t show the video." name="explore_io_video_id_not_valid">Lo sentimos, parece que hay un problema con el URL del vídeo.</string>
+    <string description="Sub-title for a session in ExploreSessionsActivity that shows the day, time and room name for a given session. Example: Day 1 / 9:00AM - 11:00AM / Room 1" name="explore_sessions_show_day_hour_and_room"><ns1:g example="Day 1" id="day">%1$s</ns1:g> / <ns1:g example="2:00PM" id="start_time">%2$s</ns1:g> - <ns1:g example="3:00PM" id="end_time">%3$s</ns1:g> / <ns1:g id="room">%4$s</ns1:g></string>
+    <string description="Show the Day 1 or Day 2 as part of either the ExploreSessionsActivity title or          in the session details." name="explore_sessions_show_day_n">Día %d</string>
+    <string description="Show Day and start time of a session as the title when viewing browsing sessions          (ExploreSessionActivity) from MySchedule." name="explore_sessions_time_slot_title">
+    <ns1:g example="Day 1" id="day">%1$s</ns1:g>, <ns1:g example="2:30PM" id="start_time">%2$s</ns1:g>
+  </string>
+    <string name="give_feedback">¡Sí!</string>
+    <string name="go_to_settings">Ir a Ajustes</string>
+    <string name="google_account_required_message">Para utilizar esta aplicación, debes tener al menos una cuenta Google en tu dispositivo.</string>
+    <string name="google_account_required_title">Requiere cuenta de Google</string>
+    <string name="google_i_o_year">I/O <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="got_it">Entendido.</string>
+    <string description="Accessibility description for the IO15 extended logo that is not a link." name="io15_extended_logo_not_clickable">No se puede hacer clic en el logo IO15 extendido</string>
+    <string description="Accessibility description for the IO15 logo that is not a link." name="io15_logo_not_clickable">No se puede hacer clic en el logo IO15</string>
+    <string description="Accessibility description for the IO15 request logo that is not a link." name="io15_request_logo_not_clickable">No se puede hacer clic en el logo IO15 de solicitud</string>
+    <string description="Accessibility description for the I/O logo that is not a link." name="io_logo_not_clickable">No se puede hacer clic en el logo IO</string>
+    <string name="keynote_group_title">Presentaciones</string>
+    <string name="live_available">EN DIRECTO</string>
+    <string name="live_now">EN DIRECTO AHORA</string>
+    <string name="loading">Cargando…</string>
+    <string name="login_failed_text">No se han podido sincronizar sus sesiones debido a un error.</string>
+    <string name="login_failed_text_retry">Volver a intentar</string>
+    <string name="mandatory_update_error">Tu aplicación está obsoleta. Actualízala para seguir utilizándola.</string>
+    <string name="map_at">En %1$s: &lt;br>&lt;b>%2$s&lt;/b></string>
+    <string name="map_now_playing">Reproduciendo: &lt;br>&lt;b>%1$s&lt;/b></string>
+    <string name="map_touch_to_see_session">Pulsa para ver sesiones</string>
+    <string name="more_information">Más información</string>
+    <string name="more_items_button">Más</string>
+    <string description="Accessibility description for viewing more sessions/videos." name="more_items_button_desc_a11y">Toque para mostrar más elementos.</string>
+    <string name="more_sessions">Más sesiones</string>
+    <string name="my_schedule_page_desc_a11y">Mostrando tu agenda de <ns1:g id="day">%1$s</ns1:g>
+  </string>
+    <string name="my_schedule_rate_this_session">CALIFICAR ESTA SESIÓN</string>
+    <string name="my_schedule_tab_desc_a11y">Toca para mostrar tu agenda de <ns1:g id="day">%1$s</ns1:g>.</string>
+    <string name="my_schedule_watch_live_now">VER EN DIRECTO AHORA</string>
+    <string name="navdrawer_description_a11y">Cajón de navegación usado para navegar las principales características de la aplicación</string>
+    <string name="navdrawer_item_debug">Depurar</string>
+    <string name="navdrawer_item_explore">Explorar</string>
+    <string name="navdrawer_item_explore_a11y">Explorar Google I/O</string>
+    <string name="navdrawer_item_io_live">I/O en directo</string>
+    <string name="navdrawer_item_map">Mapa</string>
+    <string name="navdrawer_item_my_schedule">Mi agenda</string>
+    <string name="navdrawer_item_settings">Ajustes</string>
+    <string name="navdrawer_item_sign_in">Registrarse</string>
+    <string name="navdrawer_item_social">Social</string>
+    <string name="navdrawer_item_video_library">Librería de vídeo</string>
+    <string name="navdrawer_status_attending_in_person">Asistiendo a I/O en persona</string>
+    <string name="navdrawer_status_attending_remotely">Asistiendo a I/O en remoto</string>
+    <string name="new_videos_title">Nuevo en <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="no_connection_cant_login">Imposible registrarse. Comprueba la conexión de red.</string>
+    <string name="no_matching_sessions">No hay sesiones</string>
+    <string name="no_matching_sessions_in_interval">No hay sesiones disponibles en esta franja horaria</string>
+    <string name="no_matching_videos">No hay vídeos</string>
+    <string name="no_thanks">No, gracias</string>
+    <string name="not_now">Ahora no</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="ok">Aceptar</string>
+    <string name="others">Otros</string>
+    <string name="permission_write">Modificar los datos de agenda de Google I/O</string>
+    <string name="plus_one_description_standard">Pulsa el botón +1</string>
+    <string name="pref_analytics_enabled_description">Si se marca, se enviarán estadísticas de uso anónimas a Google.</string>
+    <string name="pref_analytics_enabled_title">Enviar estadísticas anónimas de uso</string>
+    <string name="pref_attendee_at_venue_description">Si se marca, se mostrarán todas las sesiones y acontecimientos presenciales. De lo contrario, sólo se mostrarán las sesiones transmitidas en directo.</string>
+    <string name="pref_attendee_at_venue_title">¡Estaré en Google I/O!</string>
+    <string description="Description in the Settings screen for the setting that enables display of             cards with conference information in the explore screen." name="pref_conf_message_cards_enabled_description">Mostrar tarjetas con información relevante a la conferencia en la pantalla Explorar. Estas tarjetas están basadas en el horario y pueden incluir mensajes promocionales de socios.</string>
+    <string name="pref_conf_message_cards_enabled_title">Mostrar mensajes de la conferencia</string>
+    <string name="pref_local_times_description">Si se marca, tu dispositivo mostrará la hora local. De lo contrario, la hora se mostrará en PDT, hora local de la conferencia.</string>
+    <string name="pref_local_times_title">Mostrar horas locales</string>
+    <string name="pref_notify_feedback_description">Si se marca, la aplicación mostrará una notificación solicitándote tu opinión acerca de las sesiones seleccionadas.</string>
+    <string name="pref_notify_feedback_title">Notificarme para enviar opiniones</string>
+    <string name="pref_notify_starred_sessions_description">Si se marca, la aplicación le notificará las sesiones que estén a punto de comenzar.</string>
+    <string name="pref_notify_starred_sessions_title">Notificarme sobre mis sesiones</string>
+    <string name="pref_sync_with_calendar_description">Si se marca, las sesiones seleccionadas se sincronizarán automáticamente con tu Google Calendar.</string>
+    <string name="pref_sync_with_calendar_title">Sincronizar con Google Calendar</string>
+    <string name="question_i_o_extended">¿Quieres saber más sobre los acontecimientos I/O Extended cercanos a tu ubicación?</string>
+    <string name="question_local_or_remote">¿Vas a asistir a I/O en San Francisco en remoto o en persona?</string>
+    <string descripton="Text of a card shown in the Explore I/O screen that asks the user if they want to configure          the conference WiFi. &apos;Not now&apos; and &apos;Yes, please&apos; are options show on the card" name="question_setup_wifi_card_text">&lt;b>Wi-Fi de la conferencia&lt;/b>&lt;br/> ¿Quieres configurar este dispositivo para tener acceso al Wi-Fi de la conferencia?</string>
+    <string name="related_videos">Videos relacionados</string>
+    <string name="remove_from_schedule">En agenda</string>
+    <string name="remove_from_schedule_desc">Botón para eliminar sesión de tu agenda.</string>
+    <string name="retry">Volver a intentar</string>
+    <string name="schedule_conflict_with_previous">(conflicto)</string>
+    <string name="schedule_end_time">a <ns1:g id="endTime">%1$s</ns1:g>
+  </string>
+    <string name="schedule_session_subtitle">
+    <ns1:g id="speakers">%1$s</ns1:g>\n<ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="search_hint">Buscar sesiones</string>
+    <string name="search_label">Sesiones de Google I/O</string>
+    <string name="session_calendar_suffix">- añadido por Google I/O Android app</string>
+    <string name="session_details_a11y_session_added">Sesión añadida a tu agenda</string>
+    <string name="session_details_a11y_session_removed">Sesión eliminada de tu agenda</string>
+    <string name="session_feedback_advanced">Demasiado complejo</string>
+    <string name="session_feedback_basic">Demasiado básico</string>
+    <string description="Session feedback section title" name="session_feedback_content">El contenido:</string>
+    <string descripton="Session feedback section title" name="session_feedback_content_label_text">Con base en la descripción o mis expectativas, el contenido fue:</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_extremely_relevant">Extremadamente</string>
+    <string description="A positive overall session feedback option" name="session_feedback_great">Es excelente</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_not_at_all_relevant">Nada</string>
+    <string description="A negative overall session feedback option" name="session_feedback_notgreat">No es bueno</string>
+    <string name="session_feedback_notification_text">Opinar sobre %1$s</string>
+    <string name="session_feedback_notification_ticker">Opinar sobre la sesión</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_notrel">No es pertinente</string>
+    <string description="A session feedback section label asking for any other feedback. It indicates the user should not add personal information" name="session_feedback_other">¿Algo más que deberíamos saber?\n(Por favor no añadas información personal a los comentarios.)</string>
+    <string description="A positive speaker quality session feedback option" name="session_feedback_outstanding">Es extraordinario</string>
+    <string description="A negative speaker quality session feedback option" name="session_feedback_poor">Es malo</string>
+    <string description="A positive relevance session feedback option" name="session_feedback_rel">Es pertinente</string>
+    <string name="session_feedback_relevance">¿Qué importancia tiene esta sesión para tus proyectos?</string>
+    <string name="session_feedback_speaker_quality">Calidad del ponente:</string>
+    <string name="session_feedback_submitlink">Enviar comentarios</string>
+    <string description="Hint for adding other session feedback" name="session_feedback_tell_us">¡Cuéntanos!</string>
+    <string name="session_finished">Finalizada</string>
+    <string name="session_give_feedback_message">¿Cómo ha ido esta sesión? ¿Quieres enviar tu opinión?</string>
+    <string name="session_link_livestream">Ver en directo</string>
+    <string name="session_link_moderator">Moderador</string>
+    <string name="session_link_notes">Notas oficiales</string>
+    <string name="session_link_pdf">Diapositivas</string>
+    <string name="session_link_youtube">Vídeo de YouTube</string>
+    <string name="session_links">Más</string>
+    <string name="session_live_now_message">Esta sesión se está transmitiendo ahora. ¿Quieres verla en directo?</string>
+    <string name="session_live_streamed">Transmitido en directo</string>
+    <string name="session_livestream_block">¡En directo!</string>
+    <string name="session_livestream_captions">Subtítulos</string>
+    <string name="session_livestream_error_init">Lo sentimos, se ha producido un error al iniciar el reproductor de YouTube (%1$s)</string>
+    <string name="session_livestream_error_playback">Lo sentimos, se ha producido un error al cargar la transmisión en directo, vuelve a intentarlo más tarde</string>
+    <string name="session_livestream_info">Información</string>
+    <string name="session_livestream_play_pause">Reproducir / Pausa</string>
+    <string name="session_livestream_title">I/O en directo</string>
+    <string name="session_notification_text_1">comienza en <ns1:g id="remaining_time">%1$d</ns1:g> min.</string>
+    <string name="session_now">Ahora</string>
+    <string description="A session feedback section label asking the user to rate the session overall" name="session_rating_label_text">Calificación de la sesión:</string>
+    <string name="session_replay">Reproducir de nuevo</string>
+    <string name="session_requirements">Requisitos</string>
+    <string name="session_speakers">Ponentes</string>
+    <string name="session_subtitle">
+    <ns1:g id="time">%1$s</ns1:g> en <ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="session_subtitle_short">
+    <ns1:g id="time">%1$s</ns1:g>
+  </string>
+    <string name="session_watch">Ver</string>
+    <string name="session_watch_live">Ver en directo</string>
+    <string name="setup_wifi_yes">¡Sí!</string>
+    <string name="share_livestream_template">Viendo I/O en directo: \"<ns1:g id="title">%1$s</ns1:g>\" en <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="share_template">Comprobando \"<ns1:g id="title">%1$s</ns1:g>\" en <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="snooze_x_min">Pausar <ns1:g id="remaining_time">%1$d</ns1:g> min.</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15 extended&apos; box." name="social_extended_gplus_content_description">Ir a Google Plus con hashtag extendido</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_extended_twitter_content_description">Ir a Twitter con hashtag extendido</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; GPlus page." name="social_gplus_devs_content_description">Ir a Desarrolladores Google en Google Plus</string>
+    <string name="social_intro">Haz clic en un hashtag para seguir la conversación en Google+</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15&apos; box." name="social_io15_gplus_content_description">Ir a Google Plus con el hashtag io15</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15&apos; box." name="social_io15_twitter_content_description">Ir a Twitter con el hashtag io15</string>
+    <string descripton="Accessibility description for the GPlus icon in the &apos;#io15 request&apos; box." name="social_request_gplus_content_description">Ir a Google Plus con solicitud de hashtag</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_request_twitter_content_description">Ir a Twitter con solicitud de hashtag</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; Twitter page." name="social_twitter_devs_content_description">Ir a Desarrolladores Google en Twitter</string>
+    <string name="speaker_googleplus_profile">Perfil de Google+: <ns1:g id="speakername">%1$s</ns1:g>
+  </string>
+    <string description="Accessibility for the links to the G+ or Twitter pages for speakers. For example: Go to the Twitter page for Sally Sample." name="speaker_social_page">Ir a la página de %1$s para %2$s</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string description="Indicates the item is actionable and the user can tap on it" name="talkback_button">Botón %1$S</string>
+    <string description="Indicates the item is an image" name="talkback_image">Imagen %1$S</string>
+    <string description="Indicates the item is a link (and actionable)" name="talkback_link">Enlace %1$S</string>
+    <string description="Indicates the item does nothing when tapped" name="talkback_not_clickable">No se puede hacer clic en %1$S</string>
+    <string description="Indicates the item is currently not selected" name="talkback_not_selected">%1$S no seleccionado</string>
+    <string descripton="Indicates the item is currently selected" name="talkback_selected">%1$S seleccionado</string>
+    <string description="Indicates what happens when the user taps on an item" name="talkback_tapfor">toca para %1$S</string>
+    <string name="themes">Temas</string>
+    <string name="time_hint_about_to_start_min">Esta sesión empieza en <ns1:g id="minutes">%1$d</ns1:g> min.</string>
+    <string name="time_hint_about_to_start_shortly">Esta sesión está a punto de comenzar (menos de 1 minuto).</string>
+    <string name="time_hint_session_ended">Esta sesión ha terminado.</string>
+    <string name="time_hint_started_just">¡Esta sesión está en marcha ahora! (Acaba de empezar)</string>
+    <string name="time_hint_started_min">¡Esta sesión está en marcha ahora! (Empezó hace <ns1:g id="minutes">%1$d</ns1:g> min.)</string>
+    <string name="times_shown_in_tz">Todas las horas se muestran en <ns1:g id="timezone">%1$s</ns1:g>
+  </string>
+    <string name="title_about">Acerca de</string>
+    <string name="title_activity_new_social">Social</string>
+    <string name="title_explore">Explorar</string>
+    <string name="title_explore_sessions_filter">Filtro</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_my_schedule">Mi agenda</string>
+    <string name="title_office_hours">Horario laborable</string>
+    <string name="title_sandbox_detail">Información de la empresa</string>
+    <string name="title_search">Búsqueda</string>
+    <string name="title_session_detail">Información de la sesión</string>
+    <string name="title_session_feedback">Opinión de la sesión</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_share">Compartir</string>
+    <string name="title_topic_filtered_video_library">Vídeos sobre <ns1:g id="topic">%1$s</ns1:g>
+  </string>
+    <string name="title_video_library">Videos</string>
+    <string name="title_video_library_filter">Filtro</string>
+    <string name="title_year_and_topic_filtered_video_library">Vídeos del <ns1:g id="year">%1$d</ns1:g> sobre <ns1:g id="topic">%2$s</ns1:g>
+  </string>
+    <string name="title_year_filtered_video_library">Vídeos del <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="topic_filter_section_label">Tema</string>
+    <string name="topics">Temas</string>
+    <string name="types">Tipos</string>
+    <string description="Generic error message used for errors that should never happen. This explains to the user          that we can&apos;t execute the request when they click a button or touch a part of the screen          that should normally be touchable." name="unknown_error">Vaya, no pudimos procesar la solicitud.</string>
+    <string name="unknown_room">(Sala sin especificar)</string>
+    <string name="update_app">Actualizar la aplicación</string>
+    <string name="update_available">Hay una nueva versión de esta aplicación disponible en Google Play.</string>
+    <string name="watch_now">¡Ver ahora!</string>
+    <string description="Short text asking if they&apos;re interested in what&apos;s around them" name="welcome_around">A tu alrededor</string>
+    <string name="welcome_attending">¿Asistirás en persona?</string>
+    <string name="welcome_attending_text">¿Vas a asistir a I/O en remoto o en persona en San Francisco?</string>
+    <string name="welcome_conduct_text"><b>Seamos excelentes unos con otros.</b>\nQueremos que I/O sea una excelente experiencia para todos, sin importar la identidad y expresión de género, orientación sexual, discapacidad, apariencia física, tamaño corporal, origen étnico, nacionalidad, edad o religión. Trata a todos con respeto. Participa reconociendo que todos merecen estar aquí y que cada uno de nosotros tiene el derecho a disfrutar de nuestra experiencia sin temor al acoso, discriminación o condescendencia, ya sea contundente o mediante micro agresiones.\n\n<b>Si escuchas o ves algo, dilo.</b>\nEl acoso no está permitido y siéntete libre de intervenir con amabilidad cuando tú u otras personas estén siendo faltadas al respeto. También, asume buena fe. La persona que te está incomodando puede no ser consciente de lo que está haciendo y te animamos a llamar la atención amablemente sobre su comportamiento.\n\n<b>Además.</b>\nComparte ideas y construye sobre las de los demás. Todos nos beneficiamos cuando creamos juntos.</string>
+    <string name="welcome_conduct_title">Mejores prácticas de la comunidad I/O</string>
+    <string description="Text for a button which allows the user to enable the feature" name="welcome_enable">Habilitar</string>
+    <string description="Text for a button which allows the user to reject the feature" name="welcome_no_thanks">No, gracias</string>
+    <string description="Medium text asking to choose an account from a list" name="welcome_select_accoun_text">Por favor selecciona una cuenta para usar:</string>
+    <string description="Short text asking them to select an account" name="welcome_select_account">Selecciona una cuenta</string>
+    <string description="Medium-length welcome text indicating the subsequent text is important legal information " name="welcome_text">Antes de comenzar, hay algo de información importante respecto a tu uso de esta app. ¡Sólo será un minuto!</string>
+    <string name="welcome_to_google_i_o_app">¡Bienvenido a la aplicación de Google I/O!</string>
+    <string name="wifi_dialog_button_configure">Añadir red WiFi</string>
+    <string name="wifi_dialog_button_settings">Abrir ajustes de WiFi</string>
+    <string name="wifi_install_error_message">Lo sentimos, no ha sido posible actualizar la configuración WiFi</string>
+    <string name="year_filter_section_label">Año</string>
+</resources>

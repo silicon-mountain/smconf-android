@@ -18,7 +18,6 @@ package com.google.samples.apps.iosched.appwidget;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.text.format.DateUtils;
 import android.util.SparseBooleanArray;
 import android.util.SparseIntArray;
@@ -37,10 +36,9 @@ import com.google.samples.apps.iosched.ui.TaskStackBuilderProxyActivity;
 import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.TimeUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import java.util.*;
-
-import static com.google.samples.apps.iosched.util.LogUtils.*;
 
 /**
  * This is the service that provides the factory to be bound to the collection service.
@@ -56,7 +54,7 @@ public class ScheduleWidgetRemoteViewsService extends RemoteViewsService {
      * This is the factory that will provide data to the collection widget.
      */
     private static class WidgetRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
-        private static final String TAG = makeLogTag(WidgetRemoteViewsFactory.class);
+        private static final String TAG = LogUtils.makeLogTag(WidgetRemoteViewsFactory.class);
 
         private Context mContext;
         private SparseIntArray mPMap;
@@ -94,7 +92,7 @@ public class ScheduleWidgetRemoteViewsService extends RemoteViewsService {
 
         public int getItemViewType(int position) {
             if (position < 0 || position >= mScheduleItems.size()) {
-                LOGE(TAG, "Invalid view position passed to MyScheduleAdapter: " + position);
+                LogUtils.LOGE(TAG, "Invalid view position passed to MyScheduleAdapter: " + position);
                 return VIEW_TYPE_NORMAL;
             }
             ScheduleItem item = mScheduleItems.get(position);
@@ -146,7 +144,7 @@ public class ScheduleWidgetRemoteViewsService extends RemoteViewsService {
 
 
                 if (itemPosition < 0 || itemPosition >= mScheduleItems.size()) {
-                    LOGE(TAG, "Invalid view position passed to MyScheduleAdapter: " + position);
+                    LogUtils.LOGE(TAG, "Invalid view position passed to MyScheduleAdapter: " + position);
                     return rv;
                 }
 
@@ -214,7 +212,7 @@ public class ScheduleWidgetRemoteViewsService extends RemoteViewsService {
                     rv.setOnClickFillInIntent(R.id.box, fillIntent);
 
                 } else {
-                    LOGE(TAG, "Invalid item type in MyScheduleAdapter: " + item.type);
+                    LogUtils.LOGE(TAG, "Invalid item type in MyScheduleAdapter: " + item.type);
                 }
             }
 

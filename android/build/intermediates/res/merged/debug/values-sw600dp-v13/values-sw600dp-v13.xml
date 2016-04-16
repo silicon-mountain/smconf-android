@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="action_button_min_width">64dp</dimen>
+    <dimen name="add_to_schedule_button_height">72dp</dimen>
+    <dimen name="add_to_schedule_button_height_no_padding">56dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24dp</dimen>
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="design_tab_min_width">160dp</dimen>
+    <dimen name="detail_breadcrumb_height">48dp</dimen>
+    <dimen name="explore_hero_item_height">320dp</dimen>
+    <dimen name="feedback_rate_padding_top">20dp</dimen>
+    <dimen name="filter_spinner_width">200dp</dimen>
+    <dimen name="hashtag_hero_text_size">56sp</dimen>
+    <dimen name="hashtag_text_size">16sp</dimen>
+    <dimen name="keyline_1">24dp</dimen>
+    <dimen name="keyline_1_minus_8dp">16dp</dimen>
+    <dimen name="keyline_2">80dp</dimen>
+    <dimen name="keyline_2_minus_16dp">64dp</dimen>
+    <dimen name="keyline_2_session_detail">104dp</dimen>
+    <dimen name="livestream_dropdown_item_height">48dp</dimen>
+    <dimen name="livestream_dropdown_item_width">420dp</dimen>
+    <dimen name="livestream_dropdown_text_size">16sp</dimen>
+    <dimen name="livestream_session_summary_text_size">16sp</dimen>
+    <dimen name="livestream_session_title_text_size">22sp</dimen>
+    <dimen name="livestream_spinner_text_size">20sp</dimen>
+    <dimen name="livestream_spinner_width">420dp</dimen>
+    <dimen name="my_schedule_icon_horizontal_padding">28dp</dimen>
+    <dimen name="my_schedule_item_height">180dp</dimen>
+    <dimen name="my_schedule_item_height_break">96dp</dimen>
+    <dimen name="padding_normal">24dp</dimen>
+    <dimen name="sandbox_company_image_size">100dp</dimen>
+    <dimen name="session_detail_speaker_left_offset">32dp</dimen>
+    <dimen name="spacing_micro">8dp</dimen>
+    <dimen name="spacing_normal">12dp</dimen>
+    <dimen name="welcome_appbar_height">256dp</dimen>
+    <dimen name="welcome_content_padding">64dp</dimen>
+    <dimen name="welcome_content_padding_top">192dp</dimen>
+    <dimen name="welcome_title_size">24sp</dimen>
+    <integer name="abc_max_action_buttons">5</integer>
+    <integer name="deprecated_explore_1st_level_grid_columns">3</integer>
+    <integer name="deprecated_explore_2nd_level_grid_columns">2</integer>
+    <integer name="deprecated_explore_wide_layout_hero_weight">2</integer>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="filter_spinner_weight">0</integer>
+    <integer name="links_columns">2</integer>
+    <integer name="login_pane_width_percent">80</integer>
+    <style name="Theme.IOSched.SessionDetails" parent="Theme.IOSched.SessionDetails.Base"/>
+    <style name="Theme.IOSched.SessionDetails.Base" parent="Theme.IOSched">
+        <item name="isFloatingWindow">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

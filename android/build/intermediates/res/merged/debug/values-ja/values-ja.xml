@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="schedule_block_subtitle">
+    <item quantity="other">有効なセッション<ns1:g id="number_of_sessions">%1$d</ns1:g>件</item>
+  </plurals>
+    <plurals name="session_notification_text">
+    <item quantity="other">そして、その他<ns1:g id="num_sessions">%2$d</ns1:g>件が<ns1:g id="remaining_time">%1$d</ns1:g>分後に始まる。</item>
+  </plurals>
+    <plurals name="session_notification_ticker">
+    <item quantity="other">%d件のセッションがまもなく開始されます。</item>
+  </plurals>
+    <plurals name="session_notification_title">
+    <item quantity="other">
+      <ns1:g id="num_sessions">%2$d</ns1:g>件のセッションが、<ns1:g id="remaining_time">%1$d</ns1:g>分後に開始されます。</item>
+  </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="about_body">&lt;b>Google I/O
+        2015&lt;/b>&lt;br>バージョン%s&lt;br>&lt;br> &lt;a href=http://m.google.com/utos>サービス規約&lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/>プライバシーポリシー&lt;/a></string>
+    <string name="about_eula">エンドユーザーライセンス契約</string>
+    <string name="about_licenses">オープンソースライセンス</string>
+    <string name="about_main">         &lt;b>Google I/O 2015&lt;/b>&lt;br>         バージョン %s     </string>
+    <string name="about_privacy_policy">プライバシー </string>
+    <string name="about_terms">サービス規約</string>
+    <string name="accept">同意する</string>
+    <string name="add_account">アカウントを追加</string>
+    <string name="add_to_schedule">スケジュールに追加</string>
+    <string name="add_to_schedule_desc">あなたのスケジュールにセッションを追加するためのボタン</string>
+    <string description="Label of filter option that allow to display all elements" name="all">すべて</string>
+    <string name="all_sessions">すべてのセッション</string>
+    <string name="all_themes">すべてのテーマ</string>
+    <string name="all_topics">すべてのトピック</string>
+    <string name="all_types">すべての種類</string>
+    <string name="all_years">すべての年度</string>
+    <string description="This string is the message of the notification shown to the user when Google Play services          can&apos;t connect from a background sync." name="app_data_notification_resolution_content">バックグラウンド同期を完了するために、I/O アプリ実行が必要となります。</string>
+    <string descripton="This string is the title of a notification shown to the user when Google Play         services can&apos;t connect." name="app_data_notification_resolution_title"> I/O アプリの許可が必要です</string>
+    <string name="app_name">Google I/O 2015</string>
+    <string name="attending_in_person">本会場に来場</string>
+    <string name="attending_remotely">遠隔地から出席</string>
+    <string name="browse_events">イベントを参照</string>
+    <string name="browse_sessions">セッションを参照</string>
+    <string name="calltoaction_wifi_configure">&lt;br>&lt;br>\'Wi-Fiネットワークを追加’をタップして次に進む。</string>
+    <string name="calltoaction_wifi_settings">&lt;br>&lt;br> \'Wi-Fiネットワーク設定\'をタップしてWi-Fiを有効にする。</string>
+    <string name="cancel">キャンセル</string>
+    <string description="Accessibility description for a control that allows the user to close the current screen          and go back to the previous one." name="close_and_go_back">閉じて戻る</string>
+    <string name="close_detail_pane">詳細を閉じる</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Android Wearアプリの更新が必要です。"</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Android Wearアプリを使用するにはアプリの更新が必要です。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wearの更新"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Play開発者サービスの有効化"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>によるリクエスト"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Play開発者サービスの入手"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Play開発者サービスの入手"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無効なアカウント"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"アプリではGoogle Play開発者サービスを有効にする必要があります"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play開発者サービスに接続するには、データ接続が必要です。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"ネットワークエラー"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"アプリではGoogle Play開発者サービスをインストールする必要があります"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"アプリではGoogle Play開発者サービスを更新する必要があります"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。"</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"ログインできませんでした"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play開発者サービスで原因不明の問題が発生しました。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"このアプリの実行には、Google Play開発者サービスの更新が必要です。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Play開発者サービスの更新"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"端末で開く"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Googleでログイン"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"このアプリには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。"</string>
+    <string name="data_stale_warning">閲覧しているデータは最新のデータでないかもしれません。</string>
+    <string description="Shown as the titles of the tabs for the user&apos;s schedule" name="day_n">%d 日目</string>
+    <string name="day_title_today">今日</string>
+    <string name="day_title_tomorrow">明日</string>
+    <string name="day_title_yesterday">昨日</string>
+    <string name="decline">拒否</string>
+    <string name="description_about">詳細</string>
+    <string name="description_add_schedule">スケジュールに追加</string>
+    <string name="description_app_feedback">アプリのフィードバック</string>
+    <string name="description_app_feedback_old">フィードバック</string>
+    <string name="description_captions">字幕</string>
+    <string name="description_configure_wifi">Wi-Fi を設定する</string>
+    <string name="description_filter">フィルター</string>
+    <string name="description_i_o_extended">I/O の拡張</string>
+    <string name="description_map">マップ</string>
+    <string name="description_presentation">画面出力を切り替える</string>
+    <string name="description_refresh">更新</string>
+    <string name="description_remove_schedule">スケジュールから削除</string>
+    <string name="description_search">検索</string>
+    <string name="description_settings">設定</string>
+    <string name="description_setup_wifi_body">会場の Wi-Fi ネットワークへのアクセスを設定することができます（5Ghzのみ）。Wi-Fiを設定して頂ければ、ネットワークの混雑防止に役立ちます。</string>
+    <string name="description_share">共有</string>
+    <string name="description_social_stream">Google+のストリームを見る</string>
+    <string name="drawer_close">ナビゲーション ドロワーを閉じます</string>
+    <string name="drawer_open">ナビゲーション ドロワーを開く</string>
+    <string name="empty_captions">このセッションには字幕がありません。</string>
+    <string name="empty_session_detail">セッションの詳細は見つかりませんでした。</string>
+    <string name="empty_sessions">セッションが見つかりません。</string>
+    <string name="empty_waiting_for_sync">同期中</string>
+    <string name="empty_widget_text">今年のセッションはもうありません。\n来年お会いしましょう​​！</string>
+    <string name="empty_widget_text_signed_out">上の Google I/O 2015 のロゴをタッチするとサインインしてアプリを使いはじめることができます。</string>
+    <string name="ended_sessions">終了済みセッション</string>
+    <string name="eula_legal_text">本アプリケーションのご使用にあたっては、以下が適用されます。a) Google サービス利用規約 (http://www.google.com/intl/jp/policies/terms/)、b) Google プライバシーポリシー (http://www.google.com/intl/jp/policies/privacy/)、および c) その他の適用されるサービス利用規約またはプライバシーポリシー。Google のサービス利用規約およびプライバシーポリシーは予告なく、適時変更されることがあります。\n\n本アプリケーションは、ご使用の際に Google Analytics により、一部情報を収集します。本アプリケーションご使用時の、Google のお客様の情報の取り扱いおよびプライバシー保護については、Google プライバシーポリシーでご案内しています。本アプリケーションのご使用により、お客様は Google プライバシーポリシーに準拠したお客様のデータの使用に同意されることになります。</string>
+    <string name="explore_attending_in_person_toast">I/O 本会場で参加 (これは設定で変更できます)</string>
+    <string name="explore_attending_remotely_toast">I/Oにリモートで出席 (これは設定で変更できます)</string>
+    <string description="A message card displayed in the Explore I/O page that asks users to opt into a                          feature." name="explore_io_msgcards_after_hours_card">&lt;b>懇親会&lt;/b>&lt;br>&lt;/br> 是非、懇親会に参加しましょう！ ５月２８日の夕方、参加は全員、食べ物や飲み物、音楽やゲームなどを楽しむために懇親会に招待されています。入場の際には、会議バッジと NFC リストバンドが必要となります。</string>
+    <string name="explore_io_msgcards_answer_no">いいえ、結構です。</string>
+    <string name="explore_io_msgcards_answer_yes">はい、承諾します！</string>
+    <string description="This message is displayed on the Explore I/O screen to ask users whether             they would like to opt in to receive messages regarding the conference." name="explore_io_msgcards_ask_opt_in">&lt;b>カンファレンス・メッセージ&lt;/b>&lt;br/>Google I/O 主催者からのカンファレンス関連メッセージの受け取りを承諾しますか？ メッセージは時間に応じて配信され、パートナーからのプロモーションを含むことがあります。</string>
+    <string name="explore_io_msgcards_conf_creds_card">&lt;b>会議参加への資格証明&lt;/b>&lt;br> 今年、譲渡不能な NFC 対応リストバンドが各出席者に配布されます。このリストバンドおよび I/O バッジを持っている事で、基調講演、セッション、サンドボックス、および会議後の懇親会へのアクセスが許可されます。会議参加の際に、これらを忘れることのないよう、お気をつけ下さい。</string>
+    <string description="This string is presented to users when they attempt to click something that indicates they          can watch a video but it turns out we can&apos;t show the video." name="explore_io_video_id_not_valid">申し訳ありませんが、動画のURLに問題があるようです。</string>
+    <string description="Sub-title for a session in ExploreSessionsActivity that shows the day, time and room name for a given session. Example: Day 1 / 9:00AM - 11:00AM / Room 1" name="explore_sessions_show_day_hour_and_room"><ns1:g example="Day 1" id="day">%1$s</ns1:g> / <ns1:g example="2:00PM" id="start_time">%2$s</ns1:g>  -  <ns1:g example="3:00PM" id="end_time">%3$s</ns1:g> / <ns1:g id="room">%4$s</ns1:g></string>
+    <string description="Show the Day 1 or Day 2 as part of either the ExploreSessionsActivity title or          in the session details." name="explore_sessions_show_day_n">%d 日目</string>
+    <string description="Show Day and start time of a session as the title when viewing browsing sessions          (ExploreSessionActivity) from MySchedule." name="explore_sessions_time_slot_title">
+    <ns1:g example="Day 1" id="day">%1$s</ns1:g>、<ns1:g example="2:30PM" id="start_time">%2$s</ns1:g>
+  </string>
+    <string name="give_feedback">はい！</string>
+    <string name="go_to_settings">設定へ</string>
+    <string name="google_account_required_message">このアプリケーションを使用するには、お使いのデバイス上に少なくとも1つのGoogleアカウントを持っている必要があります。</string>
+    <string name="google_account_required_title">Googleアカウントが必要です</string>
+    <string name="google_i_o_year">I/O <ns1:g id="year">%1$d</ns1:g></string>
+    <string name="got_it">分かりました</string>
+    <string description="Accessibility description for the IO15 extended logo that is not a link." name="io15_extended_logo_not_clickable">IO 15 Extended ロゴ  (クリックできません)</string>
+    <string description="Accessibility description for the IO15 logo that is not a link." name="io15_logo_not_clickable">IO 15 ロゴ (クリックできません)</string>
+    <string description="Accessibility description for the IO15 request logo that is not a link." name="io15_request_logo_not_clickable">IO 15 リクエストロゴ (クリックできません)</string>
+    <string description="Accessibility description for the I/O logo that is not a link." name="io_logo_not_clickable">IO ロゴ (クリックできません)</string>
+    <string name="keynote_group_title">基調講演</string>
+    <string name="live_available">生中継</string>
+    <string name="live_now">現在生中継</string>
+    <string name="loading">読み込み中</string>
+    <string name="login_failed_text">エラーのため、セッションを同期させることができませんでした。</string>
+    <string name="login_failed_text_retry">再試行</string>
+    <string name="mandatory_update_error">アプリケーションが古くなっています。使用し続けるためには、アップグレードする必要があります。</string>
+    <string name="map_at">%1$sに:&lt;br>&lt;b>%2$s&lt;/b></string>
+    <string name="map_now_playing">再生中：&lt;br>&lt;b> %1$s&lt;/b></string>
+    <string name="map_touch_to_see_session">タッチしてセッションを見る</string>
+    <string name="more_information">更に詳しく</string>
+    <string name="more_items_button">詳細</string>
+    <string description="Accessibility description for viewing more sessions/videos." name="more_items_button_desc_a11y">タップして他のアイテムを表示する</string>
+    <string name="more_items_button_desc_with_label_a11y">タップして他の <ns1:g id="itemName">%1$s</ns1:g> のアイテムを表示する</string>
+    <string name="more_sessions">他のセッション</string>
+    <string name="my_schedule_page_desc_a11y">今、あなたの<ns1:g id="day">%1$s</ns1:g>のスケジュールを表示中</string>
+    <string name="my_schedule_rate_this_session">このセッションを評価する</string>
+    <string name="my_schedule_tab_desc_a11y">タップして、あなたの<ns1:g id="day">%1$s</ns1:g>のスケジュールを表示する。</string>
+    <string name="my_schedule_watch_live_now">今すぐライブを閲覧する</string>
+    <string name="navdrawer_description_a11y">アプリケーションの主な機能を切り替えるために、ナビゲーションドロワーをご利用下さい</string>
+    <string name="navdrawer_item_debug">デバッグ</string>
+    <string name="navdrawer_item_explore">探索</string>
+    <string name="navdrawer_item_explore_a11y">Google I/O内を検索</string>
+    <string name="navdrawer_item_io_live">I/O ライブ</string>
+    <string name="navdrawer_item_map">マップ</string>
+    <string name="navdrawer_item_my_schedule">私のスケジュール</string>
+    <string name="navdrawer_item_settings">設定</string>
+    <string name="navdrawer_item_sign_in">サインイン</string>
+    <string name="navdrawer_item_social">ソーシャル</string>
+    <string name="navdrawer_item_video_library">ビデオライブラリ</string>
+    <string name="navdrawer_status_attending_in_person">直接I/Oに出席</string>
+    <string name="navdrawer_status_attending_remotely">リモートで I/O に参加</string>
+    <string name="new_videos_title">
+    <ns1:g id="year">%1$d</ns1:g> の新規アイテム</string>
+    <string name="no_connection_cant_login">ログインできません。ネットワークの接続を確認する。</string>
+    <string name="no_matching_sessions">一致するセッションがありません。</string>
+    <string name="no_matching_sessions_in_interval">この時間帯で参加可能なセッションがありません。</string>
+    <string name="no_matching_videos">一致する動画はありません。</string>
+    <string name="no_thanks">いいえ、結構です</string>
+    <string name="not_now">後で</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="ok">OK</string>
+    <string name="others">その他</string>
+    <string name="permission_write">Google I/Oのスケジュールデータを変更する</string>
+    <string name="plus_one_description_standard">+1 ボタンにタッチする。</string>
+    <string name="pref_analytics_enabled_description">チェックすると、匿名の利用統計がグーグルに送信されます。</string>
+    <string name="pref_analytics_enabled_title">匿名の利用統計を送信する</string>
+    <string name="pref_attendee_at_venue_description">チェックすると、すべてのセッションとオンサイトのイベントが表示されます。チェックしなければ、ライブストリーミング配信のセッションのみが表示されます。</string>
+    <string name="pref_attendee_at_venue_title">私は、Google I/Oに参加します！</string>
+    <string description="Description in the Settings screen for the setting that enables display of             cards with conference information in the explore screen." name="pref_conf_message_cards_enabled_description">関連するカンファレンス情報を探索スクリーンで表示します。これらの表示は時間に応じて行われ、カンファレンスのパートーナーからのプロモーション情報が含まれることもあります。</string>
+    <string name="pref_conf_message_cards_enabled_title">会議通知カードを表示する</string>
+    <string name="pref_local_times_description">チェックすると、時間は、あなたのデバイスに設定された現地時間で表示されます。チェックしなければ、時間は、会議開催地の現地時間である太平洋夏時間で表示されます。</string>
+    <string name="pref_local_times_title">現地時間を表示する</string>
+    <string name="pref_notify_feedback_description">チェックすると、アプリは、あなたの選択したセッションについてのご意見を求める通知を表示します。</string>
+    <string name="pref_notify_feedback_title">フィードバックを送信するよう通知してください！</string>
+    <string name="pref_notify_starred_sessions_description">チェックすると、選択したセッションがもうすぐ開始される時、このアプリは通知を表示します。</string>
+    <string name="pref_notify_starred_sessions_title">私のセッションについて通知してください</string>
+    <string name="pref_sync_with_calendar_description">チェックすると、選択したセッションは、自動的にあなたのGoogleカレンダーに同期されます。</string>
+    <string name="pref_sync_with_calendar_title">Google カレンダーと同期する</string>
+    <string name="question_i_o_extended">あなたがお住まいの地域の近くで開催予定の I/O Extended イベントについての詳細を知りたいですか？</string>
+    <string name="question_local_or_remote">I/O にリモートで、または、サンフランシスコで直接参加しますか？</string>
+    <string descripton="Text of a card shown in the Explore I/O screen that asks the user if they want to configure          the conference WiFi. &apos;Not now&apos; and &apos;Yes, please&apos; are options show on the card" name="question_setup_wifi_card_text">&lt;b> Wi-Fi 会議&lt;/b>&lt;br/>このデバイスを Wi-Fi 会議アクセスするデバイスとして設定しますか？</string>
+    <string name="related_videos">関連ビデオ</string>
+    <string name="remove_from_schedule">スケジュールに記載</string>
+    <string name="remove_from_schedule_desc">あなたのスケジュールからセッションを削除するためのボタン。</string>
+    <string name="retry">再試行</string>
+    <string name="schedule_conflict_with_previous">（重複）</string>
+    <string name="schedule_end_time">
+    <ns1:g id="endTime">%1$s</ns1:g>まで</string>
+    <string name="schedule_session_subtitle">
+    <ns1:g id="speakers">%1$s</ns1:g>\n<ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="search_hint">セッション検索</string>
+    <string name="search_label">Google I/O セッション</string>
+    <string name="session_calendar_suffix"> -  Google I/O の Android アプリで追加</string>
+    <string name="session_details_a11y_session_added">セッションは、あなたのスケジュールに追加されました</string>
+    <string name="session_details_a11y_session_removed">あなたのスケジュールから削除されたセッション</string>
+    <string name="session_feedback_advanced">あまりにも高度な</string>
+    <string name="session_feedback_basic">あまりにも基本的な</string>
+    <string description="Session feedback section title" name="session_feedback_content">コンテンツの内容：</string>
+    <string descripton="Session feedback section title" name="session_feedback_content_label_text">概要 / セッション内容の説明文や私のもともとの期待と実際のコンテンツの違い：</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_extremely_relevant">非常に</string>
+    <string description="A positive overall session feedback option" name="session_feedback_great">素晴らしい</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_not_at_all_relevant">全く面白くありませんでした</string>
+    <string description="A negative overall session feedback option" name="session_feedback_notgreat">まあまあです</string>
+    <string name="session_feedback_notification_text">%1$sのフィードバックを提供</string>
+    <string name="session_feedback_notification_ticker">セッションフィードバックを提供</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_notrel">関連性がありません</string>
+    <string description="A session feedback section label asking for any other feedback. It indicates the user should not add personal information" name="session_feedback_other">私たちへのご意見やご要望はありませんか？\n(コメントに個人情報を書き込まないようにして下さい)</string>
+    <string description="A positive speaker quality session feedback option" name="session_feedback_outstanding">最高です</string>
+    <string description="A negative speaker quality session feedback option" name="session_feedback_poor">内容の乏しいものでした</string>
+    <string description="A positive relevance session feedback option" name="session_feedback_rel">適切な内容でした</string>
+    <string name="session_feedback_relevance"> このセッションは、あなたのプロジェクトにどのように役立ちましたか？</string>
+    <string name="session_feedback_speaker_quality">スピーカーの質：</string>
+    <string name="session_feedback_submitlink">フィードバックの送信</string>
+    <string description="Hint for adding other session feedback" name="session_feedback_tell_us">弊社までご連絡ください！</string>
+    <string name="session_finished">終了</string>
+    <string name="session_give_feedback_message">このセッションはいかがでしたか？フィードバックを送りますか？</string>
+    <string name="session_link_livestream">生中継で見る</string>
+    <string name="session_link_moderator">司会者</string>
+    <string name="session_link_notes">公式ノート</string>
+    <string name="session_link_pdf">スライド</string>
+    <string name="session_link_youtube">YouTube 動画</string>
+    <string name="session_links">その他</string>
+    <string name="session_live_now_message">このセッションは、現在、ライブ放送中です！ライブストリームを見たいですか？</string>
+    <string name="session_live_streamed">ライブストリーミング</string>
+    <string name="session_livestream_block">生中継！</string>
+    <string name="session_livestream_captions">キャプション</string>
+    <string name="session_livestream_error_init">申し訳ありませんが、YouTubeプレイヤーの初期化中にエラーが発生しました（%1$s）</string>
+    <string name="session_livestream_error_playback">申し訳ありませんが、ライブストリームの読み込み中にエラーが発生しました。後でもう一度お試しください</string>
+    <string name="session_livestream_info">情報</string>
+    <string name="session_livestream_play_pause">再生/一時停止</string>
+    <string name="session_livestream_title">I/O のライブ</string>
+    <string name="session_notification_text_1">
+    <ns1:g id="remaining_time">%1$d</ns1:g>分後に始まる。</string>
+    <string name="session_now">セッション中</string>
+    <string description="A session feedback section label asking the user to rate the session overall" name="session_rating_label_text">セッションの評価：</string>
+    <string name="session_replay">リプレイ</string>
+    <string name="session_requirements">必要条件</string>
+    <string name="session_speakers">スピーカー</string>
+    <string name="session_subtitle">
+    <ns1:g id="time">%1$s</ns1:g> に <ns1:g id="room">%2$s</ns1:g>で</string>
+    <string name="session_subtitle_short">
+    <ns1:g id="time">%1$s</ns1:g>
+  </string>
+    <string name="session_watch">閲覧する</string>
+    <string name="session_watch_live">ライブを閲覧する</string>
+    <string name="setup_wifi_yes">はい！</string>
+    <string name="share_livestream_template">I/O のライブを​視聴中: <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>の\'<ns1:g id="title">%1$s</ns1:g>\'</string>
+    <string name="share_template">
+    <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>で \'<ns1:g id="title">%1$s</ns1:g>\'を視聴中</string>
+    <string name="snooze_x_min">スヌーズ<ns1:g id="remaining_time">%1$d</ns1:g>分</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15 extended&apos; box." name="social_extended_gplus_content_description">拡張ハッシュタグで Google+ へ移動する</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_extended_twitter_content_description">拡張ハッシュタグで Twitter へ移動する</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; GPlus page." name="social_gplus_devs_content_description"> Google Plus で Google Developers へ移動する</string>
+    <string name="social_intro">ハッシュタグをクリックしてGoogle+での会話をフォローする</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15&apos; box." name="social_io15_gplus_content_description"> Google+ で、 io 15 ハッシュタグが付いた投稿へ移動する</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15&apos; box." name="social_io15_twitter_content_description">Twitter で、 io 15 ハッシュタグが付いた投稿へ移動する</string>
+    <string descripton="Accessibility description for the GPlus icon in the &apos;#io15 request&apos; box." name="social_request_gplus_content_description">リクエストしたハッシュタグで Google+ へ移動する</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_request_twitter_content_description">リクエストしたハッシュタグで Twitter へ移動する</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; Twitter page." name="social_twitter_devs_content_description">Twitter で Google Developers へ移動する</string>
+    <string name="speaker_googleplus_profile">Google+プロフィール：<ns1:g id="speakername">%1$s</ns1:g>
+  </string>
+    <string description="Accessibility for the links to the G+ or Twitter pages for speakers. For example: Go to the Twitter page for Sally Sample." name="speaker_social_page"> %2$s に関連する %1$s のページへ移動する</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string description="Indicates the item is actionable and the user can tap on it" name="talkback_button">%1$S ボタン</string>
+    <string description="Indicates the item is an image" name="talkback_image">%1$S 画像</string>
+    <string description="Indicates the item is a link (and actionable)" name="talkback_link">%1$S リンク</string>
+    <string description="Indicates the item does nothing when tapped" name="talkback_not_clickable">%1$S はクリックできません</string>
+    <string description="Indicates the item is currently not selected" name="talkback_not_selected">%1$S は選択されていません</string>
+    <string descripton="Indicates the item is currently selected" name="talkback_selected">%1$S 選択</string>
+    <string description="Indicates what happens when the user taps on an item" name="talkback_tapfor">%1$S を実行するためにタップする</string>
+    <string name="themes">テーマ</string>
+    <string name="time_hint_about_to_start_min">このセッションは、<ns1:g id="minutes">%1$d</ns1:g>分後に開始されます。</string>
+    <string name="time_hint_about_to_start_shortly">このセッションは、もうすぐ（1分以内)に始まります。</string>
+    <string name="time_hint_session_ended">このセッションは終了しました。</string>
+    <string name="time_hint_started_just">このセッションは、現在進行中です！ （まだ始まったばかり）</string>
+    <string name="time_hint_started_min">このセッションは、現在進行中です！ （<ns1:g id="minutes">%1$d</ns1:g>分前に開始しました。）</string>
+    <string name="times_shown_in_tz">すべての時刻は<ns1:g id="timezone">%1$s</ns1:g>の時間帯で表示されています</string>
+    <string name="title_about">詳細</string>
+    <string name="title_activity_new_social">ソーシャル</string>
+    <string name="title_explore">探索</string>
+    <string name="title_explore_sessions_filter">フィルター</string>
+    <string name="title_map">マップ</string>
+    <string name="title_my_schedule">私のスケジュール</string>
+    <string name="title_office_hours">営業時間</string>
+    <string name="title_sandbox_detail">会社情報:</string>
+    <string name="title_search">検索</string>
+    <string name="title_session_detail">セッション情報</string>
+    <string name="title_session_feedback">セッションへのフィードバック</string>
+    <string name="title_settings">設定</string>
+    <string name="title_share">下記を使用して共有</string>
+    <string name="title_topic_filtered_video_library">
+    <ns1:g id="topic">%1$s</ns1:g> についてのビデオ</string>
+    <string name="title_video_library">ビデオ</string>
+    <string name="title_video_library_filter">フィルター</string>
+    <string name="title_year_and_topic_filtered_video_library">
+    <ns1:g id="year">%1$d</ns1:g> の <ns1:g id="topic">%2$s</ns1:g> についてのビデオ</string>
+    <string name="title_year_filtered_video_library">
+    <ns1:g id="year">%1$d</ns1:g> のビデオ</string>
+    <string name="topic_filter_section_label">トピック</string>
+    <string name="topics">トピック</string>
+    <string name="types">セッションタイプ</string>
+    <string description="Generic error message used for errors that should never happen. This explains to the user          that we can&apos;t execute the request when they click a button or touch a part of the screen          that should normally be touchable." name="unknown_error">申し訳ありませんが、要求を処理することができませんでした。</string>
+    <string name="unknown_room">（会議室未指定)</string>
+    <string name="update_app">アプリのアップデート</string>
+    <string name="update_available">Google Playでこのアプリケーションの新しいバージョンが入手できます。</string>
+    <string name="watch_now">今すぐ見る！</string>
+    <string description="Short text asking if they&apos;re interested in what&apos;s around them" name="welcome_around">あなたの周り</string>
+    <string name="welcome_attending">サンフランシスコの会場で参加しますか？</string>
+    <string name="welcome_attending_text">サンフランシスコで直接参加とリモート参加、どちらで参加しますか？</string>
+    <string name="welcome_conduct_text"><b> すばらしい体験を共有させてください。</b>\nI/O を、表現、性的指向、障害、物理的な外観、ボディサイズ、民族、国籍、年齢、宗教およびジェンダーアイデンティティにかかわらず、すべての人にすばらしい経験を体感する場にしたいのです。ここでは、皆がお互いに敬意を持って接しています。誰もがお互いの価値を認め合いながら参加しています -- 私たちひとりひとりが故意の、あるいは過失による嫌がらせや差別、見下しに侵される事なしに、気持よく利用する権利があります。\n\n<b> もしも、何か気になる事を見たり聞いたりしたならば、すぐに行動してください。 </b>\n他の人が軽蔑されている際には、r礼儀を守りながらも対応して下さい。嫌がらせは許される事ではありません。対応は前向きにお願いします。もしかしたら、あなたが不快に感じるような行動をする人に自覚がない可能性もあります。その場合は、相手が気付けるように丁寧に対応してあげて下さい。\n\n<b> 加えて </b>\nみんなでどんどんアイデアを出し合って行きましょう。みんなが一緒にやる事で、お互いがその恩恵を受ける事ができます。</string>
+    <string name="welcome_conduct_title">I/O コミュニティのベスト プラクティス</string>
+    <string description="Text for a button which allows the user to enable the feature" name="welcome_enable">有効にします</string>
+    <string description="Text for a button which allows the user to reject the feature" name="welcome_no_thanks">結構です</string>
+    <string description="Medium text asking to choose an account from a list" name="welcome_select_accoun_text">使用するアカウントを選択してください：</string>
+    <string description="Short text asking them to select an account" name="welcome_select_account">アカウントを選択する</string>
+    <string description="Medium-length welcome text indicating the subsequent text is important legal information " name="welcome_text">このアプリをご利用になる前に、必ず利用規約をお読みください。ほんの数分しかかかりません！</string>
+    <string name="welcome_to_google_i_o_app">Google I/O アプリへようこそ！</string>
+    <string name="wifi_dialog_button_configure">WiFiネットワークを追加する</string>
+    <string name="wifi_dialog_button_settings">WiFi設定を開く</string>
+    <string name="wifi_install_error_message">申し訳ありませんが、WiFi設定を更新できませんでした</string>
+    <string name="year_filter_section_label">年</string>
+</resources>

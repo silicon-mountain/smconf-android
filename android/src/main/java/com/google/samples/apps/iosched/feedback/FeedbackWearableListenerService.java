@@ -27,6 +27,7 @@ import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.Wearable;
 import com.google.android.gms.wearable.WearableListenerService;
 import com.google.samples.apps.iosched.service.SessionAlarmService;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import android.app.Service;
 import android.content.Intent;
@@ -47,7 +48,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 public class FeedbackWearableListenerService extends WearableListenerService
         {
 
-    private static final String TAG = makeLogTag(FeedbackWearableListenerService.class);
+    private static final String TAG = LogUtils.makeLogTag(FeedbackWearableListenerService.class);
 
     public static final String PATH_RESPONSE = "/iowear/response";
 
@@ -67,7 +68,7 @@ public class FeedbackWearableListenerService extends WearableListenerService
             String action = intent.getAction();
             if (SessionAlarmService.ACTION_NOTIFICATION_DISMISSAL.equals(action)) {
                 String sessionId = intent.getStringExtra(SessionAlarmService.KEY_SESSION_ID);
-                LOGD(TAG, "onStartCommand(): Action = ACTION_NOTIFICATION_DISMISSAL Session: "
+                LogUtils.LOGD(TAG, "onStartCommand(): Action = ACTION_NOTIFICATION_DISMISSAL Session: "
                         + sessionId);
                 dismissWearableNotification(sessionId);
             }
@@ -98,7 +99,7 @@ public class FeedbackWearableListenerService extends WearableListenerService
                             + FeedbackConstants.GOOGLE_API_CLIENT_CONNECTION_TIMEOUT_S + " seconds");
                     return;
                 }
-                LOGD(TAG, "dismissWearableNotification(): Attempting to dismiss wearable "
+                LogUtils.LOGD(TAG, "dismissWearableNotification(): Attempting to dismiss wearable "
                         + "notification");
                 PutDataMapRequest putDataMapRequest = PutDataMapRequest
                         .create(FeedbackHelper.getFeedbackDataPathForWear(sessionId));
@@ -109,7 +110,7 @@ public class FeedbackWearableListenerService extends WearableListenerService
                                 public void onResult(
                                         DataApi.DeleteDataItemsResult deleteDataItemsResult) {
                                     if (!deleteDataItemsResult.getStatus().isSuccess()) {
-                                        LOGD(TAG, "dismissWearableNotification(): failed to delete"
+                                        LogUtils.LOGD(TAG, "dismissWearableNotification(): failed to delete"
                                                 + " the data item");
                                     }
                                 }
@@ -123,10 +124,10 @@ public class FeedbackWearableListenerService extends WearableListenerService
 
     @Override
     public void onDataChanged(DataEventBuffer dataEvents) {
-        LOGD(TAG, "onDataChanged: " + dataEvents + " for " + getPackageName());
+        LogUtils.LOGD(TAG, "onDataChanged: " + dataEvents + " for " + getPackageName());
 
         for (DataEvent event : dataEvents) {
-            LOGD(TAG, "Uri is: " + event.getDataItem().getUri());
+            LogUtils.LOGD(TAG, "Uri is: " + event.getDataItem().getUri());
             DataMapItem mapItem = DataMapItem.fromDataItem(event.getDataItem());
             String path = event.getDataItem().getUri().getPath();
             if (event.getType() == DataEvent.TYPE_CHANGED) {
@@ -148,7 +149,7 @@ public class FeedbackWearableListenerService extends WearableListenerService
      * Dismisses the local notification for the given session
      */
     private void dismissLocalNotification(String sessionId) {
-        LOGD(TAG, "dismissLocalNotification: sessionId=" + sessionId);
+        LogUtils.LOGD(TAG, "dismissLocalNotification: sessionId=" + sessionId);
         NotificationManagerCompat.from(this)
                 .cancel(sessionId, SessionAlarmService.FEEDBACK_NOTIFICATION_ID);
     }
@@ -162,7 +163,7 @@ public class FeedbackWearableListenerService extends WearableListenerService
         SessionFeedbackModel.SessionFeedbackData feedback =
                 FeedbackHelper.convertDataMapToFeedbackData(data);
         if (feedback != null) {
-            LOGD(TAG, "Feedback answers received from wear: " + feedback.toString());
+            LogUtils.LOGD(TAG, "Feedback answers received from wear: " + feedback.toString());
             FeedbackHelper feedbackHelper = new FeedbackHelper(this);
             feedbackHelper.saveSessionFeedback(feedback);
             return true;

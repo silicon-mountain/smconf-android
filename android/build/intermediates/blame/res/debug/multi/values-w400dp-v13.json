@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/values-w400dp-v13/values-w400dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w400dp/integers.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 51,
+                        "endOffset": 707
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,542 @@
+[
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_library_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_library_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/reserve_action_bar_space_header_view.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/reserve_action_bar_space_header_view.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_debug_action_showdrivefiles.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_debug_action_showdrivefiles.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/include_live_now_badge.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_live_now_badge.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_message_card_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_message_card_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/session_feedback_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/session_feedback_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_hashtags.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_hashtags.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/include_topic_more_button.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_topic_more_button.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_topic_theme_livestream_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_topic_theme_livestream_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_account.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_account.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/debug_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/debug_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/map_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/map_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/social_icons_vertical.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/social_icons_vertical.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_library_filter_panel.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_library_filter_panel.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/map_info_content.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/map_info_content.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_card_container.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_card_container.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/message_card.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/message_card.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_search_result.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_search_result.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/social_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/social_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/welcome_tos_fragment.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/welcome_tos_fragment.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_session_hero_narrow.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_session_hero_narrow.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/fragment_edit_note.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/fragment_edit_note.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/map_item_session.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/map_item_session.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/navdrawer.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/navdrawer.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/navdrawer_separator.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/navdrawer_separator.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_keynote_stream_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_keynote_stream_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/card_header_with_button.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/card_header_with_button.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/include_more_button.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_more_button.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/map_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/map_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/navview_header_view.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/navview_header_view.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/social_icons_horizontal.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/social_icons_horizontal.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/fragment_session_captions.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/fragment_session_captions.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/deprecated_include_butter_bar.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/deprecated_include_butter_bar.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/navdrawer_item_view.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/navdrawer_item_view.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_library_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_library_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/widget.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/widget.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/tab_my_schedule.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/tab_my_schedule.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_explore_header.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_explore_header.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/widget_schedule_header.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/widget_schedule_header.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/include_add_schedule_fab.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_add_schedule_fab.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_my_schedule_wide.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_my_schedule_wide.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/toolbar_actionbar.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/toolbar_actionbar.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/include_session_tag_chip.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_session_tag_chip.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/tab_indicator.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/tab_indicator.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/my_schedule_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/my_schedule_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/navdrawer_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/navdrawer_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/settings_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/settings_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/text_bubble.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/res/layout/text_bubble.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_library_filtered_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_library_filtered_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_card_header_with_button.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_card_header_with_button.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/welcome_attending_fragment.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/welcome_attending_fragment.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_act_alt_drawer_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_act_alt_drawer_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_session_summarized.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_session_summarized.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/widget_schedule_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/widget_schedule_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_library_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_library_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/fragment_my_schedule.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/fragment_my_schedule.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/welcome_account_fragment.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/welcome_account_fragment.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_session_link.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_session_link.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_list_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_list_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_session_hero_wide.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_session_hero_wide.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_library_filter_radio_button.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_library_filter_radio_button.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/session_detail_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/session_detail_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/fragment_session_summary.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/fragment_session_summary.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/session_detail_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/session_detail_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/social_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/social_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_topic_theme_livestream_card_container.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_topic_theme_livestream_card_container.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/speaker_detail.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/speaker_detail.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/debug_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/debug_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/map_info_bottom.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/map_info_bottom.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/toolbar_actionbar_with_headerbar.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/toolbar_actionbar_with_headerbar.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/toolbar_actionbar_keyline_insets.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/toolbar_actionbar_keyline_insets.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_my_schedule_narrow.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_my_schedule_narrow.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_hashtag_hero.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_hashtag_hero.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/video_lib_card_container.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/video_lib_card_container.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_list_item_livestream_alt_drawer.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_list_item_livestream_alt_drawer.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/list_item_session.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/list_item_session.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_singlepane_empty.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/activity_singlepane_empty.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/session_feedback_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/session_feedback_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_act.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_act.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_frag.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_frag.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/map_info_inline.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/map_info_inline.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_list_item_alt_header.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_list_item_alt_header.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/welcome_conduct_fragment.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/welcome_conduct_fragment.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_sessions_list_item_alt_drawer.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_sessions_list_item_alt_drawer.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/include_link_row.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_link_row.xml"
+    }
+]

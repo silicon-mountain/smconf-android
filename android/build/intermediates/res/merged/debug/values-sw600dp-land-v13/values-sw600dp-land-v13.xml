@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thickbar_height">134dp</dimen>
+    <dimen name="track_dropdown_width">400dp</dimen>
+    <integer name="deprecated_explore_1st_level_grid_columns">3</integer>
+    <integer name="deprecated_explore_2nd_level_grid_columns">3</integer>
+    <integer name="deprecated_explore_wide_layout_hero_weight">2</integer>
+    <integer name="links_columns">1</integer>
+    <integer name="login_pane_width_percent">66</integer>
+    <integer name="video_library_columns">2</integer>
+    <item name="activity_my_schedule" type="layout">@layout/activity_my_schedule_wide</item>
+    <item name="list_item_session_hero" type="layout">@layout/list_item_session_hero_wide</item>
+</resources>

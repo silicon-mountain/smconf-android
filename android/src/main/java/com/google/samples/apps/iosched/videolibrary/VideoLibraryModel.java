@@ -26,6 +26,7 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.sync.SyncHelper;
 import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.ParserUtils;
+import com.google.samples.apps.iosched.framework.PresenterFragmentImpl;
 
 import android.app.Activity;
 import android.content.AsyncQueryHandler;
@@ -70,7 +71,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * and {@link #getTopics()}.
  *
  * The process of loading and reading video library data is typically done in the lifecycle of a
- * {@link com.google.samples.apps.iosched.framework.PresenterFragmentImpl}.
+ * {@link PresenterFragmentImpl}.
  */
 public class VideoLibraryModel implements Model {
 

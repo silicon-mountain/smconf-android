@@ -27,15 +27,14 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import static com.google.samples.apps.iosched.util.LogUtils.*;
-
 public class SpeakersHandler extends JSONHandler {
-    private static final String TAG = makeLogTag(SpeakersHandler.class);
+    private static final String TAG = LogUtils.makeLogTag(SpeakersHandler.class);
     private HashMap<String, Speaker> mSpeakers = new HashMap<String, Speaker>();
 
     public SpeakersHandler(Context context) {
@@ -58,9 +57,9 @@ public class SpeakersHandler extends JSONHandler {
         boolean isIncrementalUpdate = speakerHashcodes != null && speakerHashcodes.size() > 0;
 
         if (isIncrementalUpdate) {
-            LOGD(TAG, "Doing incremental update for speakers.");
+            LogUtils.LOGD(TAG, "Doing incremental update for speakers.");
         } else {
-            LOGD(TAG, "Doing FULL (non incremental) update for speakers.");
+            LogUtils.LOGD(TAG, "Doing FULL (non incremental) update for speakers.");
             list.add(ContentProviderOperation.newDelete(uri).build());
         }
 
@@ -88,7 +87,7 @@ public class SpeakersHandler extends JSONHandler {
             }
         }
 
-        LOGD(TAG, "Speakers: " + (isIncrementalUpdate ? "INCREMENTAL" : "FULL") + " update. " +
+        LogUtils.LOGD(TAG, "Speakers: " + (isIncrementalUpdate ? "INCREMENTAL" : "FULL") + " update. " +
                 updatedSpeakers + " to update, " + deletedSpeakers + " to delete. New total: " +
                 mSpeakers.size());
     }
@@ -134,11 +133,11 @@ public class SpeakersHandler extends JSONHandler {
             cursor = mContext.getContentResolver().query(uri, SpeakerHashcodeQuery.PROJECTION,
                     null, null, null);
             if (cursor == null) {
-                LOGE(TAG, "Error querying speaker hashcodes (got null cursor)");
+                LogUtils.LOGE(TAG, "Error querying speaker hashcodes (got null cursor)");
                 return null;
             }
             if (cursor.getCount() < 1) {
-                LOGE(TAG, "Error querying speaker hashcodes (no records returned)");
+                LogUtils.LOGE(TAG, "Error querying speaker hashcodes (no records returned)");
                 return null;
             }
             HashMap<String, String> result = new HashMap<String, String>();

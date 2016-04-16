@@ -1,0 +1,197 @@
+[
+    {
+        "outputFile": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 739,
+                        "endColumn": 47,
+                        "endOffset": 782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 52,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 686,
+                        "endColumn": 52,
+                        "endOffset": 734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 73,
+                    "endOffset": 225
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/integers.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 727,
+                        "endColumn": 73,
+                        "endOffset": 796
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 230,
+                    "endColumn": 73,
+                    "endOffset": 299
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/integers.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1008,
+                        "endColumn": 73,
+                        "endOffset": 1077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 304,
+                    "endColumn": 74,
+                    "endOffset": 374
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/integers.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 933,
+                        "endColumn": 74,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 379,
+                    "endColumn": 45,
+                    "endOffset": 420
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/integers.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 45,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 425,
+                    "endColumn": 57,
+                    "endOffset": 478
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/integers.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 622,
+                        "endColumn": 57,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 483,
+                    "endColumn": 53,
+                    "endOffset": 532
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/integers.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1083,
+                        "endColumn": 53,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 537,
+                    "endColumn": 92,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/layouts.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 92,
+                        "endOffset": 748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 96,
+                    "endOffset": 722
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-sw600dp-land/layouts.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 753,
+                        "endColumn": 96,
+                        "endOffset": 845
+                    }
+                }
+            }
+        ]
+    }
+]

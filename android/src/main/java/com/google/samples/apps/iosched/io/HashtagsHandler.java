@@ -26,6 +26,7 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,7 +36,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class HashtagsHandler extends JSONHandler {
 
-    private static final String TAG = makeLogTag(HashtagsHandler.class);
+    private static final String TAG = LogUtils.makeLogTag(HashtagsHandler.class);
     private HashMap<String, Hashtag> mHashtags = new HashMap<String, Hashtag>();
 
     public HashtagsHandler(Context context) {
@@ -44,7 +45,7 @@ public class HashtagsHandler extends JSONHandler {
 
     @Override
     public void process(JsonElement element) {
-        LOGD(TAG, "process");
+        LogUtils.LOGD(TAG, "process");
         for (Hashtag hashtag : new Gson().fromJson(element, Hashtag[].class)) {
             mHashtags.put(hashtag.name, hashtag);
         }
@@ -52,7 +53,7 @@ public class HashtagsHandler extends JSONHandler {
 
     @Override
     public void makeContentProviderOperations(ArrayList<ContentProviderOperation> list) {
-        LOGD(TAG, "makeContentProviderOperations");
+        LogUtils.LOGD(TAG, "makeContentProviderOperations");
         Uri uri = ScheduleContractHelper.setUriAsCalledFromSyncAdapter(
                 ScheduleContract.Hashtags.CONTENT_URI);
         // Remove all the current entries
@@ -71,7 +72,7 @@ public class HashtagsHandler extends JSONHandler {
             builder.withValue(ScheduleContract.Hashtags.HASHTAG_ORDER, hashtag.order);
             list.add(builder.build());
         }
-        LOGD(TAG, "Hashtags: " + mHashtags.size());
+        LogUtils.LOGD(TAG, "Hashtags: " + mHashtags.size());
     }
 
 }

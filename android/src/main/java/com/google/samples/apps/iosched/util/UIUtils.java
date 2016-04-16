@@ -67,14 +67,11 @@ import java.util.Formatter;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 
-import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
-import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
-
 /**
  * An assortment of UI helpers.
  */
 public class UIUtils {
-    private static final String TAG = makeLogTag(UIUtils.class);
+    private static final String TAG = LogUtils.makeLogTag(UIUtils.class);
 
     /**
      * Factor applied to session color to derive the background color on panels and when
@@ -426,7 +423,7 @@ public class UIUtils {
     public static void setUpButterBar(View butterBar, String messageText, String actionText,
             View.OnClickListener listener) {
         if (butterBar == null) {
-            LOGE(TAG, "Failed to set up butter bar: it's null.");
+            LogUtils.LOGE(TAG, "Failed to set up butter bar: it's null.");
             return;
         }
 

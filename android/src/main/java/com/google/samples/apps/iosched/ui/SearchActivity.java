@@ -48,13 +48,14 @@ import com.google.samples.apps.iosched.explore.ExploreSessionsActivity;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.session.SessionDetailActivity;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class SearchActivity extends BaseActivity implements
         LoaderManager.LoaderCallbacks<Cursor>, AdapterView.OnItemClickListener {
 
-    private static final String TAG = makeLogTag("SearchActivity");
+    private static final String TAG = LogUtils.makeLogTag("SearchActivity");
     private static final String SCREEN_LABEL = "Search";
     private static final String ARG_QUERY = "query";
 

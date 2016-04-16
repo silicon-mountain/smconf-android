@@ -34,7 +34,11 @@ import com.google.gson.Gson;
 
 import java.util.Date;
 
-import static com.google.samples.apps.iosched.util.LogUtils.*;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGI;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGW;
+import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class NotificationCommand extends GCMCommand {
     private static final String TAG = makeLogTag("NotificationCommand");

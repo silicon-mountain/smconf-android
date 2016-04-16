@@ -16,6 +16,7 @@
 
 package com.google.samples.apps.iosched.feedback;
 
+import com.google.samples.apps.iosched.feedback.FeedbackApiHelper;
 import com.google.samples.apps.iosched.util.LogUtils;
 
 import com.turbomanage.httpclient.BasicHttpClient;
@@ -33,9 +34,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import android.test.suitebuilder.annotation.SmallTest;
 
 import java.net.HttpURLConnection;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -31,6 +31,7 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.util.TimeUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
+import com.google.samples.apps.iosched.framework.PresenterFragmentImpl;
 
 import android.content.Context;
 import android.content.CursorLoader;
@@ -56,7 +57,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * the data needed to present the Explore I/O user interface.
  *
  * The process of loading and reading the data is typically done in the lifecycle of a
- * {@link com.google.samples.apps.iosched.framework.PresenterFragmentImpl}.
+ * {@link PresenterFragmentImpl}.
  */
 public class ExploreModel implements Model {
 

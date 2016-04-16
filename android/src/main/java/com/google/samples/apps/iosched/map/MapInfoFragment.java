@@ -16,16 +16,6 @@
 
 package com.google.samples.apps.iosched.map;
 
-import com.google.samples.apps.iosched.R;
-import com.google.samples.apps.iosched.map.util.SingleSessionLoader;
-import com.google.samples.apps.iosched.map.util.OverviewSessionLoader;
-import com.google.samples.apps.iosched.map.util.MarkerModel;
-import com.google.samples.apps.iosched.map.util.SessionLoader;
-import com.google.samples.apps.iosched.model.ScheduleHelper;
-import com.google.samples.apps.iosched.provider.ScheduleContract;
-import com.google.samples.apps.iosched.util.MapUtils;
-import com.google.samples.apps.iosched.util.UIUtils;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.LoaderManager;
@@ -42,6 +32,16 @@ import android.widget.CursorAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.google.samples.apps.iosched.R;
+import com.google.samples.apps.iosched.map.util.MarkerModel;
+import com.google.samples.apps.iosched.map.util.OverviewSessionLoader;
+import com.google.samples.apps.iosched.map.util.SessionLoader;
+import com.google.samples.apps.iosched.map.util.SingleSessionLoader;
+import com.google.samples.apps.iosched.model.ScheduleHelper;
+import com.google.samples.apps.iosched.provider.ScheduleContract;
+import com.google.samples.apps.iosched.util.MapUtils;
+import com.google.samples.apps.iosched.util.UIUtils;
 
 /**
  * Displays information about the map.
@@ -165,10 +165,10 @@ public abstract class MapInfoFragment extends Fragment
 
     /**
      * Creates a new instance depending of the form factor of the device.
-     * For tablets, creates an {@link com.google.samples.apps.iosched.map.InlineInfoFragment},
-     * for other form factors a {@link com.google.samples.apps.iosched.map.SlideableInfoFragment}.
+     * For tablets, creates an {@link InlineInfoFragment},
+     * for other form factors a {@link SlideableInfoFragment}.
      *
-     * @see com.google.samples.apps.iosched.util.UIUtils#isTablet(android.content.Context)
+     * @see UIUtils#isTablet(android.content.Context)
      */
     public static MapInfoFragment newInstace(Context c) {
         if (UIUtils.isTablet(c)) {

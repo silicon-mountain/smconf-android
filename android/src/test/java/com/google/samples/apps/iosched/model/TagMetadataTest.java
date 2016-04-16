@@ -16,6 +16,7 @@
 
 package com.google.samples.apps.iosched.model;
 
+import com.google.samples.apps.iosched.model.TagMetadata;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 
 import org.junit.Rule;

@@ -28,7 +28,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static com.google.samples.apps.iosched.util.LogUtils.*;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGI;
+import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 /**
  * Provides unidirectional sync from the feedback data provided by the user to the server feedback

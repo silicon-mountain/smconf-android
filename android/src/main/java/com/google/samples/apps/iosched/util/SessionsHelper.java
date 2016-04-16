@@ -31,15 +31,12 @@ import com.google.samples.apps.iosched.map.MapActivity;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.sync.SyncHelper;
 
-import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
-import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
-
 /**
  * Helper class for dealing with common actions to take on a session.
  */
 public class SessionsHelper {
 
-    private static final String TAG = makeLogTag(SessionsHelper.class);
+    private static final String TAG = LogUtils.makeLogTag(SessionsHelper.class);
 
     private final Activity mActivity;
 
@@ -76,7 +73,7 @@ public class SessionsHelper {
     }
 
     public void setSessionStarred(Uri sessionUri, boolean starred, String title) {
-        LOGD(TAG, "setSessionStarred uri=" + sessionUri + " starred=" +
+        LogUtils.LOGD(TAG, "setSessionStarred uri=" + sessionUri + " starred=" +
                 starred + " title=" + title);
         String sessionId = ScheduleContract.Sessions.getSessionId(sessionUri);
         Uri myScheduleUri = ScheduleContract.MySchedule.buildMyScheduleUri(

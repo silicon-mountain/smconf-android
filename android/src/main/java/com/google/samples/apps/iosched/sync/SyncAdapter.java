@@ -24,7 +24,9 @@ import com.google.samples.apps.iosched.BuildConfig;
 
 import java.util.regex.Pattern;
 
-import static com.google.samples.apps.iosched.util.LogUtils.*;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGI;
+import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 /**
  * Sync adapter for Google I/O data. Used for download sync only. For upload sync,

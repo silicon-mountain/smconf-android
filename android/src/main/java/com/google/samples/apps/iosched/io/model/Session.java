@@ -16,8 +16,6 @@
 
 package com.google.samples.apps.iosched.io.model;
 
-import com.google.samples.apps.iosched.util.HashUtils;
-
 import java.util.Random;
 
 public class Session {

@@ -16,8 +16,25 @@
 
 package com.google.samples.apps.iosched.provider;
 
+import android.app.SearchManager;
+import android.content.ContentProvider;
+import android.content.ContentProviderOperation;
+import android.content.ContentProviderResult;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.OperationApplicationException;
+import android.database.Cursor;
+import android.database.MatrixCursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
+import android.os.ParcelFileDescriptor;
+import android.provider.BaseColumns;
+import android.text.TextUtils;
+import android.util.Log;
+
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.appwidget.ScheduleWidgetProvider;
+import com.google.samples.apps.iosched.explore.ExploreSessionsActivity;
 import com.google.samples.apps.iosched.provider.ScheduleContract.Announcements;
 import com.google.samples.apps.iosched.provider.ScheduleContract.Blocks;
 import com.google.samples.apps.iosched.provider.ScheduleContract.Feedback;
@@ -41,24 +58,11 @@ import com.google.samples.apps.iosched.provider.ScheduleDatabase.SessionsSearchC
 import com.google.samples.apps.iosched.provider.ScheduleDatabase.SessionsSpeakers;
 import com.google.samples.apps.iosched.provider.ScheduleDatabase.Tables;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
+import com.google.samples.apps.iosched.sync.ConferenceDataHandler;
+import com.google.samples.apps.iosched.sync.SyncHelper;
+import com.google.samples.apps.iosched.sync.userdata.AbstractUserDataSyncHelper;
 import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.SelectionBuilder;
-
-import android.app.SearchManager;
-import android.content.ContentProvider;
-import android.content.ContentProviderOperation;
-import android.content.ContentProviderResult;
-import android.content.ContentValues;
-import android.content.Context;
-import android.content.OperationApplicationException;
-import android.database.Cursor;
-import android.database.MatrixCursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.net.Uri;
-import android.os.ParcelFileDescriptor;
-import android.provider.BaseColumns;
-import android.text.TextUtils;
-import android.util.Log;
 
 import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
@@ -74,7 +78,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 /**
  * {@link android.content.ContentProvider} that stores {@link ScheduleContract} data. Data is
- * usually inserted by {@link com.google.samples.apps.iosched.sync.SyncHelper}, and queried using
+ * usually inserted by {@link SyncHelper}, and queried using
  * {@link android.app.LoaderManager} pattern.
  */
 public class ScheduleProvider extends ContentProvider {
@@ -157,7 +161,7 @@ public class ScheduleProvider extends ContentProvider {
 
     /**
      * Adds the {@code tagsFilter} query parameter to the given {@code builder}. This query
-     * parameter is used by the {@link com.google.samples.apps.iosched.explore.ExploreSessionsActivity}
+     * parameter is used by the {@link ExploreSessionsActivity}
      * when the user makes a selection containing multiple filters.
      */
     private void addTagsFilter(SelectionBuilder builder, String tagsFilter, String numCategories) {
@@ -477,9 +481,9 @@ public class ScheduleProvider extends ContentProvider {
      * <p/>
      * We only notify changes if the uri wasn't called by the sync adapter, to avoid issuing a large
      * amount of notifications while doing a sync. The
-     * {@link com.google.samples.apps.iosched.sync.ConferenceDataHandler} notifies all top level
+     * {@link ConferenceDataHandler} notifies all top level
      * conference paths once the conference data sync is done, and the
-     * {@link com.google.samples.apps.iosched.sync.userdata.AbstractUserDataSyncHelper} notifies all
+     * {@link AbstractUserDataSyncHelper} notifies all
      * user data related paths once the user data sync is done.
      */
     private void notifyChange(Uri uri) {

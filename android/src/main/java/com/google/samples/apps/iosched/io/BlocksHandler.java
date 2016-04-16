@@ -22,6 +22,7 @@ import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
 import com.google.samples.apps.iosched.util.ParserUtils;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import android.content.ContentProviderOperation;
 import android.content.Context;
@@ -34,7 +35,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 
 public class BlocksHandler extends JSONHandler {
-    private static final String TAG = makeLogTag(BlocksHandler.class);
+    private static final String TAG = LogUtils.makeLogTag(BlocksHandler.class);
     private ArrayList<Block> mBlocks = new ArrayList<Block>();
 
     public BlocksHandler(Context context) {
@@ -67,8 +68,8 @@ public class BlocksHandler extends JSONHandler {
 
         String type = block.type;
         if ( ! ScheduleContract.Blocks.isValidBlockType(type)) {
-            LOGW(TAG, "block from "+block.start+" to "+block.end+" has unrecognized type ("
-                    +type+"). Using "+ ScheduleContract.Blocks.BLOCK_TYPE_BREAK +" instead.");
+            LogUtils.LOGW(TAG, "block from " + block.start + " to " + block.end + " has unrecognized type ("
+                    + type + "). Using " + ScheduleContract.Blocks.BLOCK_TYPE_BREAK + " instead.");
             type = ScheduleContract.Blocks.BLOCK_TYPE_BREAK;
         }
 

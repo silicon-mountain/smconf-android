@@ -25,6 +25,8 @@ import android.os.Bundle;
 import android.test.suitebuilder.annotation.SmallTest;
 
 import com.google.samples.apps.iosched.InvalidEnum;
+import com.google.samples.apps.iosched.feedback.FeedbackHelper;
+import com.google.samples.apps.iosched.feedback.SessionFeedbackModel;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.feedback.SessionFeedbackModel.SessionFeedbackData;
 

@@ -16,16 +16,14 @@
 
 package com.google.samples.apps.iosched.map;
 
-import com.google.samples.apps.iosched.R;
-
-import android.animation.ObjectAnimator;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.google.samples.apps.iosched.R;
 
 /**
  * Map info fragment that displays its content within in.
@@ -34,7 +32,7 @@ import android.view.ViewGroup;
  * marked as scrollable if required.
  * It is designed to be displayed at the left of the screen with a fixed width that is the only
  * value that is returned to
- * {@link com.google.samples.apps.iosched.map.MapInfoFragment.Callback#onInfoSizeChanged(int, int,
+ * {@link MapInfoFragment.Callback#onInfoSizeChanged(int, int,
  * int, int)}.
  */
 public class InlineInfoFragment extends MapInfoFragment {

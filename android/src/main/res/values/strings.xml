@@ -293,7 +293,7 @@
     <string name="io15_request_logo_not_clickable">SMCONF16 request logo not clickable</string>
 
     <!-- Accessibility description for the I/O logo that is not a link. -->
-    <string name="io_logo_not_clickable">IO logo not clickable</string>
+    <string name="io_logo_not_clickable">SMCONF logo not clickable</string>
 
     <!-- Accessibility description saying that the app's navigation drawer has been closed -->
     <string name="drawer_close">Close navigation drawer</string>
@@ -340,10 +340,10 @@
     <string name="ended_sessions">Ended sessions</string>
 
     <!-- Message that appears as feedback when the user has indicated that they are attending I/O in person. -->
-    <string name="explore_attending_in_person_toast">Attending I/O in person (you can change this in Settings)</string>
+    <string name="explore_attending_in_person_toast">Attending SMCONF in person (you can change this in Settings)</string>
 
     <!-- Message that appears as feedback when the user has indicated that they are attending I/O remotely. -->
-    <string name="explore_attending_remotely_toast">Attending I/O remotely (you can change this in Settings)</string>
+    <string name="explore_attending_remotely_toast">Attending SMCONF remotely (you can change this in Settings)</string>
 
     <!-- Label for a button to answer the question "Would you like to send feedback
     about this session?" which, when clicked, allows the user to send their feedback (ratings
@@ -363,7 +363,7 @@
 
     <!-- List dropdown item on the Video Library screen allowing the user to choose to see
     the videos from a particular year of Google I/O. -->
-    <string name="google_i_o_year">I/O <xliff:g id="year">%1$d</xliff:g></string>
+    <string name="google_i_o_year">SMCONF <xliff:g id="year">%1$d</xliff:g></string>
 
     <!-- Label on a button that the user can click to dismiss an reminder or information message.
     For example "To scan an attendee's badge, hold your phone close to the badge for a few
@@ -371,7 +371,7 @@
     <string name="got_it">Got it</string>
 
     <!-- Conference hashtag -->
-    <string name="io14_hashtag" translatable="false">#io14</string>
+    <string name="io14_hashtag" translatable="false">#smconf2016</string>
 
     <!-- Keynotes group title for the video library -->
     <string name="keynote_group_title">Keynotes</string>
@@ -398,7 +398,7 @@
     If using multiple lines, separate them with "\n" ("Tentar\nde novo" for example)
     -->
     <string name="login_failed_text_retry">Retry</string>
-    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum </string>
 
     <!-- Message shown in a popup to request a mandatory upgrade -->
     <string name="mandatory_update_error">Your application is out of date. You must upgrade it to continue to use it.</string>
@@ -431,7 +431,7 @@
     <string name="map_moscone" translatable="false">Moscone Center</string>
 
     <!-- Address of Moscone Center. Shown together with its name. -->
-    <string name="map_moscone_address" translatable="false">747 Howard St,\nSan Francisco,\nCA 94103</string>
+    <string name="map_moscone_address" translatable="false">Chariot Hotel, Buea - Cameroon</string>
 
     <!-- Button to view more Videos or sessions from the videos/sessions card view. -->
     <string name="more_items_button">More</string>
@@ -471,7 +471,7 @@
     <string name="navdrawer_item_explore">Explore</string>
 
     <!-- Accessibility description for menu item to open the Explore screen. -->
-    <string name="navdrawer_item_explore_a11y">Explore Google I/O</string>
+    <string name="navdrawer_item_explore_a11y">Explore SMCONF 2016</string>
 
     <!-- Menu item to open the Map screen [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_map">Map</string>
@@ -480,7 +480,7 @@
     <string name="navdrawer_item_my_schedule">My Schedule</string>
 
     <!-- Menu item to open the Explore Screen with the Live I/O card [CHAR_LIMIT=20] -->
-    <string name="navdrawer_item_io_live">I/O Live</string>
+    <string name="navdrawer_item_io_live">SMCONF Live</string>
 
     <!-- Menu item to open the Settings screen [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_settings">Settings</string>
@@ -798,7 +798,7 @@ user updates the rating. -->
     <string name="session_livestream_play_pause">Play / Pause</string>
 
     <!-- Actionbar title for I/O Live -->
-    <string name="session_livestream_title">I/O Live</string>
+    <string name="session_livestream_title">SMCONF Live</string>
 
     <!-- Notification text that a session is starting in some number of minutes -->
     <string name="session_notification_text_1">starting in <xliff:g id="remaining_time">%1$d</xliff:g> min.</string>
@@ -929,7 +929,7 @@ user updates the rating. -->
     <string name="welcome_text">Before we begin, here is some important legal information regarding your use of this app. This will only take a minute!</string>
 
     <!-- Short text introducing the code of conduct for attendees coming in person -->
-    <string name="welcome_conduct_title">I/O Community Best Practices</string>
+    <string name="welcome_conduct_title">SMCONF Community Best Practices</string>
 
     <!-- Short text asking if the user is attending Google I/O in person -->
     <string name="welcome_attending">Attending in Person?</string>
@@ -1016,7 +1016,7 @@ user updates the rating. -->
          event information."><![CDATA[
         <b>Conference Credentials</b><br>
         Each attendee will receive a non-transferable NFC enabled wristband this year. Your
-        wristband & I/O badge will allow you access to Keynote, Sessions, Sandbox, and After
+        wristband & SMCONF badge will allow you access to Keynote, Sessions, Sandbox, and After
         Hours party. Remember to wear it at all times.
     ]]>
     </string>
@@ -1071,7 +1071,6 @@ user updates the rating. -->
          that we can't execute the request when they click a button or touch a part of the screen
          that should normally be touchable. -->
     <string name="unknown_error">Whoops, we couldn\'t process that request.</string>
-
 
     <!--Generic strings to be translated & used in talk back labels-->
 

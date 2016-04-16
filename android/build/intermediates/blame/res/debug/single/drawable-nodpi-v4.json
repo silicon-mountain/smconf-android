@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-nodpi-v4/widget_preview.jpg",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-nodpi/widget_preview.jpg"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-nodpi-v4/default_cover.jpg",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-nodpi/default_cover.jpg"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-nodpi-v4/person_image_empty.png",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-nodpi/person_image_empty.png"
+    }
+]

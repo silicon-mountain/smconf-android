@@ -16,6 +16,7 @@
 
 package com.google.samples.apps.iosched;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.util.ParserUtils;
 
 import java.util.HashMap;
@@ -134,11 +135,11 @@ public class Config {
                 {CATEGORY_THEME, CATEGORY_TOPIC, CATEGORY_TYPE};
 
         public static final int[] EXPLORE_CATEGORY_ALL_STRING = {
-                R.string.all_themes, R.string.all_topics, R.string.all_types
+                com.google.samples.apps.iosched.R.string.all_themes, com.google.samples.apps.iosched.R.string.all_topics, com.google.samples.apps.iosched.R.string.all_types
         };
 
         public static final int[] EXPLORE_CATEGORY_TITLE = {
-                R.string.themes, R.string.topics, R.string.types
+                com.google.samples.apps.iosched.R.string.themes, com.google.samples.apps.iosched.R.string.topics, com.google.samples.apps.iosched.R.string.types
         };
     }
 

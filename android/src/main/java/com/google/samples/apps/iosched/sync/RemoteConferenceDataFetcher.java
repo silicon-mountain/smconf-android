@@ -16,17 +16,19 @@
 
 package com.google.samples.apps.iosched.sync;
 
-import android.accounts.Account;
 import android.content.Context;
 import android.text.TextUtils;
 
 import com.google.gson.Gson;
 import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.io.model.DataManifest;
-import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.HashUtils;
 import com.google.samples.apps.iosched.util.IOUtils;
 import com.google.samples.apps.iosched.util.TimeUtils;
+import com.turbomanage.httpclient.BasicHttpClient;
+import com.turbomanage.httpclient.ConsoleRequestLogger;
+import com.turbomanage.httpclient.HttpResponse;
+import com.turbomanage.httpclient.RequestLogger;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,12 +36,10 @@ import java.net.HttpURLConnection;
 import java.util.HashSet;
 import java.util.List;
 
-import com.turbomanage.httpclient.BasicHttpClient;
-import com.turbomanage.httpclient.ConsoleRequestLogger;
-import com.turbomanage.httpclient.HttpResponse;
-import com.turbomanage.httpclient.RequestLogger;
-
-import static com.google.samples.apps.iosched.util.LogUtils.*;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGW;
+import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 /**
  * Helper class that fetches conference data from the remote server.

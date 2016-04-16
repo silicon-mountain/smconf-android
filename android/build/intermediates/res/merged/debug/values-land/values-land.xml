@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="session_details_floating_height">450dp</dimen>
+    <dimen name="session_details_floating_width">600dp</dimen>
+    <dimen name="welcome_appbar_height">192dp</dimen>
+    <dimen name="welcome_content_padding_top">144dp</dimen>
+    <integer name="deprecated_explore_1st_level_grid_columns">3</integer>
+    <integer name="deprecated_explore_2nd_level_grid_columns">2</integer>
+    <integer name="links_columns">2</integer>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

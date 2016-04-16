@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="schedule_block_subtitle">
+    <item quantity="one">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> событие доступно</item>
+    <item quantity="few">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> события доступно</item>
+    <item quantity="many">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> событий доступно</item>
+    <item quantity="other">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> события доступны</item>
+    </plurals>
+    <plurals name="session_notification_text">
+        <item quantity="one">и ещё 1 начнётся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+        <item quantity="few">и ещё <ns1:g id="num_sessions">%2$d</ns1:g> начнутся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+        <item quantity="many">и ещё <ns1:g id="num_sessions">%2$d</ns1:g> начнутся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+        <item quantity="other">и ещё <ns1:g id="num_sessions">%2$d</ns1:g> начнутся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+    </plurals>
+    <plurals name="session_notification_ticker">
+        <item quantity="one">%d событие скоро начнётся.</item>
+        <item quantity="few">%d событияII скоро начнутся.</item>
+        <item quantity="many">%d событий скоро начнутся.</item>
+        <item quantity="other">%d события скоро начнутся.</item>
+    </plurals>
+    <plurals name="session_notification_title">
+        <item quantity="one">1 событие начнётся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+    <item quantity="few">
+      <ns1:g id="num_sessions">%2$d</ns1:g> события начнутся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+    <item quantity="many">
+      <ns1:g id="num_sessions">%2$d</ns1:g> событий начнутся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+    <item quantity="other">
+      <ns1:g id="num_sessions">%2$d</ns1:g> события начнутся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="about_body">&lt;b>Конференция Google I/O 2015&lt;/b>&lt;br> Версия %s&lt;br>&lt;br> &lt;a href=http://m.google.com/utos>Условия обслуживания&lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/>Политика конфиденциальности&lt;/a></string>
+    <string name="about_eula">Лицензионное соглашение конечного пользователя</string>
+    <string name="about_licenses">Лицензии с открытым исходным кодом</string>
+    <string name="accept">Согласен</string>
+    <string name="add_account">Добавить учётную запись</string>
+    <string name="add_to_schedule">Добавить к расписанию</string>
+    <string name="add_to_schedule_desc">Добавить событие к вашему расписанию</string>
+    <string description="Label of filter option that allow to display all elements" name="all">все
+  </string>
+    <string name="all_sessions">Все события</string>
+    <string name="all_themes">Все категории</string>
+    <string name="all_topics">Все темы</string>
+    <string name="all_types">Все форматы</string>
+    <string name="all_years">Все года</string>
+    <string description="This string is the message of the notification shown to the user when Google Play services can&apos;t connect from a background sync." name="app_data_notification_resolution_content">Требуется вмешательство пользователя, чтобы I/O смог завершить фоновую синхронизацию.</string>
+    <string descripton="This string is the title of a notification shown to the user when Google Play services can&apos;t connect." name="app_data_notification_resolution_title">Приложению I/O необходимо разрешение</string>
+    <string name="app_name">Google I/O 2015</string>
+    <string name="attending_in_person">Лично</string>
+    <string name="attending_remotely">Дистанционно</string>
+    <string name="browse_events">Просмотреть Мероприятия</string>
+    <string name="browse_sessions">Просмотреть события...</string>
+    <string name="calltoaction_wifi_configure">&lt;br>&lt;br>Чтобы продолжить, нажмите \"Добавить сеть Wi-Fi\".</string>
+    <string name="calltoaction_wifi_settings">&lt;br>&lt;br>Чтобы включить Wi-Fi, нажмите \"Открыть настройки Wi-Fi\".</string>
+    <string name="cancel">Отменить</string>
+    <string description="Accessibility description for a control that allows the user to close the current screen          and go back to the previous one." name="close_and_go_back">Закрыть и вернуться</string>
+    <string name="close_detail_pane">Закрыть панель деталей</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Требуется обновить приложение Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Для работы этого приложения требуется обновить Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Обновить Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Для работы этого приложения требуется включить Сервисы Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Включите Сервисы Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Источник запроса: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Для работы этого приложения требуется установить Сервисы Google Play."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Для работы этого приложения требуется установить Сервисы Google Play."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Установите Сервисы Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Этого аккаунта нет на устройстве. Выберите другой."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Недействительный аккаунт"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Для работы приложения требуется включить сервисы Google Play"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Для работы с Google Play требуется подключение к сети."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Ошибка сети"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Для работы приложения требуется установить сервисы Google Play"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Для работы приложения требуется обновить сервисы Google Play"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"При входе в указанный аккаунт произошла ошибка. Выберите другой аккаунт."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Ошибка входа"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестная ошибка с Сервисами Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Сервисы Google Play, необходимые для работы некоторых приложений, не поддерживаются на вашем устройстве. Обратитесь к производителю."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Сервисы Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Для работы этого приложения требуется обновить Сервисы Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Обновите Сервисы Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Войти"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Войти в аккаунт Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Сервисы Google Play, необходимые для работы приложения, сейчас недоступны. Обратитесь за помощью к разработчику."</string>
+    <string name="data_stale_warning">Эта информация может быть устаревшей.</string>
+    <string description="Shown as the titles of the tabs for the user&apos;s schedule" name="day_n">ДЕНЬ %d</string>
+    <string name="day_title_today">Сегодня</string>
+    <string name="day_title_tomorrow">Завтра</string>
+    <string name="day_title_yesterday">Вчера</string>
+    <string name="decline">Не согласен</string>
+    <string name="description_about">О приложении</string>
+    <string name="description_add_schedule">Добавить к расписанию</string>
+    <string name="description_app_feedback">Отзыв о приложении</string>
+    <string name="description_app_feedback_old">Отправить отзыв</string>
+    <string name="description_captions">Субтитры</string>
+    <string name="description_configure_wifi">Настройки Wi-Fi</string>
+    <string name="description_filter">Фильтр</string>
+    <string name="description_i_o_extended">Расширенный Google I/O</string>
+    <string name="description_map">Карта</string>
+    <string name="description_presentation">Вывод на экран</string>
+    <string name="description_refresh">Обновить</string>
+    <string name="description_remove_schedule">Удалить из расписания</string>
+    <string name="description_search">Поиск</string>
+    <string name="description_settings">Настройки</string>
+    <string name="description_setup_wifi_body">Поскольку вы посещаете конференцию лично, мы можем настроить доступ этого устройства к сети Wi-Fi конференции сейчас (5Ghz). Настроив ваш Wi-Fi сейчас, вы поможете предотвратить перегрузку сети.</string>
+    <string name="description_share">Поделиться</string>
+    <string name="description_social_stream">Показать поток Google+</string>
+    <string name="drawer_close">Панель навигации закрыта</string>
+    <string name="drawer_open">Панель навигации открыта</string>
+    <string name="empty_captions">Нет субтитров для этого события.</string>
+    <string name="empty_session_detail">Нет деталей о событии.</string>
+    <string name="empty_sessions">Нет событий.</string>
+    <string name="empty_waiting_for_sync">Синхронизация...</string>
+    <string name="empty_widget_text">Больше нет предстоящих событий.\nУвидимся в следующем году!</string>
+    <string name="empty_widget_text_signed_out">Чтобы зарегистрироваться и начать пользоваться приложением, нажмите на логотип Google I/O 2015 вверху.</string>
+    <string name="ended_sessions">Прошедшие события</string>
+    <string name="eula_legal_text">Your use of this application is governed by: a) the Google Terms of Service (http://www.google.com/intl/en/policies/terms/); b) Google\'s Privacy Policy (http://www.google.com/intl/en/policies/privacy/); and c) any applicable Google service-specific terms of service or privacy policies. Google\'s terms of service and privacy policies may be updated from time to time and without notice.\n\nThis application collects certain information as you use it, including via Google Analytics. Google\'s Privacy Policy explains how Google treats your information and protects your privacy when you use the application. By using the application, you agree to the use of your data in accordance with Google\'s Privacy Policy.</string>
+    <string name="explore_attending_in_person_toast">Посещает I/O лично (вы можете изменить это в настройках)</string>
+    <string name="explore_attending_remotely_toast">Посещает I/O удаленно (вы можете изменить это в настройках)</string>
+    <string description="A message card displayed in the Explore I/O page that asks users to opt into a                          feature." name="explore_io_msgcards_after_hours_card">&lt;b>After Hours&lt;/b>&lt;br>&lt;/br> Эту вечеринку вы не захотите пропустить! Приглашаем вас насладиться едой, напитками, музыкой, играми и многим другим, вечером, 28 мая. Для входа необходимы бейдж I/O конференции и браслет NFC.</string>
+    <string name="explore_io_msgcards_answer_no">Нет, спасибо.</string>
+    <string name="explore_io_msgcards_answer_yes">Конечно, давайте!</string>
+    <string description="This message is displayed on the Explore I/O screen to ask users whether             they would like to opt in to receive messages regarding the conference." name="explore_io_msgcards_ask_opt_in">
+        &lt;b>Сообщения Kонференции&lt;/b>&lt;br/>
+        Хотите , чтобы отказаться в получать сообщения от организаторов конференции Google I / O ? Сообщения могут быть основаны на текущий момент времени и могут включать в себя объявления наших партнерами .</string>
+    <string name="explore_io_msgcards_conf_creds_card">&lt;b>Личные данные участника&lt;/b>&lt;br> Каждый участник конференции получит в этом году ндивидуальный NFC-браслет. Ваш бейдж I/O конференции и браслет NFC обеспечат вам доступ к Keynote, сессиям, Sandbox, и на вечеринки. Всегда носите их оба с собой.</string>
+    <string description="This string is presented to users when they attempt to click something that indicates they can watch a video but it turns out we can&apos;t show the video." name="explore_io_video_id_not_valid">Извините. Судя по всему, есть проблема с URL-адресом видео.</string>
+    <string description="Sub-title for a session in ExploreSessionsActivity that shows the day, time and room name for a given session. Example: Day 1 / 9:00AM - 11:00AM / Room 1" name="explore_sessions_show_day_hour_and_room"><ns1:g example="Day 1" id="day">%1$s</ns1:g> / <ns1:g example="2:00PM" id="start_time">%2$s</ns1:g> - <ns1:g example="3:00PM" id="end_time">%3$s</ns1:g> / <ns1:g id="room">%4$s</ns1:g></string>
+    <string description="Show the Day 1 or Day 2 as part of either the ExploreSessionsActivity title or in the session details." name="explore_sessions_show_day_n">День %d</string>
+    <string description="Show Day and start time of a session as the title when viewing browsing sessions (ExploreSessionActivity) from MySchedule." name="explore_sessions_time_slot_title">
+    <ns1:g example="Day 1" id="day">%1$s</ns1:g>, <ns1:g example="2:30PM" id="start_time">%2$s</ns1:g>
+  </string>
+    <string name="give_feedback">Да</string>
+    <string name="go_to_settings">Назад в настройки</string>
+    <string name="google_account_required_message">Чтобы пользоваться приложением, вы должны иметь хотя бы одну учетную запись Google на вашем устройстве.</string>
+    <string name="google_account_required_title">Необходима учетная запись AKKOUNT Google</string>
+    <string name="google_i_o_year">Конференция I/O <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="got_it">Понятно</string>
+    <string description="Accessibility description for the IO15 extended logo that is not a link." name="io15_extended_logo_not_clickable">Логотип IO15 extended некликабелен</string>
+    <string description="Accessibility description for the IO15 logo that is not a link." name="io15_logo_not_clickable">Логотип IO15 некликабелен</string>
+    <string description="Accessibility description for the IO15 request logo that is not a link." name="io15_request_logo_not_clickable">Логотип IO15 request некликабелен</string>
+    <string description="Accessibility description for the I/O logo that is not a link." name="io_logo_not_clickable">Логотип IO некликабелен</string>
+    <string name="keynote_group_title">Ключевые слова</string>
+    <string name="live_available">LIVE</string>
+    <string name="live_now">LIVE NOW</string>
+    <string name="loading">Загрузка...</string>
+    <string name="login_failed_text">Не удалось синхронизировать события из-за ошибки.</string>
+    <string name="login_failed_text_retry">Попробовать снова</string>
+    <string name="mandatory_update_error">Ваше приложение устарело. Чтобы продолжить использовать приложение, вам необходимо его обновить.</string>
+    <string name="map_at">В %1$s:&lt;br>&lt;b>%2$s&lt;/b></string>
+    <string name="map_now_playing">Воспроизводится сейчас:&lt;br>&lt;b>%1$s&lt;/b></string>
+    <string name="map_touch_to_see_session">Нажмите, чтобы просмотреть события</string>
+    <string name="more_information">Дополнительные сведения</string>
+    <string name="more_items_button">Еще</string>
+    <string description="Accessibility description for viewing more sessions/videos." name="more_items_button_desc_a11y">Нажмите, чтобы увидеть больше материалов.</string>
+    <string name="more_sessions">Ещё события BOLSHE SOBUTIY</string>
+    <string name="my_schedule_page_desc_a11y">Ваше расписание на <ns1:g id="day">%1$s</ns1:g>.</string>
+    <string name="my_schedule_rate_this_session">Оценить эту сессию</string>
+    <string name="my_schedule_tab_desc_a11y">Нажмите, чтобы увидеть своё расписание на <ns1:g id="day">%1$s</ns1:g>.</string>
+    <string name="my_schedule_watch_live_now">ПРЯМОЙ ЭФИР</string>
+    <string name="navdrawer_description_a11y">Панель навигации используется для переключения между основными разделами приложения</string>
+    <string name="navdrawer_item_debug">Отладка</string>
+    <string name="navdrawer_item_explore">Ознакомиться</string>
+    <string name="navdrawer_item_explore_a11y">Ознакомиться с Google I/O</string>
+    <string name="navdrawer_item_io_live">В прямом эфире</string>
+    <string name="navdrawer_item_map">Карта</string>
+    <string name="navdrawer_item_my_schedule">Моё расписание</string>
+    <string name="navdrawer_item_settings">Настройки</string>
+    <string name="navdrawer_item_sign_in">Войти</string>
+    <string name="navdrawer_item_social">Обсуждения</string>
+    <string name="navdrawer_item_video_library">Видеотека</string>
+    <string name="navdrawer_status_attending_in_person">Посещает Google I/O лично</string>
+    <string name="navdrawer_status_attending_remotely">Посещает I/O дистанционно</string>
+    <string name="new_videos_title">Новое в <ns1:g id="year">%1$d</ns1:g>
+    </string>
+    <string name="no_connection_cant_login">Не удалось войти. Проверьте интернет-соединение.</string>
+    <string name="no_matching_sessions">Нет подходящих событий.</string>
+    <string name="no_matching_sessions_in_interval">В выбранный вами период подходящих событий нет.</string>
+    <string name="no_matching_videos">Нет подходящих видео.</string>
+    <string name="no_thanks">Нет, спасибо</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="ok">OkOK</string>
+    <string name="others">Другое</string>
+    <string name="permission_write">Изменить данные расписания Google I/O</string>
+    <string name="plus_one_description_standard">Нажмите, чтобы добавить в Ваши круги.</string>
+    <string name="pref_analytics_enabled_description">Если флажок FLAG установлен, анонимная статистика использования будет отправляться OTPRAVLENA  в Google.</string>
+    <string name="pref_analytics_enabled_title">Отправить анонимную статистику использования</string>
+    <string name="pref_attendee_at_venue_description">Если флажок FLAG установлен, будут показаны все события и локальные мероприятия. В противном случае, будут отображаться только транслируемые в прямом эфире события.</string>
+    <string name="pref_attendee_at_venue_title">Я еду на Google I/O!</string>
+    <string name="pref_conf_message_cards_enabled_title">Показывать cообщения конференции</string>
+    <string name="pref_local_times_description">Если флажок FLAG установлен, время событий будет соответствовать установленному на вашем устройстве местному времени. Если не установлен, будет отображаться местное время конференции (дневное тихоокеанское время ).</string>
+    <string name="pref_local_times_title">Показать местное время</string>
+    <string name="pref_notify_feedback_description">Если флажок установлен, приложение будет показывать уведомления с запросом отправить отзыв о выбранных вами событиях.</string>
+    <string name="pref_notify_feedback_title">Напоминать, чтобы я отправлял отзывы</string>
+    <string name="pref_notify_starred_sessions_description">Если флажок установлен, приложение будет показывать уведомления о скором начале ваших событий.</string>
+    <string name="pref_notify_starred_sessions_title">Уведомить о моих событий</string>
+    <string name="pref_sync_with_calendar_description">Если флажок установлен, выбранные вами события будут автоматически синхронизироваться с вашим календарём Google.</string>
+    <string name="pref_sync_with_calendar_title">Синхронизировать с календарем Google</string>
+    <string name="question_i_o_extended">Вы хотите узнать больше о событиях I/O Extended, которые будут проходить недалеко от вас?</string>
+    <string name="question_local_or_remote">Вы посещаете конференцию Google I/O дистанционно или лично в Сан-Франциско?</string>
+    <string descripton="Text of a card shown in the Explore I/O screen that asks the user if they want to configure          the conference WiFi. &apos;Not now&apos; and &apos;Yes, please&apos; are options show on the card" name="question_setup_wifi_card_text">&lt;b>Wi-Fi конференции&lt;/b>&lt;br/> Вы хотели бы настроить это устройство для доступа к Wi-Fi конференции?</string>
+    <string name="related_videos">Похожие видео</string>
+    <string name="remove_from_schedule">В расписании</string>
+    <string name="remove_from_schedule_desc">Удаление события из вашего расписания.</string>
+    <string name="retry">Попробовать снова</string>
+    <string name="schedule_conflict_with_previous">(конфликт)</string>
+    <string name="schedule_end_time">до <ns1:g id="endTime">%1$s</ns1:g>
+  </string>
+    <string name="schedule_session_subtitle">
+    <ns1:g id="speakers">%1$s</ns1:g>\n<ns1:g id="room KOMNATA">%2$s</ns1:g>
+    </string>
+    <string name="search_hint">Поиск событий</string>
+    <string name="search_label">События Google I/O</string>
+    <string name="session_calendar_suffix">- добавлено приложением Google I/O для Android</string>
+    <string name="session_details_a11y_session_added">Событие добавлено в ваше расписание</string>
+    <string name="session_details_a11y_session_removed">Событие удалено из вашего расписания</string>
+    <string name="session_feedback_advanced">Слишком высокий уровень</string>
+    <string name="session_feedback_basic">Слишком простой уровень</string>
+    <string description="Session feedback section title" name="session_feedback_content">Содержание было:</string>
+    <string descripton="Session feedback section title" name="session_feedback_content_label_text">На основании описания/моих ожиданий, содержание было:</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_extremely_relevant">Полностью</string>
+    <string description="A positive overall session feedback option" name="session_feedback_great">Отличным</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_not_at_all_relevant">Абсолютно нет</string>
+    <string description="A negative overall session feedback option" name="session_feedback_notgreat">Не очень впечатляющим</string>
+    <string name="session_feedback_notification_text">Оставить отзыв о %1$s</string>
+    <string name="session_feedback_notification_ticker">Оставить отзыв о событии</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_notrel">Неактуальным</string>
+    <string description="A session feedback section label asking for any other feedback. It indicates the user should not add personal information" name="session_feedback_other">Что-нибудь еще, что нам не помешало бы знать?\n(Пожалуйста, не добавляйте личную информацию к вашим комментариям.)</string>
+    <string description="A positive speaker quality session feedback option" name="session_feedback_outstanding">Выдающимся</string>
+    <string description="A negative speaker quality session feedback option" name="session_feedback_poor">Слабым</string>
+    <string description="A positive relevance session feedback option" name="session_feedback_rel">Актуальным</string>
+    <string name="session_feedback_relevance">Насколько эта сессия былa актуально для Вашей работы?</string>
+    <string name="session_feedback_speaker_quality">Речь выступающего:</string>
+    <string name="session_feedback_submitlink">Отправить отзыв</string>
+    <string description="Hint for adding other session feedback" name="session_feedback_tell_us">Расскажите нам!</string>
+    <string name="session_finished">Завершено</string>
+    <string name="session_give_feedback_message">Вам понравилось это событие? Вы хотите отправить отзыв?</string>
+    <string name="session_link_livestream">Смотреть трансляцию</string>
+    <string name="session_link_moderator">Модератор</string>
+    <string name="session_link_notes">Официальная информация</string>
+    <string name="session_link_pdf">Слайды</string>
+    <string name="session_link_youtube">Видео на Youtube</string>
+    <string name="session_links">Ссылки на сессию</string>
+    <string name="session_live_now_message">Это событие прямо сейчас транслируется в прямом эфире! Хотите начать просмотр трансляции?</string>
+    <string name="session_live_streamed">Прямая трансляция</string>
+    <string name="session_livestream_block">Прямой Эфир</string>
+    <string name="session_livestream_captions">Субтитры</string>
+    <string name="session_livestream_error_init">К сожалению, произошла ошибка при инициализации плеера YouTube (%1$s).</string>
+    <string name="session_livestream_error_playback">К сожалению, при загрузке потока произошла ошибка. Попробуйте снова позже.</string>
+    <string name="session_livestream_info">Информация</string>
+    <string name="session_livestream_play_pause">Старт / пауза</string>
+    <string name="session_livestream_title">GOOGLE I/O в прямом эфире</string>
+    <string name="session_notification_text_1">начнётся через <ns1:g id="remaining_time">%1$d</ns1:g> мин.</string>
+    <string name="session_now">Сейчас</string>
+    <string description="A session feedback section label asking the user to rate the session overall" name="session_rating_label_text">Оценка сессии:</string>
+    <string name="session_replay">ПовторIT</string>
+    <string name="session_requirements">Требования</string>
+    <string name="session_speakers">Выступающие</string>
+    <string name="session_subtitle">
+    <ns1:g id="time">%1$s</ns1:g> в <ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="session_subtitle_short">
+    <ns1:g id="time">%1$s</ns1:g>
+  </string>
+    <string name="session_watch">Смотреть</string>
+    <string name="session_watch_live">Смотреть трансляцию в прямом эфире</string>
+    <string name="setup_wifi_yes">Да!</string>
+    <string name="share_livestream_template">Просмотр GOOGLE I/O Live: \"<ns1:g id="title">%1$s</ns1:g>\" на <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="share_template">Смотрю \"<ns1:g id="title">%1$s</ns1:g>\" на <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="snooze_x_min">Не показывать <ns1:g id="remaining_time">%1$d</ns1:g> мин.</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15 extended&apos; box." name="social_extended_gplus_content_description">Перейти к Google Plus с хэштегом \"extended\"</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_extended_twitter_content_description">Перейти к Twitter с хэштегом \"extended\"</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; GPlus page." name="social_gplus_devs_content_description">Перейти к Google Developers на Google Plus</string>
+    <string name="social_intro">Нажмите на символ решётки, если вы хотите присоединиться к беседе на Google+</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15&apos; box." name="social_io15_gplus_content_description">Перейти к Google Plus с хэштегом \"io15\"</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15&apos; box." name="social_io15_twitter_content_description">Перейти к Twitter с хэштегом \"io15\"</string>
+    <string descripton="Accessibility description for the GPlus icon in the &apos;#io15 request&apos; box." name="social_request_gplus_content_description">Перейти к Google Plus с хэштегом \"request\"</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_request_twitter_content_description">Перейти к Twitter с хэштегом \"request\"</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; Twitter page." name="social_twitter_devs_content_description">Перейти к Google Developers на Twitter</string>
+    <string name="speaker_googleplus_profile">Профиль Google+: <ns1:g id="speakername">%1$s</ns1:g>
+  </string>
+    <string description="Accessibility for the links to the G+ or Twitter pages for speakers. For example: Go to the Twitter page for Sally Sample." name="speaker_social_page">Перейти на страницу %1$s с %2$s</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string description="Indicates the item is actionable and the user can tap on it" name="talkback_button">Кнопка %1$S</string>
+    <string description="Indicates the item is an image" name="talkback_image">%1$S изображение</string>
+    <string description="Indicates the item is a link (and actionable)" name="talkback_link">%1$S ссылка</string>
+    <string description="Indicates the item does nothing when tapped" name="talkback_not_clickable">%1$S некликабельна</string>
+    <string description="Indicates the item is currently not selected" name="talkback_not_selected">%1$S не выбран</string>
+    <string descripton="Indicates the item is currently selected" name="talkback_selected">%1$S выбран</string>
+    <string description="Indicates what happens when the user taps on an item" name="talkback_tapfor">нажмите, чтобы %1$S</string>
+    <string name="themes">Категории</string>
+    <string name="time_hint_about_to_start_min">Событие начнётся через <ns1:g id="minutes">%1$d</ns1:g> мин.</string>
+    <string name="time_hint_about_to_start_shortly">Сессия начинается (осталось меньше минуты).</string>
+    <string name="time_hint_session_ended">Событие завершено.</string>
+    <string name="time_hint_started_just">Это событие уже началось! (совсем недавно)</string>
+    <string name="time_hint_started_min">Это событие уже началось! (<ns1:g id="minutes">%1$d</ns1:g> мин. назад)</string>
+    <string name="times_shown_in_tz">Время показано в <ns1:g id="timezone">%1$s</ns1:g>
+  </string>
+    <string name="title_about">О приложении</string>
+    <string name="title_activity_new_social">Соц сети</string>
+    <string name="title_explore">Ознакомиться</string>
+    <string name="title_explore_sessions_filter">Фильтр</string>
+    <string name="title_map">Карта</string>
+    <string name="title_my_schedule">Моё расписание</string>
+    <string name="title_office_hours">Часы работы</string>
+    <string name="title_sandbox_detail">Информация о компании</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_session_detail">Информация о событии</string>
+    <string name="title_session_feedback">Отзыв о событии</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_share">Поделиться через</string>
+    <string name="title_topic_filtered_video_library">Видео о <ns1:g id="topic TEMA">%1$s</ns1:g>
+    </string>
+    <string name="title_video_library">Видео</string>
+    <string name="title_video_library_filter">Фильтр</string>
+    <string name="title_year_and_topic_filtered_video_library">
+    <ns1:g id="year GOD">%1$d</ns1:g> видео о <ns1:g id="topic">%2$s</ns1:g>
+    </string>
+    <string name="title_year_filtered_video_library">
+    <ns1:g id="year GOD">%1$d</ns1:g> видео</string>
+    <string name="topic_filter_section_label">Тема</string>
+    <string name="topics">Темы</string>
+    <string name="types">Форматы</string>
+    <string description="Generic error message used for errors that should never happen. This explains to the user that we can&apos;t execute the request when they click a button or touch a part of the screen that should normally be touchable." name="unknown_error">Упс, мы не cмогли обработать этот запрос.</string>
+    <string name="unknown_room">(Помещение не указано)</string>
+    <string name="update_app">Обновить приложение</string>
+    <string name="update_available">Более новая версия данного приложения доступна в магазине Google Play.</string>
+    <string name="watch_now">Смотреть сейчас!</string>
+    <string description="Short text asking if they&apos;re interested in what&apos;s around them" name="welcome_around">Рядом с Вами</string>
+    <string name="welcome_attending">Присутствуете лично?</string>
+    <string name="welcome_attending_text">Вы присутствуете на I/O дистанционно или лично в Сан-Франциско?</string>
+    <string name="welcome_conduct_text">Будьте предупредительны по отношению друг к другу.\nМы хотим, чтобы I/O стал запоминающимся ZNAMENATELNUM событием для каждого, независимо от гендерной идентичности POLA и само выражения, сексуальной ориентации, инвалидности, внешнего вида, телосложения, национальности, возраста или религии. Относитесь ко всем с уважением. Принимайте участие, осознавая, что каждый из участников заслужил право быть здесь -- и каждый из нас имеет право получить удовольствие от этого мероприятия SOBUTIYA, не опасаясь насмешек, дискриминации или высокомерного отношения, открытого или через скрытые акты микроагрессии MU NE DOPUSTIM AGRESIVNOSTI .\n\nЕсли вы что-то услышали или увидели, скажите об этом вслух.\nДискриминация не должна быть терпима, и когда другим отказывают в уважении, у вас есть законное право вежливо вмешаться. Также, имейте позитивные намерения. Люди, заставляющие вас чувствовать некомфортно, могут не осознавать того, что они делают, и вежливое замечание по поводу их поведения вполне уместно.\n\nДа, и...\nДелитесь своими идеями друг с другом. Мы все выиграем оттого no need, что будем творить вместе!</string>
+    <string name="welcome_conduct_title">Код поведения конференции
+    Google I/O</string>
+    <string description="Text for a button which allows the user to enable the feature" name="welcome_enable">Включить</string>
+    <string description="Text for a button which allows the user to reject the feature" name="welcome_no_thanks">Нет, спасибо</string>
+    <string description="Medium text asking to choose an account from a list" name="welcome_select_accoun_text">Выберите используемый аккаунт:</string>
+    <string description="Short text asking them to select an account" name="welcome_select_account">Выберите аккаунт</string>
+    <string description="Medium-length welcome text indicating the subsequent text is important legal information " name="welcome_text">Прежде чем начать, ознакомьтесь с важной юридической информацией, касающейся использования данного приложения. Это займет всего одну минуту!</string>
+    <string name="welcome_to_google_i_o_app">Добро пожаловать в приложение Google I/O!</string>
+    <string name="wifi_dialog_button_configure">Добавить сеть Wi-Fi</string>
+    <string name="wifi_dialog_button_settings">Открыть настройки Wi-Fi</string>
+    <string name="wifi_install_error_message">К сожалению, не удаётся обновить настройки Wi-Fi</string>
+    <string name="year_filter_section_label">Год</string>
+</resources>

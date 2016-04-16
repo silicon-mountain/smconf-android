@@ -35,6 +35,7 @@ import com.google.samples.apps.iosched.util.TimeUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
 import com.google.samples.apps.iosched.util.WiFiUtils;
 import com.google.samples.apps.iosched.welcome.WelcomeActivity;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -58,7 +59,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class DebugFragment extends Fragment {
 
-    private static final String TAG = makeLogTag(DebugFragment.class);
+    private static final String TAG = LogUtils.makeLogTag(DebugFragment.class);
 
     /**
      * Area of screen used to display log log messages.
@@ -146,7 +147,7 @@ public class DebugFragment extends Fragment {
         tests.addView(createTestAction(new DebugAction() {
             @Override
             public void run(Context context, Callback callback) {
-                LOGW(TAG, "Unsetting all Explore I/O message card answers.");
+                LogUtils.LOGW(TAG, "Unsetting all Explore I/O message card answers.");
                 ConfMessageCardUtils.markAnsweredConfMessageCardsPrompt(context, null);
                 ConfMessageCardUtils.setConfMessageCardsEnabled(context, null);
                 ConfMessageCardUtils.unsetStateForAllCards(context);
@@ -163,7 +164,7 @@ public class DebugFragment extends Fragment {
                 java.util.Date currentTime = new java.util.Date(UIUtils.getCurrentTime(context));
                 java.util.Date newTime = new java.util.Date(Config.CONFERENCE_START_MILLIS -
                         TimeUtils.HOUR * 3);
-                LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
+                LogUtils.LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
                 UIUtils.setCurrentTime(context, newTime.getTime());
             }
 
@@ -178,7 +179,7 @@ public class DebugFragment extends Fragment {
                 java.util.Date currentTime = new java.util.Date(UIUtils.getCurrentTime(context));
                 java.util.Date newTime = new java.util.Date(Config.CONFERENCE_START_MILLIS -
                         TimeUtils.DAY);
-                LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
+                LogUtils.LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
                 UIUtils.setCurrentTime(context, newTime.getTime());
             }
 
@@ -194,10 +195,10 @@ public class DebugFragment extends Fragment {
                 java.util.Date currentTime = new java.util.Date(UIUtils.getCurrentTime(context));
                 java.util.Date newTime = new java.util.Date(Config.CONFERENCE_START_MILLIS +
                         TimeUtils.HOUR * 3);
-                LOGW(TAG, "Setting time from " + currentTime +
+                LogUtils.LOGW(TAG, "Setting time from " + currentTime +
                         " to " + newTime);
                 UIUtils.setCurrentTime(context, newTime.getTime());
-                LOGW(TAG, "Unsetting all Explore I/O card answers and settings.");
+                LogUtils.LOGW(TAG, "Unsetting all Explore I/O card answers and settings.");
                 ConfMessageCardUtils.markAnsweredConfMessageCardsPrompt(context, null);
                 ConfMessageCardUtils.setConfMessageCardsEnabled(context, null);
                 SettingsUtils.markDeclinedWifiSetup(context, false);
@@ -215,7 +216,7 @@ public class DebugFragment extends Fragment {
                 java.util.Date currentTime = new java.util.Date(UIUtils.getCurrentTime(context));
                 java.util.Date newTime = new java.util.Date(Config.CONFERENCE_DAYS[1][0] +
                         TimeUtils.HOUR * 3);
-                LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
+                LogUtils.LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
                 UIUtils.setCurrentTime(context, newTime.getTime());
             }
 
@@ -230,7 +231,7 @@ public class DebugFragment extends Fragment {
                 java.util.Date currentTime = new java.util.Date(UIUtils.getCurrentTime(context));
                 java.util.Date newTime = new java.util.Date(Config.CONFERENCE_END_MILLIS +
                         TimeUtils.HOUR * 3);
-                LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
+                LogUtils.LOGW(TAG, "Setting time from " + currentTime + " to " + newTime);
                 UIUtils.setCurrentTime(context, newTime.getTime());
             }
 

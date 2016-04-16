@@ -16,10 +16,13 @@
 package com.google.samples.apps.iosched.gcm;
 
 import com.google.samples.apps.iosched.BuildConfig;
-import com.google.samples.apps.iosched.Config;
-import com.google.samples.apps.iosched.gcm.command.*;
 import com.google.android.gcm.GCMBaseIntentService;
-import com.google.samples.apps.iosched.util.AccountUtils;
+import com.google.samples.apps.iosched.gcm.command.AnnouncementCommand;
+import com.google.samples.apps.iosched.gcm.command.NotificationCommand;
+import com.google.samples.apps.iosched.gcm.command.SyncCommand;
+import com.google.samples.apps.iosched.gcm.command.SyncUserCommand;
+import com.google.samples.apps.iosched.gcm.command.TestCommand;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -39,7 +42,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class GCMIntentService extends GCMBaseIntentService {
 
-    private static final String TAG = makeLogTag("GCM");
+    private static final String TAG = LogUtils.makeLogTag("GCM");
 
     private static final Map<String, GCMCommand> MESSAGE_RECEIVERS;
     static {
@@ -59,12 +62,12 @@ public class GCMIntentService extends GCMBaseIntentService {
 
     @Override
     protected void onRegistered(Context context, String regId) {
-        LOGI(TAG, "Device registered: regId=" + regId);
+        LogUtils.LOGI(TAG, "Device registered: regId=" + regId);
     }
 
     @Override
     protected void onUnregistered(Context context, String regId) {
-        LOGI(TAG, "Device unregistered");
+        LogUtils.LOGI(TAG, "Device unregistered");
         ServerUtilities.unregister(context, regId);
     }
 
@@ -72,17 +75,17 @@ public class GCMIntentService extends GCMBaseIntentService {
     protected void onMessage(Context context, Intent intent) {
         String action = intent.getStringExtra("action");
         String extraData = intent.getStringExtra("extraData");
-        LOGD(TAG, "Got GCM message, action=" + action + ", extraData=" + extraData);
+        LogUtils.LOGD(TAG, "Got GCM message, action=" + action + ", extraData=" + extraData);
 
         if (action == null) {
-            LOGE(TAG, "Message received without command action");
+            LogUtils.LOGE(TAG, "Message received without command action");
             return;
         }
 
         action = action.toLowerCase();
         GCMCommand command = MESSAGE_RECEIVERS.get(action);
         if (command == null) {
-            LOGE(TAG, "Unknown command received: " + action);
+            LogUtils.LOGE(TAG, "Unknown command received: " + action);
         } else {
             command.execute(this, action, extraData);
         }
@@ -91,13 +94,13 @@ public class GCMIntentService extends GCMBaseIntentService {
 
     @Override
     public void onError(Context context, String errorId) {
-        LOGE(TAG, "Received error: " + errorId);
+        LogUtils.LOGE(TAG, "Received error: " + errorId);
     }
 
     @Override
     protected boolean onRecoverableError(Context context, String errorId) {
         // log message
-        LOGW(TAG, "Received recoverable error: " + errorId);
+        LogUtils.LOGW(TAG, "Received recoverable error: " + errorId);
         return super.onRecoverableError(context, errorId);
     }
 }

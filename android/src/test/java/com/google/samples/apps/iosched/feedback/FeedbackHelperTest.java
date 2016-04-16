@@ -18,6 +18,7 @@ package com.google.samples.apps.iosched.feedback;
 
 import com.google.android.gms.wearable.DataMap;
 
+import com.google.samples.apps.iosched.feedback.FeedbackHelper;
 import com.google.samples.apps.iosched.feedback.SessionFeedbackModel.SessionFeedbackData;
 import com.google.samples.apps.iosched.util.LogUtils;
 

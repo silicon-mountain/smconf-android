@@ -29,16 +29,15 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Locale;
 
-import static com.google.samples.apps.iosched.util.LogUtils.*;
-
 public class VideosHandler extends JSONHandler {
-    private static final String TAG = makeLogTag(VideosHandler.class);
+    private static final String TAG = LogUtils.makeLogTag(VideosHandler.class);
     private HashMap<String, Video> mVideos = new HashMap<String, Video>();
 
     public VideosHandler(Context context) {
@@ -49,7 +48,7 @@ public class VideosHandler extends JSONHandler {
     public void process(JsonElement element) {
         for (Video video : new Gson().fromJson(element, Video[].class)) {
             if (TextUtils.isEmpty(video.id)) {
-                LOGW(TAG, "Video without valid ID. Using VID instead: " + video.vid);
+                LogUtils.LOGW(TAG, "Video without valid ID. Using VID instead: " + video.vid);
                 video.id = video.vid;
             }
             mVideos.put(video.id, video);
@@ -65,9 +64,9 @@ public class VideosHandler extends JSONHandler {
         boolean isIncrementalUpdate = videoHashcodes != null && videoHashcodes.size() > 0;
 
         if (isIncrementalUpdate) {
-            LOGD(TAG, "Doing incremental update for videos.");
+            LogUtils.LOGD(TAG, "Doing incremental update for videos.");
         } else {
-            LOGD(TAG, "Doing FULL (non incremental) update for videos.");
+            LogUtils.LOGD(TAG, "Doing FULL (non incremental) update for videos.");
             list.add(ContentProviderOperation.newDelete(uri).build());
         }
 
@@ -95,7 +94,7 @@ public class VideosHandler extends JSONHandler {
             }
         }
 
-        LOGD(TAG, "Videos: " + (isIncrementalUpdate ? "INCREMENTAL" : "FULL") + " update. " +
+        LogUtils.LOGD(TAG, "Videos: " + (isIncrementalUpdate ? "INCREMENTAL" : "FULL") + " update. " +
                 updatedVideos + " to update, " + deletedVideos + " to delete. New total: " +
                 mVideos.size());
     }
@@ -115,7 +114,7 @@ public class VideosHandler extends JSONHandler {
         }
 
         if (TextUtils.isEmpty(video.vid)) {
-            LOGW(TAG, "Ignoring video with missing video ID.");
+            LogUtils.LOGW(TAG, "Ignoring video with missing video ID.");
             return;
         }
 
@@ -126,7 +125,7 @@ public class VideosHandler extends JSONHandler {
             // is unofficial and might not work in the future; that's why we use
             // it only as a fallback in case we don't get a thumbnail URL in the incoming data.
             thumbUrl = String.format(Locale.US, Config.VIDEO_LIBRARY_FALLBACK_THUMB_URL_FMT, video.vid);
-            LOGW(TAG, "Video with missing thumbnail URL: " + video.vid
+            LogUtils.LOGW(TAG, "Video with missing thumbnail URL: " + video.vid
                     + ". Using fallback: " + thumbUrl);
         }
 
@@ -157,11 +156,11 @@ public class VideosHandler extends JSONHandler {
             cursor = mContext.getContentResolver().query(uri, VideoHashcodeQuery.PROJECTION,
                     null, null, null);
             if (cursor == null) {
-                LOGE(TAG, "Error querying video hashcodes (got null cursor)");
+                LogUtils.LOGE(TAG, "Error querying video hashcodes (got null cursor)");
                 return null;
             }
             if (cursor.getCount() < 1) {
-                LOGE(TAG, "Error querying video hashcodes (no records returned)");
+                LogUtils.LOGE(TAG, "Error querying video hashcodes (no records returned)");
                 return null;
             }
             HashMap<String, String> result = new HashMap<String, String>();

@@ -20,6 +20,8 @@ import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.framework.PresenterFragmentImpl;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.ui.BaseActivity;
+import com.google.samples.apps.iosched.videolibrary.VideoLibraryActivity;
+import com.google.samples.apps.iosched.videolibrary.VideoLibraryModel;
 
 import org.junit.After;
 import org.junit.Before;

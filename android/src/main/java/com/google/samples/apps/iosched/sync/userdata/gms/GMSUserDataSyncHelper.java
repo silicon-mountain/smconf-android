@@ -21,10 +21,8 @@ import android.content.Context;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.drive.Drive;
@@ -34,6 +32,7 @@ import com.google.samples.apps.iosched.sync.userdata.AbstractUserDataSyncHelper;
 import com.google.samples.apps.iosched.sync.userdata.UserAction;
 import com.google.samples.apps.iosched.sync.userdata.util.UserDataHelper;
 import com.google.samples.apps.iosched.util.AccountUtils;
+import com.google.samples.apps.iosched.util.LogUtils;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -49,7 +48,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * Drive API.
  */
 public class GMSUserDataSyncHelper extends AbstractUserDataSyncHelper {
-    private static final String TAG = makeLogTag(GMSUserDataSyncHelper.class);
+    private static final String TAG = LogUtils.makeLogTag(GMSUserDataSyncHelper.class);
     private static final String APPDATA_FILE_NAME = "user_data.json";
     private static final String FILE_MIME_TYPE = "application/json";
 
@@ -82,7 +81,7 @@ public class GMSUserDataSyncHelper extends AbstractUserDataSyncHelper {
             // Call and await a sync using DriveApi#requestSync to ensure that the caches
             // are up-to-date.
             Status status = helper.requestSync();
-            LOGD(TAG, "Drive Request Sync status " + status.isSuccess());
+            LogUtils.LOGD(TAG, "Drive Request Sync status " + status.isSuccess());
             if (!status.isSuccess() && status.hasResolution()) {
                 postNotification(status.getResolution());
                 return false;
@@ -96,16 +95,16 @@ public class GMSUserDataSyncHelper extends AbstractUserDataSyncHelper {
 
             String remoteGcmKey = remote.getGcmKey();
             String localGcmKey = AccountUtils.getGcmKey(mContext, mAccountName);
-            LOGD(TAG, "Local GCM key: " + AccountUtils.sanitizeGcmKey(localGcmKey));
-            LOGD(TAG, "Remote GCM key: " + (remoteGcmKey == null ? "(null)"
+            LogUtils.LOGD(TAG, "Local GCM key: " + AccountUtils.sanitizeGcmKey(localGcmKey));
+            LogUtils.LOGD(TAG, "Remote GCM key: " + (remoteGcmKey == null ? "(null)"
                     : AccountUtils.sanitizeGcmKey(remoteGcmKey)));
 
             // if the remote data came with a GCM key, it should override ours
             if (!TextUtils.isEmpty(remoteGcmKey)) {
                 if (remoteGcmKey.equals(localGcmKey)) {
-                    LOGD(TAG, "Remote GCM key is the same as local, so no action necessary.");
+                    LogUtils.LOGD(TAG, "Remote GCM key is the same as local, so no action necessary.");
                 } else {
-                    LOGD(TAG, "Remote GCM key is different from local. OVERRIDING local.");
+                    LogUtils.LOGD(TAG, "Remote GCM key is different from local. OVERRIDING local.");
                     localGcmKey = remoteGcmKey;
                     AccountUtils.setGcmKey(mContext, mAccountName, localGcmKey);
                 }
@@ -114,7 +113,7 @@ public class GMSUserDataSyncHelper extends AbstractUserDataSyncHelper {
             // If remote data is the same as local, and the remote end already has a GCM key,
             // there is nothing we need to do.
             if (remote.equals(local) && !TextUtils.isEmpty(remoteGcmKey)) {
-                LOGD(TAG, "Update is not needed (local is same as remote, and remote has key)");
+                LogUtils.LOGD(TAG, "Update is not needed (local is same as remote, and remote has key)");
                 return false;
             }
 
@@ -122,16 +121,16 @@ public class GMSUserDataSyncHelper extends AbstractUserDataSyncHelper {
             if (hasPendingLocalData || TextUtils.isEmpty(remoteGcmKey)) {
                 // merge local dirty actions into remote content
                 if (hasPendingLocalData) {
-                    LOGD(TAG, "Has pending local data, merging.");
+                    LogUtils.LOGD(TAG, "Has pending local data, merging.");
                     merged = mergeDirtyActions(actions, remote);
                 } else {
-                    LOGD(TAG, "No pending local data, just updating remote GCM key.");
+                    LogUtils.LOGD(TAG, "No pending local data, just updating remote GCM key.");
                     merged = remote;
                 }
                 // add the GCM key special item
                 merged.setGcmKey(localGcmKey);
                 // save to remote
-                LOGD(TAG, "Sending user data to Drive, gcm key "
+                LogUtils.LOGD(TAG, "Sending user data to Drive, gcm key "
                         + AccountUtils.sanitizeGcmKey(localGcmKey));
 
                 String content = UserDataHelper.toJsonString(merged);
@@ -144,7 +143,7 @@ public class GMSUserDataSyncHelper extends AbstractUserDataSyncHelper {
             return true;
 
         } catch (IOException ex) {
-            LOGE(TAG, "Could not sync myschedule", ex);
+            LogUtils.LOGE(TAG, "Could not sync myschedule", ex);
         }
         return false;
     }

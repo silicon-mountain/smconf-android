@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/anim-v21/io_logo_anim.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/anim-v21/io_logo_anim.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/anim-v21/add_schedule_fab_state_list_anim.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/anim-v21/add_schedule_fab_state_list_anim.xml"
+    }
+]

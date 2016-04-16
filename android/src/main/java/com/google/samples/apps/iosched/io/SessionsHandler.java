@@ -41,7 +41,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.google.samples.apps.iosched.util.LogUtils.*;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
+import static com.google.samples.apps.iosched.util.LogUtils.LOGW;
+import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class SessionsHandler extends JSONHandler {
     private static final String TAG = makeLogTag(SessionsHandler.class);
