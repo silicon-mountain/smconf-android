@@ -1,34 +1,25 @@
-Google I/O Android App
-======================
+SMConf Android App
+==================
 
-Google I/O is a developer conference held each year with two days of deep
-technical content featuring technical sessions and hundreds of demonstrations
-from developers showcasing their technologies.
+Silicon Mountain Conference Android app was created, and is maintained by [The Silicon Mountain](https://madeinbuea.com) developers in Buea. It was originally developed by [Google Developers](https://github.com/google/iosched). This project is the Android app for the conference. The app supports devices running Android 4.0+, and is optimized for phones and tablets of all shapes and sizes.
 
-This project is the Android app for the conference. The app supports devices
-running Android 4.0+, and is optimized for phones and tablets of all shapes
-and sizes.
+Feel free to check out the [license](LICENSE), and make contributions by pull requests.
 
-<h2>Source</h2>
 
-The source code in this repository reflects the app as of I/O 2015.
-
-<h2>Features</h2>
+##Features
 
 With the app, you can:
 
-- View the conference agenda and edit your personal schedule
-- Sync your schedule between all of your devices and the I/O website
-- View detailed session, code lab, office hours, and speaker information,
-  including speaker bios, photos, and Google+ profiles
-- Participate in public #io15 conversations on Google+
-- Guide yourself using the vector-based conference map
-- Get a reminder a few minutes before sessions in your schedule are due to
-  start
-- Play "I/O Live" session video streams
+- View the conference agenda and edit your personal schedule.
+- Sync your schedule between all of your devices and the SMConf website.
+- View detailed session, code lab, office hours, and speaker information, including speaker bios, photos, and twitter and LinkedIn profiles.
+- Participate in public #smconf2016 conversations on Twitter.
+- Guide yourself using the vector-based conference map.
+- Get a reminder a few minutes before sessions in your schedule are due to start.
 - Send feedback on sessions, from your phone/tablet.
 
-<h2>How to Work with the Source</h2>
+
+##Build
 
 We hope the source code for this app is useful for you as a reference or starting point for creating your own apps. Here is some additional reading to help you better understand and reuse this code.
 
@@ -38,18 +29,7 @@ We hope the source code for this app is useful for you as a reference or startin
   * [Use of GCM](doc/GCM.md)
   * [Customization guide](doc/CUSTOM.md)
 
-<h2>Copyright</h2>
 
-    Copyright 2014 Google Inc. All rights reserved.
+## License
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+smconf-android is licensed under [Apache](LICENSE).
