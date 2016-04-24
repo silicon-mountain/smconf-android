@@ -862,7 +862,7 @@
     <string name="explore_attending_remotely_toast">I/Oにリモートで出席 (これは設定で変更できます)</string>
     <string name="go_to_settings">設定へ</string>
     <string name="more_information">更に詳しく</string>
-    <string name="about_main"><![CDATA[         <b>Google I/O 2015</b><br>         バージョン %s     ]]></string>
+    <string name="about_main"><![CDATA[         <b>SMCONF 2016</b><br>         バージョン %s     ]]></string>
     <string name="about_privacy_policy">プライバシー </string>
     <string name="about_terms">サービス規約</string>
     <string name="more_items_button_desc_with_label_a11y">タップして他の <xliff:g id="itemName">%1$s</xliff:g> のアイテムを表示する</string>
