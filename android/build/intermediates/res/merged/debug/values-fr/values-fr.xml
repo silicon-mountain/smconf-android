@@ -39,7 +39,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager avec"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
-    <string name="about_body">&lt;b>Google SMCONF 2015&lt;/b>&lt;br> Version %s
+    <string name="about_body">&lt;b> SMCONF 2015&lt;/b>&lt;br> Version %s
         &lt;br>&lt;br> &lt;a href=http://m.google.com/utos>Conditions d\'utilisation&lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/>Règles de confidentialité&lt;/a></string>
     <string name="about_eula">Contrat de licence utilisateur final</string>
     <string name="about_licenses">Licences open source</string>
@@ -53,8 +53,8 @@
     <string name="all_topics">Tous les sujets</string>
     <string name="all_types">Tous les genres</string>
     <string name="all_years">Toutes les années</string>
-    <string name="app_data_notification_resolution_content">L\'application Google SMCONF nécessite une action pour compléter la synchronisation en arrière-plan.</string>
-    <string name="app_data_notification_resolution_title">L\'application Google SMCONF nécessite une autorisation</string>
+    <string name="app_data_notification_resolution_content">L\'application SMCONF nécessite une action pour compléter la synchronisation en arrière-plan.</string>
+    <string name="app_data_notification_resolution_title">L\'application SMCONF nécessite une autorisation</string>
     <string name="app_name">SMCONF 2016</string>
     <string name="attending_in_person">En personne</string>
     <string name="attending_remotely">À distance</string>
@@ -109,7 +109,7 @@
     <string name="description_captions">Légendes</string>
     <string name="description_configure_wifi">Configurer une connexion Wi-Fi</string>
     <string name="description_filter">Filtrer</string>
-    <string name="description_i_o_extended">SMCONF Extended</string>
+    <string name="description_i_o_extended">SMCONF 2016</string>
     <string name="description_map">Plan</string>
     <string name="description_presentation">Activer la sortie pour l\'écran</string>
     <string name="description_refresh">Actualiser</string>
@@ -126,13 +126,13 @@
     <string name="empty_sessions">Aucune session trouvée.</string>
     <string name="empty_waiting_for_sync">En attente de synchronisation</string>
     <string name="empty_widget_text">Plus de sessions à venir.\nRendez-vous l\'année prochaine !</string>
-    <string name="empty_widget_text_signed_out">Appuyez sur le logo Google SMCONF 2015 ci-dessus pou
+    <string name="empty_widget_text_signed_out">Appuyez sur le logo SMCONF 2015 ci-dessus pou
         r vous connecter et commencer à utiliser l\'application.</string>
     <string name="ended_sessions">Sessions terminées</string>
     <string name="eula_legal_text">Votre utilisation de l\'application est régie par : a) les conditions de service de Google (http://www.google.com/intl/fr/policies/terms/), b) les règles de confidentialité de Google (http://www.google.com/intl/fr/policies/privacy/) et par c) n\'importe quelle condition de service ou règle de confidentialité spécifique applicable à Google. Les conditions de service et les règles de confidentialité de Google peuvent être actualisées de temps à autre et sans préavis.\n\nCette application collecte certaines informations lorsque vous l\'utilisez, y compris via Google Analytics. Les règles de confidentialité de Google décrivent comment sont traitées vos informations personnelles et comment Google en protège la confidentialité lorsque vous utilisez l\'application. En utilisant cette application, vous consentez au traitement de vos données conformément aux règles de confidentialité de Google.</string>
-    <string name="explore_attending_in_person_toast">Présent à la Google SMCONF en personne (peut être modifié dans les Paramètres)</string>
-    <string name="explore_attending_remotely_toast">Présent à la Google SMCONF à distance (peut être modifié dans les Paramètres)</string>
-    <string name="explore_io_msgcards_after_hours_card">&lt;B> After Hours &lt;/ b> &lt;br> &lt;/ br> Il s\'agit d\'une fête que vous ne voulez pas manquer ! Les participants sont invités à profiter de la nourriture, des boissons, de la musique, des jeux et plus au cours de la soirée du 28 mai. Le badge de la conférence et le bracelet NFC sont obligatoires pour entrer.</string>
+    <string name="explore_attending_in_person_toast">Présent à la SMCONF en personne (peut être modifié dans les Paramètres)</string>
+    <string name="explore_attending_remotely_toast">Présent à la SMCONF à distance (peut être modifié dans les Paramètres)</string>
+    <string name="explore_io_msgcards_after_hours_card">&lt;B> After Hours &lt;/ b> &lt;br> &lt;/ br> Il s\'agit d\'une fête que vous ne voulez pas manquer ! Les participants sont invités à profiter de la nourriture, des boissons, de la musique, des jeux et plus. Le badge de la conférence et le bracelet NFC sont obligatoires pour entrer.</string>
     <string name="explore_io_msgcards_answer_no">Non merci.</string>
     <string name="explore_io_msgcards_answer_yes">Bien sûr, allons-y maintenant !</string>
     <string description="This message is displayed on the Explore SMCONF screen to ask users whether             they would like to opt in to receive messages regarding the conference." name="explore_io_msgcards_ask_opt_in">
@@ -152,7 +152,7 @@
     <string name="google_i_o_year">SMCONF <ns1:g id="year">%1$d</ns1:g>
   </string>
     <string name="got_it">Compris</string>
-    <string description="Accessibility description for the SMCONF logo that is not a link." name="io_logo_not_clickable">Logo Google SMCONF non cliquable</string>
+    <string description="Accessibility description for the SMCONF logo that is not a link." name="io_logo_not_clickable">Logo SMCONF non cliquable</string>
     <string name="keynote_group_title">Notes principales</string>
     <string name="live_available">EN DIRECT</string>
     <string name="live_now">DIRECT EN COURS</string>
@@ -174,7 +174,7 @@
     <string name="navdrawer_description_a11y">Tiroir de navigation utilisé pour basculer entre les fonctions principales de l\'application</string>
     <string name="navdrawer_item_debug">Déboguer</string>
     <string name="navdrawer_item_explore">Explorer</string>
-    <string name="navdrawer_item_explore_a11y">Explorer Google SMCONF</string>
+    <string name="navdrawer_item_explore_a11y">Explorer SMCONF 2016</string>
     <string name="navdrawer_item_io_live">SMCONF en direct</string>
     <string name="navdrawer_item_map">Plan</string>
     <string name="navdrawer_item_my_schedule">Mon agenda</string>
@@ -182,8 +182,8 @@
     <string name="navdrawer_item_sign_in">Connexion</string>
     <string name="navdrawer_item_social">Social</string>
     <string name="navdrawer_item_video_library">Vidéothèque</string>
-    <string name="navdrawer_status_attending_in_person">Participer à Google SMCONF en personne</string>
-    <string name="navdrawer_status_attending_remotely">Participer à Google SMCONF à distance</string>
+    <string name="navdrawer_status_attending_in_person">Participer à SMCONF en personne</string>
+    <string name="navdrawer_status_attending_remotely">Participer à SMCONF à distance</string>
     <string name="new_videos_title">Nouveautés <ns1:g id="year">%1$d</ns1:g>
   </string>
     <string name="no_connection_cant_login">Impossible de se connecter. Veuillez vérifier votre connexion au réseau.</string>
@@ -199,12 +199,12 @@
     <string name="number_5">5</string>
     <string name="ok">OK</string>
     <string name="others">Autres</string>
-    <string name="permission_write">Modifier les données de l\'agenda Google SMCONF</string>
+    <string name="permission_write">Modifier les données de l\'agenda SMCONF</string>
     <string name="plus_one_description_standard">Touchez pour ajouter à Google+.</string>
     <string name="pref_analytics_enabled_description">Lorsque cette option est cochée, des statistiques d\'utilisation anonymes seront envoyées à Google.</string>
     <string name="pref_analytics_enabled_title">Envoyer des statistiques d\'utilisation anonymes</string>
     <string name="pref_attendee_at_venue_description">Si cette option est cochée, tous les événements et sessions sur place seront affichés. Seules les séances en direct seront affichées dans le cas contraire.</string>
-    <string name="pref_attendee_at_venue_title">Je serai à Google SMCONF !</string>
+    <string name="pref_attendee_at_venue_title">Je serai à SMCONF !</string>
     <string description="Description in the Settings screen for the setting that enables display of             cards with conference information in the explore screen." name="pref_conf_message_cards_enabled_description">Afficher les cartes avec les informations relatives à la conférence sur l\'écran Explorer. Ces cartes apparaisent au fur et à mesure, et peuvent inclure des messages promotionnels de nos partenaires.</string>
     <string name="pref_conf_message_cards_enabled_title">Afficher les cartes de notification de conférence</string>
     <string name="pref_local_times_description">Si cette option est cochée, l\'heure locale de votre appareil sera utilisée pour les différentes heures affichées. L\'heure locale de la conférence (Heure du Pacifique) sera utilisée dans le cas contraire.</string>
@@ -215,8 +215,8 @@
     <string name="pref_notify_starred_sessions_title">Prévenez-moi lorsque mes sessions sont sur le point de commencer</string>
     <string name="pref_sync_with_calendar_description">Si cette option est cochée, les sessions que vous avez sélectionnées seront automatiquement synchronisées avec votre Google Agenda.</string>
     <string name="pref_sync_with_calendar_title">Synchroniser avec Google Agenda</string>
-    <string name="question_i_o_extended">Voulez-vous en savoir plus sur les événements Google SMCONF Extended qui ont lieu près de chez vous ?</string>
-    <string name="question_local_or_remote">Assistez-vous à Google SMCONF à distance ou en personne à San Francisco ?</string>
+    <string name="question_i_o_extended">Voulez-vous en savoir plus sur les événements SMCONF 2016 qui ont lieu près de chez vous ?</string>
+    <string name="question_local_or_remote">Assistez-vous à SMCONF 2016 à distance ou en personne à Buea, Cameroun ?</string>
     <string name="question_setup_wifi_card_text">Voulez-vous configurer cet appareil pour accéder au Wifi de la conférence ?</string>
     <string name="related_videos">Vidéos associées</string>
     <string name="remove_from_schedule">Dans l\'agenda</string>
@@ -229,8 +229,8 @@
     <ns1:g id="speakers">%1$s</ns1:g>\n<ns1:g id="room">%2$s</ns1:g>
   </string>
     <string name="search_hint">Rechercher les sessions</string>
-    <string name="search_label">Sessions Google SMCONF</string>
-    <string name="session_calendar_suffix">- ajouté par l\'application Android Google SMCONF</string>
+    <string name="search_label">Sessions SMCONF</string>
+    <string name="session_calendar_suffix">- ajouté par l\'application Android SMCONF</string>
     <string name="session_details_a11y_session_added">Session ajoutée à votre agenda</string>
     <string name="session_details_a11y_session_removed">Session supprimée de votre agenda</string>
     <string name="session_feedback_advanced">Trop avancée</string>
@@ -284,7 +284,7 @@
     <string name="session_watch">Visionner</string>
     <string name="session_watch_live">Visionner en direct</string>
     <string name="setup_wifi_yes">Oui !</string>
-    <string name="share_livestream_template">Regarde Google SMCONF en direct : « <ns1:g id="title">%1$s</ns1:g> » à <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+    <string name="share_livestream_template">Regarde SMCONF 2016 en direct : « <ns1:g id="title">%1$s</ns1:g> » à <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
   </string>
     <string name="share_template">Consultation de « <ns1:g id="title">%1$s</ns1:g> » à <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
   </string>
@@ -349,15 +349,15 @@
     <string name="watch_now">Regarder maintenant !</string>
     <string description="Short text asking if they&apos;re interested in what&apos;s around them" name="welcome_around">Autour de vous</string>
     <string name="welcome_attending">Participation en personne ?</string>
-    <string name="welcome_attending_text">Assistez-vous à Google SMCONF à distance ou en personne à San Francisco ?</string>
+    <string name="welcome_attending_text">Assistez-vous à SMCONF à distance ou en personne à San Francisco ?</string>
     <string name="welcome_conduct_text"><b>Excellez les uns envers les autres.</b>\nNous voulons que l\'I/O soit une excellente expérience pour chacun, peu importe l’identité ou l\'expression sexuelle, l\'orientation sexuelle, le handicap, l\'apparence physique, la taille corporelle, l\'origine ethnique, la nationalité, l’âge ou la religion. Traitez chaque individu avec respect. Participez sachant que chaque personne mérite de se trouver ici -- et que chacun d\'entre nous a le droit de profiter de notre expérience sans craindre un harcèlement, une discrimination ou bien de la condescendance, qu\'elle soit flagrante ou via des micro-agressions.\n\n<b>Si vous entendez ou constatez quelque chose, dites-le.</b>\nLe harcèlement n\'est pas toléré, et vous êtes en droit d\'intervenir avec politesse lorsque d\'autres font preuve d\'irrespect. Assumez également les intentions positives. Une personne vous faisant sentir mal à l\'aise peut ne pas être consciente de ce qu\'elle fait, ainsi attirer poliment son attention sur son comportement est encouragé.\n\n<b>Oui et.</b>\nBâtissez sur les idées des autres. Nous profitons tous lorsque nous créons ensemble.</string>
-    <string name="welcome_conduct_title">Code de bonne conduite de Google SMCONF</string>
+    <string name="welcome_conduct_title">Code de bonne conduite de SMCONF 2016</string>
     <string description="Text for a button which allows the user to enable the feature" name="welcome_enable">Activer</string>
     <string description="Text for a button which allows the user to reject the feature" name="welcome_no_thanks">Non merci</string>
     <string description="Medium text asking to choose an account from a list" name="welcome_select_accoun_text">Veuillez choisir un compte à utiliser :</string>
     <string description="Short text asking them to select an account" name="welcome_select_account">Sélectionnez un compte</string>
     <string description="Medium-length welcome text indicating the subsequent text is important legal information " name="welcome_text">Avant de commencer, voici quelques informations juridiques importantes concernant votre utilisation de cette application. Cela ne prendra qu\'une minute !</string>
-    <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application Google SMCONF !</string>
+    <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application SMCONF 2016!</string>
     <string name="wifi_dialog_button_configure">Ajouter un réseau Wi-Fi</string>
     <string name="wifi_dialog_button_settings">Ouvrir les paramètres Wi-FI</string>
     <string name="wifi_install_error_message">Désolé, impossible de mettre à jour la configuration Wi-Fi</string>

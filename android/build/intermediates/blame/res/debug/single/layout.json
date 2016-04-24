@@ -8,12 +8,12 @@
         "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/reserve_action_bar_space_header_view.xml",
         "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/reserve_action_bar_space_header_view.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/activity_debug_action_showdrivefiles.xml",
@@ -32,12 +32,12 @@
         "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/include_live_now_badge.xml"
     },
     {
-        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_message_card_item.xml",
-        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_message_card_item.xml"
-    },
-    {
         "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/explore_io_message_card_item.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/layout/explore_io_message_card_item.xml"
     },
     {
         "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/layout/session_feedback_frag.xml",

@@ -1031,7 +1031,7 @@ available. Please contact the developer for assistance.</string>
     <string name="website_host_name" translatable="false">events.google.com</string>
     <string name="welcome_around">Around you</string>
     <string name="welcome_attending">Attending in Person?</string>
-    <string name="welcome_attending_text">Are you attending SMCONF2016 remotely or in person in Buea, Cameroon?</string>
+    <string name="welcome_attending_text">Are you attending SMCONF 2016 remotely or in person in Buea, Cameroon?</string>
     <string name="welcome_conduct_text"><b>Be excellent to each other.</b>\nWe want I/O to be an excellent experience for everyone regardless of gender identity and expression, sexual orientation, differing abilities, neurodiversity, physical appearance, body size, ethnicity, nationality, age or religion. Treat everyone with respect. Participate while acknowledging that everyone deserves to be here -- and each of us has the right to enjoy our experience without fear of harassment, discrimination, or condescension, whether blatant or via micro-aggressions.\n\n<b>Speak up if you see or hear something.</b>\nHarassment is not tolerated, and you are empowered to politely engage when you or others are disrespected. Also, assume positive intent. The person making you feel uncomfortable may not be aware of what they are doing, and politely bringing their behavior to their attention is encouraged.\n\n<b>Practice saying \"Yes and\" to each other.</b>\nBuild on each other’s ideas. We all benefit when we create together.</string>
     <string name="welcome_conduct_title">SMCONF Community Best Practices</string>
     <string name="welcome_enable">Enable</string>
@@ -1039,7 +1039,7 @@ available. Please contact the developer for assistance.</string>
     <string name="welcome_select_accoun_text">Please choose an account to use:</string>
     <string name="welcome_select_account">Select an account</string>
     <string name="welcome_text">Before we begin, here is some important legal information regarding your use of this app. This will only take a minute!</string>
-    <string name="welcome_to_google_i_o_app">Welcome to the SMCONF2016 app!</string>
+    <string name="welcome_to_google_i_o_app">Welcome to the SMCONF 2016 app!</string>
     <string name="wifi_dialog_button_configure">Add WiFi Network</string>
     <string name="wifi_dialog_button_settings">Open WiFi Settings</string>
     <string name="wifi_install_error_message">Sorry, unable to update WiFi configuration</string>

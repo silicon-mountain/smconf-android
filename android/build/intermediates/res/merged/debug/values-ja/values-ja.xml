@@ -34,7 +34,7 @@
         2015&lt;/b>&lt;br>バージョン%s&lt;br>&lt;br> &lt;a href=http://m.google.com/utos>サービス規約&lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/>プライバシーポリシー&lt;/a></string>
     <string name="about_eula">エンドユーザーライセンス契約</string>
     <string name="about_licenses">オープンソースライセンス</string>
-    <string name="about_main">         &lt;b>Google I/O 2015&lt;/b>&lt;br>         バージョン %s     </string>
+    <string name="about_main">         &lt;b>SMCONF 2016&lt;/b>&lt;br>         バージョン %s     </string>
     <string name="about_privacy_policy">プライバシー </string>
     <string name="about_terms">サービス規約</string>
     <string name="accept">同意する</string>
