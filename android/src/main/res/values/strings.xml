@@ -923,7 +923,7 @@ user updates the rating. -->
     <string name="welcome_no_thanks">No Thanks</string>
 
     <!-- Short text welcoming the user to the application -->
-    <string name="welcome_to_google_i_o_app">Welcome to the SMCONF2016 app!</string>
+    <string name="welcome_to_google_i_o_app">Welcome to the SMCONF 2016 app!</string>
 
     <!-- Medium-length welcome text indicating the subsequent text is important legal information -->
     <string name="welcome_text">Before we begin, here is some important legal information regarding your use of this app. This will only take a minute!</string>
@@ -935,7 +935,7 @@ user updates the rating. -->
     <string name="welcome_attending">Attending in Person?</string>
 
     <!-- Medium-length welcome text asking if the user is attending Google I/O in person -->
-    <string name="welcome_attending_text">Are you attending SMCONF2016 remotely or in person in Buea, Cameroon?</string>
+    <string name="welcome_attending_text">Are you attending SMCONF 2016 remotely or in person in Buea, Cameroon?</string>
 
     <!-- Short text asking if they're interested in what's around them -->
     <string name="welcome_around">Around you</string>
