@@ -21,6 +21,11 @@ import com.google.samples.apps.iosched.InvalidEnum;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.model.TagMetadataTest;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.session.SessionDetailConstants;
+import com.google.samples.apps.iosched.session.SessionDetailModel;
+>>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.util.SessionsHelper;
 
 import org.junit.Before;

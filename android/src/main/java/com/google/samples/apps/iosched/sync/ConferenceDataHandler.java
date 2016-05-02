@@ -25,7 +25,12 @@ import android.os.RemoteException;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
+<<<<<<< HEAD
 import com.google.samples.apps.iosched.io.*;
+=======
+import com.google.samples.apps.iosched.io.TagsHandler;
+import com.google.samples.apps.iosched.io.VideosHandler;
+>>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.io.map.model.Tile;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.util.IOUtils;
@@ -39,6 +44,18 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.io.BlocksHandler;
+import com.google.samples.apps.iosched.io.HashtagsHandler;
+import com.google.samples.apps.iosched.io.JSONHandler;
+import com.google.samples.apps.iosched.io.MapPropertyHandler;
+import com.google.samples.apps.iosched.io.RoomsHandler;
+import com.google.samples.apps.iosched.io.SearchSuggestHandler;
+import com.google.samples.apps.iosched.io.SessionsHandler;
+import com.google.samples.apps.iosched.io.SpeakersHandler;
+import com.google.samples.apps.iosched.util.LogUtils;
+>>>>>>> ioschedLarry/master
 import com.larvalabs.svgandroid.SVG;
 import com.larvalabs.svgandroid.SVGBuilder;
 import com.larvalabs.svgandroid.SVGParseException;
@@ -47,14 +64,21 @@ import com.turbomanage.httpclient.ConsoleRequestLogger;
 import com.turbomanage.httpclient.HttpResponse;
 import com.turbomanage.httpclient.RequestLogger;
 
+<<<<<<< HEAD
 import static com.google.samples.apps.iosched.util.LogUtils.*;
 
+=======
+>>>>>>> ioschedLarry/master
 /**
  * Helper class that parses conference data and imports them into the app's
  * Content Provider.
  */
 public class ConferenceDataHandler {
+<<<<<<< HEAD
     private static final String TAG = makeLogTag(SyncHelper.class);
+=======
+    private static final String TAG = LogUtils.makeLogTag(SyncHelper.class);
+>>>>>>> ioschedLarry/master
 
     // Shared settings_prefs key under which we store the timestamp that corresponds to
     // the data we currently have in our content provider.
@@ -121,7 +145,11 @@ public class ConferenceDataHandler {
      */
     public void applyConferenceData(String[] dataBodies, String dataTimestamp,
             boolean downloadsAllowed) throws IOException {
+<<<<<<< HEAD
         LOGD(TAG, "Applying data from " + dataBodies.length + " files, timestamp " + dataTimestamp);
+=======
+        LogUtils.LOGD(TAG, "Applying data from " + dataBodies.length + " files, timestamp " + dataTimestamp);
+>>>>>>> ioschedLarry/master
 
         // create handlers for each data type
         mHandlerForKey.put(DATA_KEY_ROOMS, mRoomsHandler = new RoomsHandler(mContext));
@@ -137,9 +165,15 @@ public class ConferenceDataHandler {
 
         // process the jsons. This will call each of the handlers when appropriate to deal
         // with the objects we see in the data.
+<<<<<<< HEAD
         LOGD(TAG, "Processing " + dataBodies.length + " JSON objects.");
         for (int i = 0; i < dataBodies.length; i++) {
             LOGD(TAG, "Processing json object #" + (i + 1) + " of " + dataBodies.length);
+=======
+        LogUtils.LOGD(TAG, "Processing " + dataBodies.length + " JSON objects.");
+        for (int i = 0; i < dataBodies.length; i++) {
+            LogUtils.LOGD(TAG, "Processing json object #" + (i + 1) + " of " + dataBodies.length);
+>>>>>>> ioschedLarry/master
             processDataBody(dataBodies[i]);
         }
 
@@ -150,6 +184,7 @@ public class ConferenceDataHandler {
         // produce the necessary content provider operations
         ArrayList<ContentProviderOperation> batch = new ArrayList<ContentProviderOperation>();
         for (String key : DATA_KEYS_IN_ORDER) {
+<<<<<<< HEAD
             LOGD(TAG, "Building content provider operations for: " + key);
             mHandlerForKey.get(key).makeContentProviderOperations(batch);
             LOGD(TAG, "Content provider operations so far: " + batch.size());
@@ -162,11 +197,26 @@ public class ConferenceDataHandler {
 
         // finally, push the changes into the Content Provider
         LOGD(TAG, "Applying " + batch.size() + " content provider operations.");
+=======
+            LogUtils.LOGD(TAG, "Building content provider operations for: " + key);
+            mHandlerForKey.get(key).makeContentProviderOperations(batch);
+            LogUtils.LOGD(TAG, "Content provider operations so far: " + batch.size());
+        }
+        LogUtils.LOGD(TAG, "Total content provider operations: " + batch.size());
+
+        // download or process local map tile overlay files (SVG files)
+        LogUtils.LOGD(TAG, "Processing map overlay files");
+        processMapOverlayFiles(mMapPropertyHandler.getTileOverlays(), downloadsAllowed);
+
+        // finally, push the changes into the Content Provider
+        LogUtils.LOGD(TAG, "Applying " + batch.size() + " content provider operations.");
+>>>>>>> ioschedLarry/master
         try {
             int operations = batch.size();
             if (operations > 0) {
                 mContext.getContentResolver().applyBatch(ScheduleContract.CONTENT_AUTHORITY, batch);
             }
+<<<<<<< HEAD
             LOGD(TAG, "Successfully applied " + operations + " content provider operations.");
             mContentProviderOperationsDone += operations;
         } catch (RemoteException ex) {
@@ -174,11 +224,24 @@ public class ConferenceDataHandler {
             throw new RuntimeException("Error executing content provider batch operation", ex);
         } catch (OperationApplicationException ex) {
             LOGE(TAG, "OperationApplicationException while applying content provider operations.");
+=======
+            LogUtils.LOGD(TAG, "Successfully applied " + operations + " content provider operations.");
+            mContentProviderOperationsDone += operations;
+        } catch (RemoteException ex) {
+            LogUtils.LOGE(TAG, "RemoteException while applying content provider operations.");
+            throw new RuntimeException("Error executing content provider batch operation", ex);
+        } catch (OperationApplicationException ex) {
+            LogUtils.LOGE(TAG, "OperationApplicationException while applying content provider operations.");
+>>>>>>> ioschedLarry/master
             throw new RuntimeException("Error executing content provider batch operation", ex);
         }
 
         // notify all top-level paths
+<<<<<<< HEAD
         LOGD(TAG, "Notifying changes on all top-level paths on Content Resolver.");
+=======
+        LogUtils.LOGD(TAG, "Notifying changes on all top-level paths on Content Resolver.");
+>>>>>>> ioschedLarry/master
         ContentResolver resolver = mContext.getContentResolver();
         for (String path : ScheduleContract.TOP_LEVEL_PATHS) {
             Uri uri = ScheduleContract.BASE_CONTENT_URI.buildUpon().appendPath(path).build();
@@ -188,7 +251,11 @@ public class ConferenceDataHandler {
 
     // update our data timestamp
         setDataTimestamp(dataTimestamp);
+<<<<<<< HEAD
         LOGD(TAG, "Done applying conference data.");
+=======
+        LogUtils.LOGD(TAG, "Done applying conference data.");
+>>>>>>> ioschedLarry/master
     }
 
     public int getContentProviderOperationsDone() {
@@ -218,7 +285,11 @@ public class ConferenceDataHandler {
                     // pass the value to the corresponding handler
                     mHandlerForKey.get(key).process(parser.parse(reader));
                 } else {
+<<<<<<< HEAD
                     LOGW(TAG, "Skipping unknown key in conference data json: " + key);
+=======
+                    LogUtils.LOGW(TAG, "Skipping unknown key in conference data json: " + key);
+>>>>>>> ioschedLarry/master
                     reader.skipValue();
                 }
             }
@@ -265,6 +336,7 @@ public class ConferenceDataHandler {
                         SVG svg = new SVGBuilder().readFromInputStream(is).build();
                         is.close();
                     } catch (IOException ex) {
+<<<<<<< HEAD
                         LOGE(TAG, "FAILED downloading map overlay tile "+url+
                                 ": " + ex.getMessage(), ex);
                     } catch (SVGParseException ex) {
@@ -273,6 +345,16 @@ public class ConferenceDataHandler {
                     }
                 } else {
                     LOGD(TAG, "Skipping download of map overlay tile" +
+=======
+                        LogUtils.LOGE(TAG, "FAILED downloading map overlay tile " + url +
+                                ": " + ex.getMessage(), ex);
+                    } catch (SVGParseException ex) {
+                        LogUtils.LOGE(TAG, "FAILED parsing map overlay tile " + url +
+                                ": " + ex.getMessage(), ex);
+                    }
+                } else {
+                    LogUtils.LOGD(TAG, "Skipping download of map overlay tile" +
+>>>>>>> ioschedLarry/master
                             " (since downloadsAllowed=false)");
                 }
             }
@@ -293,14 +375,22 @@ public class ConferenceDataHandler {
 
     // Sets the timestamp of the data we have in the content provider.
     public void setDataTimestamp(String timestamp) {
+<<<<<<< HEAD
         LOGD(TAG, "Setting data timestamp to: " + timestamp);
+=======
+        LogUtils.LOGD(TAG, "Setting data timestamp to: " + timestamp);
+>>>>>>> ioschedLarry/master
         PreferenceManager.getDefaultSharedPreferences(mContext).edit().putString(
                 SP_KEY_DATA_TIMESTAMP, timestamp).commit();
     }
 
     // Reset the timestamp of the data we have in the content provider
     public static void resetDataTimestamp(final Context context) {
+<<<<<<< HEAD
         LOGD(TAG, "Resetting data timestamp to default (to invalidate our synced data)");
+=======
+        LogUtils.LOGD(TAG, "Resetting data timestamp to default (to invalidate our synced data)");
+>>>>>>> ioschedLarry/master
         PreferenceManager.getDefaultSharedPreferences(context).edit().remove(
                 SP_KEY_DATA_TIMESTAMP).commit();
     }

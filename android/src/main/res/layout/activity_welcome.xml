@@ -31,7 +31,11 @@
 
         <ImageView
             android:id="@+id/logo"
+<<<<<<< HEAD
             android:src="@drawable/io_logo"
+=======
+            android:src="@mipmap/actionbar_logo"
+>>>>>>> ioschedLarry/master
             android:layout_width="@dimen/welcome_image_width"
             android:layout_height="@dimen/welcome_image_height"
             android:layout_gravity="center"/>

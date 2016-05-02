@@ -21,11 +21,19 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.google.samples.apps.iosched.Config;
+<<<<<<< HEAD
 import com.google.samples.apps.iosched.util.TimeUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
 import com.google.samples.apps.iosched.welcome.WelcomeActivity;
 
 import java.util.HashMap;
+=======
+import com.google.samples.apps.iosched.ui.BaseActivity;
+import com.google.samples.apps.iosched.util.UIUtils;
+import com.google.samples.apps.iosched.welcome.WelcomeActivity;
+import com.google.samples.apps.iosched.welcome.ConductFragment;
+
+>>>>>>> ioschedLarry/master
 import java.util.TimeZone;
 
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
@@ -263,7 +271,11 @@ public class SettingsUtils {
 
     /**
      * Return true if user has accepted the Code of
+<<<<<<< HEAD
      * {@link com.google.samples.apps.iosched.welcome.ConductFragment Conduct}, false if they haven't (yet).
+=======
+     * {@link ConductFragment Conduct}, false if they haven't (yet).
+>>>>>>> ioschedLarry/master
      *
      * @param context Context to be used to lookup the {@link android.content.SharedPreferences}.
      */
@@ -349,7 +361,11 @@ public class SettingsUtils {
 
     /**
      * Mark {@code newValue whether} this is the first time the first-app-run-processes have run.
+<<<<<<< HEAD
      * Managed by {@link com.google.samples.apps.iosched.ui.BaseActivity the}
+=======
+     * Managed by {@link BaseActivity the}
+>>>>>>> ioschedLarry/master
      * {@link com.google.samples.apps.iosched.core.activities.BaseActivity two} base activities.
      *
      * @param context  Context to be used to edit the {@link android.content.SharedPreferences}.

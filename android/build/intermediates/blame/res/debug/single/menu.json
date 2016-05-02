@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/my_schedule.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/my_schedule.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/explore_sessions_filtered.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/explore_sessions_filtered.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/session_detail.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/session_detail.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/session_livestream.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/session_livestream.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/video_library_filtered.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/video_library_filtered.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/navview_menu.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/navview_menu.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/menu/explore_io_menu.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/menu/explore_io_menu.xml"
+    }
+]

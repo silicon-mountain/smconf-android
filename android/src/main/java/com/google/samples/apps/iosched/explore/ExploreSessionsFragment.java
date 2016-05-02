@@ -307,7 +307,11 @@ public class ExploreSessionsFragment extends Fragment implements
             int day = UIUtils.startTimeToDayIndex(startTime);
             if (day == 0) {
                 // We have a problem!
+<<<<<<< HEAD
                 LOGE(TAG, "Invalid Day for Session: " +
+=======
+                LogUtils.LOGE(TAG, "Invalid Day for Session: " +
+>>>>>>> ioschedLarry/master
                         cursor.getString(ExploreSessionsQuery.SESSION_ID) + " " +
                         " startTime " + new Date(startTime));
             }

@@ -370,7 +370,11 @@ public class ExploreSessionsActivity extends BaseActivity
 
     /**
      * Adapter responsible for showing the alt_nav with the tags from
+<<<<<<< HEAD
      * {@link com.google.samples.apps.iosched.model.TagMetadata}
+=======
+     * {@link TagMetadata}
+>>>>>>> ioschedLarry/master
      */
     private class TagAdapter implements CollectionViewCallbacks {
 

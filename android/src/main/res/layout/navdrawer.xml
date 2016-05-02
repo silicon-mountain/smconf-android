@@ -48,7 +48,11 @@
                 android:paddingRight="@dimen/navdrawer_logo_padding_right"
                 android:scaleType="fitEnd"
                 android:background="?colorPrimary"
+<<<<<<< HEAD
                 android:src="@drawable/io_logo"
+=======
+                android:src="@mipmap/actionbar_logo"
+>>>>>>> ioschedLarry/master
                 android:contentDescription="@string/navview_header_default_image_content_description" />
 
             <ImageView

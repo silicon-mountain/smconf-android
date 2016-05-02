@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="schedule_block_subtitle">
+    <item quantity="one">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> session disponible</item>
+    <item quantity="other">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> sessions disponibles</item>
+  </plurals>
+    <plurals name="session_notification_text">
+    <item quantity="one">et une autre qui commence dans <ns1:g id="remaining_time">%1$d</ns1:g> min(s).</item>
+    <item quantity="other">et <ns1:g id="num_sessions">%2$d</ns1:g> autres commençant dans <ns1:g id="remaining_time">%1$d</ns1:g> min(s).</item>
+  </plurals>
+    <plurals name="session_notification_ticker">
+    <item quantity="one">%d session va bientôt commencer.</item>
+    <item quantity="other">%d sessions vont bientôt commencer.</item>
+  </plurals>
+    <plurals name="session_notification_title">
+    <item quantity="one">1 session commence dans <ns1:g id="remaining_time">%1$d</ns1:g> min(s).</item>
+    <item quantity="other">
+      <ns1:g id="num_sessions">%2$d</ns1:g> sessions commencent dans <ns1:g id="remaining_time">%1$d</ns1:g> min(s).</item>
+  </plurals>
+    <string description="Accessibility description for the SMCONF2016 extended logo that is not a link." name="SMCONF2016_extended_logo_not_clickable">Logo SMCONF2016 extended non cliquable</string>
+    <string description="Accessibility description for the SMCONF2016 logo that is not a link." name="SMCONF2016_logo_not_clickable">Logo SMCONF2016 non cliquable</string>
+    <string description="Accessibility description for the SMCONF2016 request logo that is not a link." name="SMCONF2016_request_logo_not_clickable">Logo SMCONF2016 demande non cliquable</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"OK"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="about_body">&lt;b> SMCONF 2015&lt;/b>&lt;br> Version %s
+        &lt;br>&lt;br> &lt;a href=http://m.google.com/utos>Conditions d\'utilisation&lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/>Règles de confidentialité&lt;/a></string>
+    <string name="about_eula">Contrat de licence utilisateur final</string>
+    <string name="about_licenses">Licences open source</string>
+    <string name="accept">Accepter</string>
+    <string name="add_account">Ajouter un compte</string>
+    <string name="add_to_schedule">Ajouter à l\'agenda</string>
+    <string name="add_to_schedule_desc">Bouton pour ajouter la session à votre agenda</string>
+    <string description="Label of filter option that allow to display all elements" name="all">TOUT</string>
+    <string name="all_sessions">Toutes les sessions</string>
+    <string name="all_themes">Tous les thèmes</string>
+    <string name="all_topics">Tous les sujets</string>
+    <string name="all_types">Tous les genres</string>
+    <string name="all_years">Toutes les années</string>
+    <string name="app_data_notification_resolution_content">L\'application SMCONF nécessite une action pour compléter la synchronisation en arrière-plan.</string>
+    <string name="app_data_notification_resolution_title">L\'application SMCONF nécessite une autorisation</string>
+    <string name="app_name">SMCONF 2016</string>
+    <string name="attending_in_person">En personne</string>
+    <string name="attending_remotely">À distance</string>
+    <string name="browse_events">Parcourir les événements</string>
+    <string name="browse_sessions">Parcourir les sessions...</string>
+    <string name="calltoaction_wifi_configure">&lt;br>&lt;br> Appuyez sur « Ajouter un réseau Wi-Fi » pour continuer.</string>
+    <string name="calltoaction_wifi_settings">&lt;br>&lt;br> Appuyez sur « Ouvrir les paramètres Wi-Fi » pour activer le Wi-Fi.</string>
+    <string name="cancel">Annuler</string>
+    <string description="Accessibility description for a control that allows the user to close the current screen and go back to the previous one." name="close_and_go_back">Fermer et revenir en arrière</string>
+    <string name="close_detail_pane">Fermer le volet des détails</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Une application nécessite une mise à jour du Bios de l\'application Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas mis à jour l\'application Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Mettre à jour Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Activer services Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Notification issue de l\'application \"<ns1:g id="APP_NAME">%1$s</ns1:g>\""</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installer services Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Cette application ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Cette application ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Le compte indiqué n\'existe pas sur cet appareil. Veuillez sélectionner un autre compte."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Compte erroné"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Une application demande l\'activation des services Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Vous devez disposer d\'une connexion de données pour utiliser les services Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Erreur réseau"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Une application demande l\'installation des services Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Une application demande la mise à jour des services Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Erreur lors de la connexion au compte indiqué. Veuillez en sélectionner un autre."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Échec de la connexion"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problème inconnu avec les services Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Les services Google Play, dont dépendent certaines de vos applications, ne sont pas compatibles avec votre appareil. Veuillez contacter le fabricant pour obtenir de l\'aide."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Services Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Cette application ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Connexion"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Cette application nécessite un ou plusieurs services Google Play qui ne sont pas disponibles actuellement. Veuillez contacter le développeur pour obtenir de l\'aide."</string>
+    <string name="data_stale_warning">Les données affichées peuvent être obsolètes.</string>
+    <string description="Shown as the titles of the tabs for the user&apos;s schedule" name="day_n">JOUR %d</string>
+    <string name="day_title_today">Aujourd\'hui</string>
+    <string name="day_title_tomorrow">Demain</string>
+    <string name="day_title_yesterday">Hier</string>
+    <string name="decline">Refuser</string>
+    <string name="description_about">À propos de</string>
+    <string name="description_add_schedule">Ajouter à l\'agenda</string>
+    <string name="description_app_feedback">Avis sur l\'application</string>
+    <string name="description_app_feedback_old">Avis</string>
+    <string name="description_captions">Légendes</string>
+    <string name="description_configure_wifi">Configurer une connexion Wi-Fi</string>
+    <string name="description_filter">Filtrer</string>
+    <string name="description_i_o_extended">SMCONF 2016</string>
+    <string name="description_map">Plan</string>
+    <string name="description_presentation">Activer la sortie pour l\'écran</string>
+    <string name="description_refresh">Actualiser</string>
+    <string name="description_remove_schedule">Supprimer de l\'agenda</string>
+    <string name="description_search">Recherche</string>
+    <string name="description_settings">Paramètres</string>
+    <string name="description_setup_wifi_body">Dans la mesure où vous assister à la conférence en personne, nous pouvons configurer votre appareil pour accéder à son réseau Wi-Fi (5Ghz seulement). La configuration immédiate de votre réseau Wi-Fi vous permettra d\'aider à ne pas surcharger le réseau.</string>
+    <string name="description_share">Partager</string>
+    <string name="description_social_stream">Afficher le flux Google+</string>
+    <string name="drawer_close">Tiroir de navigateur fermé</string>
+    <string name="drawer_open">Tiroir de navigateur ouvert</string>
+    <string name="empty_captions">Aucun sous-titre trouvé pour cette session.</string>
+    <string name="empty_session_detail">Aucune information trouvée pour cette session.</string>
+    <string name="empty_sessions">Aucune session trouvée.</string>
+    <string name="empty_waiting_for_sync">En attente de synchronisation</string>
+    <string name="empty_widget_text">Plus de sessions à venir.\nRendez-vous l\'année prochaine !</string>
+    <string name="empty_widget_text_signed_out">Appuyez sur le logo SMCONF 2015 ci-dessus pou
+        r vous connecter et commencer à utiliser l\'application.</string>
+    <string name="ended_sessions">Sessions terminées</string>
+    <string name="eula_legal_text">Votre utilisation de l\'application est régie par : a) les conditions de service de Google (http://www.google.com/intl/fr/policies/terms/), b) les règles de confidentialité de Google (http://www.google.com/intl/fr/policies/privacy/) et par c) n\'importe quelle condition de service ou règle de confidentialité spécifique applicable à Google. Les conditions de service et les règles de confidentialité de Google peuvent être actualisées de temps à autre et sans préavis.\n\nCette application collecte certaines informations lorsque vous l\'utilisez, y compris via Google Analytics. Les règles de confidentialité de Google décrivent comment sont traitées vos informations personnelles et comment Google en protège la confidentialité lorsque vous utilisez l\'application. En utilisant cette application, vous consentez au traitement de vos données conformément aux règles de confidentialité de Google.</string>
+    <string name="explore_attending_in_person_toast">Présent à la SMCONF en personne (peut être modifié dans les Paramètres)</string>
+    <string name="explore_attending_remotely_toast">Présent à la SMCONF à distance (peut être modifié dans les Paramètres)</string>
+    <string name="explore_io_msgcards_after_hours_card">&lt;B> After Hours &lt;/ b> &lt;br> &lt;/ br> Il s\'agit d\'une fête que vous ne voulez pas manquer ! Les participants sont invités à profiter de la nourriture, des boissons, de la musique, des jeux et plus. Le badge de la conférence et le bracelet NFC sont obligatoires pour entrer.</string>
+    <string name="explore_io_msgcards_answer_no">Non merci.</string>
+    <string name="explore_io_msgcards_answer_yes">Bien sûr, allons-y maintenant !</string>
+    <string description="This message is displayed on the Explore SMCONF screen to ask users whether             they would like to opt in to receive messages regarding the conference." name="explore_io_msgcards_ask_opt_in">
+        &lt;b>Cartes de notification relatives à la conférence&lt;/b>&lt;br/>
+        Souhaiteriez-vous vous abonner aux cartes de notification relatives à la conférence? Celles-ci apparaîtront au fur et à mesure, et peuvent inclure des messages promotionnels de nos partenaires.</string>
+    <string description="A message card displayed in the Explore SMCONF page that tells users" name="explore_io_msgcards_keynote_access_card">&lt;B> Acces au keynote &lt;/ b> &lt;br> La couleur de votre bracelete indique votre accès principal &lt;br> &lt;b> Bracelet bleu &lt;/ b> &lt;br> Acces au keynote: la ligne commence à l\'extérieur de Moscone West sur la 4th Street &lt;br> &lt;b> Bracelet gris&lt;/ b> &lt;br> Coin keynote réservé: la ligne débute à l\'extérieur de Moscone West sur la 4th Street.&lt;br> &lt;b> Bracelet orange&lt;/ b> &lt;br> Playground: la ligne débute à l\'extérieur de Moscone West sur Howard Street.</string>
+    <string description="This string is presented to users when they attempt to click something that indicates they can watch a video but it turns out we can&apos;t show the video." name="explore_io_video_id_not_valid">Désolé, il semble y avoir un problème avec l\'URL de la vidéo.</string>
+    <string description="Sub-title for a session in ExploreSessionsActivity that shows the day, time and room name for a given session. Example: Day 1 / 9:00AM - 11:00AM / Room 1" name="explore_sessions_show_day_hour_and_room"><ns1:g example="Day 1" id="day">%1$s</ns1:g> / <ns1:g example="2:00PM" id="start_time">%2$s</ns1:g> - <ns1:g example="3:00PM" id="end_time">%3$s</ns1:g> / <ns1:g id="room">%4$s</ns1:g></string>
+    <string description="Show the Day 1 or Day 2 as part of either the ExploreSessionsActivity title or in the session details." name="explore_sessions_show_day_n">Jour %d</string>
+    <string description="Show Day and start time of a session as the title when viewing browsing sessions (ExploreSessionActivity) from MySchedule." name="explore_sessions_time_slot_title">
+    <ns1:g example="Day 1" id="day">%1$s</ns1:g>, <ns1:g example="2:30PM" id="start_time">%2$s</ns1:g>
+  </string>
+    <string name="give_feedback">Oui!</string>
+    <string name="go_to_settings">Aller aux Paramètres</string>
+    <string name="google_account_required_message">Vous devez avoir au moins un compte Google sur votre appareil pour utiliser cette application.</string>
+    <string name="google_account_required_title">Compte Google requis</string>
+    <string name="google_i_o_year">SMCONF <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="got_it">Compris</string>
+    <string description="Accessibility description for the SMCONF logo that is not a link." name="io_logo_not_clickable">Logo SMCONF non cliquable</string>
+    <string name="keynote_group_title">Notes principales</string>
+    <string name="live_available">EN DIRECT</string>
+    <string name="live_now">DIRECT EN COURS</string>
+    <string name="loading">Chargement en cours...</string>
+    <string name="login_failed_text">Nous n\'avons pas pu synchroniser vos sessions enregistrées en raison d\'une erreur.</string>
+    <string name="login_failed_text_retry">Réessayer</string>
+    <string name="mandatory_update_error">Votre application est obsolète. Vous devez la mettre à jour pour continuer à l\'utiliser.</string>
+    <string name="map_at">À %1$s :&lt;br>&lt;b>%2$s&lt;/ b></string>
+    <string name="map_now_playing">Session en cours :&lt;br>&lt;b>%1$s&lt;/b></string>
+    <string name="map_touch_to_see_session">Touchez pour afficher les sessions</string>
+    <string name="more_information">Plus d\'informations</string>
+    <string name="more_items_button">Plus</string>
+    <string description="Accessibility description for viewing more sessions/videos." name="more_items_button_desc_a11y">Appuyez pour afficher plus d\'articles.</string>
+    <string name="more_sessions">Plus de sessions</string>
+    <string name="my_schedule_page_desc_a11y">Votre agenda pour <ns1:g id="day">%1$s</ns1:g> est affiché.</string>
+    <string name="my_schedule_rate_this_session">NOTEZ CETTE SESSION</string>
+    <string name="my_schedule_tab_desc_a11y">Appuyez pour afficher votre agenda pour <ns1:g id="day">%1$s</ns1:g>.</string>
+    <string name="my_schedule_watch_live_now">REGARDER EN DIRECT MAINTENANT</string>
+    <string name="navdrawer_description_a11y">Tiroir de navigation utilisé pour basculer entre les fonctions principales de l\'application</string>
+    <string name="navdrawer_item_debug">Déboguer</string>
+    <string name="navdrawer_item_explore">Explorer</string>
+    <string name="navdrawer_item_explore_a11y">Explorer SMCONF 2016</string>
+    <string name="navdrawer_item_io_live">SMCONF en direct</string>
+    <string name="navdrawer_item_map">Plan</string>
+    <string name="navdrawer_item_my_schedule">Mon agenda</string>
+    <string name="navdrawer_item_settings">Paramètres</string>
+    <string name="navdrawer_item_sign_in">Connexion</string>
+    <string name="navdrawer_item_social">Social</string>
+    <string name="navdrawer_item_video_library">Vidéothèque</string>
+    <string name="navdrawer_status_attending_in_person">Participer à SMCONF en personne</string>
+    <string name="navdrawer_status_attending_remotely">Participer à SMCONF à distance</string>
+    <string name="new_videos_title">Nouveautés <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="no_connection_cant_login">Impossible de se connecter. Veuillez vérifier votre connexion au réseau.</string>
+    <string name="no_matching_sessions">Pas de séance correspondante.</string>
+    <string name="no_matching_sessions_in_interval">Pas de séances disponibles dans cette tranche horaire.</string>
+    <string name="no_matching_videos">Aucune vidéo correspondante.</string>
+    <string name="no_thanks">Non merci.</string>
+    <string name="not_now">Pas maintenant</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="ok">OK</string>
+    <string name="others">Autres</string>
+    <string name="permission_write">Modifier les données de l\'agenda SMCONF</string>
+    <string name="plus_one_description_standard">Touchez pour ajouter à Google+.</string>
+    <string name="pref_analytics_enabled_description">Lorsque cette option est cochée, des statistiques d\'utilisation anonymes seront envoyées à Google.</string>
+    <string name="pref_analytics_enabled_title">Envoyer des statistiques d\'utilisation anonymes</string>
+    <string name="pref_attendee_at_venue_description">Si cette option est cochée, tous les événements et sessions sur place seront affichés. Seules les séances en direct seront affichées dans le cas contraire.</string>
+    <string name="pref_attendee_at_venue_title">Je serai à SMCONF !</string>
+    <string description="Description in the Settings screen for the setting that enables display of             cards with conference information in the explore screen." name="pref_conf_message_cards_enabled_description">Afficher les cartes avec les informations relatives à la conférence sur l\'écran Explorer. Ces cartes apparaisent au fur et à mesure, et peuvent inclure des messages promotionnels de nos partenaires.</string>
+    <string name="pref_conf_message_cards_enabled_title">Afficher les cartes de notification de conférence</string>
+    <string name="pref_local_times_description">Si cette option est cochée, l\'heure locale de votre appareil sera utilisée pour les différentes heures affichées. L\'heure locale de la conférence (Heure du Pacifique) sera utilisée dans le cas contraire.</string>
+    <string name="pref_local_times_title">Afficher l\'heure locale</string>
+    <string name="pref_notify_feedback_description">Si cette option est cochée, l\'application affichera des notifications demandant votre avis sur les sessions que vous avez sélectionnées.</string>
+    <string name="pref_notify_feedback_title">Rappelez-moi d\'envoyer mon avis</string>
+    <string name="pref_notify_starred_sessions_description">Si cette option est cochée, l\'application affichera une notification lorsque les sessions que vous avez sélectionnées sont sur le point de commencer.</string>
+    <string name="pref_notify_starred_sessions_title">Prévenez-moi lorsque mes sessions sont sur le point de commencer</string>
+    <string name="pref_sync_with_calendar_description">Si cette option est cochée, les sessions que vous avez sélectionnées seront automatiquement synchronisées avec votre Google Agenda.</string>
+    <string name="pref_sync_with_calendar_title">Synchroniser avec Google Agenda</string>
+    <string name="question_i_o_extended">Voulez-vous en savoir plus sur les événements SMCONF 2016 qui ont lieu près de chez vous ?</string>
+    <string name="question_local_or_remote">Assistez-vous à SMCONF 2016 à distance ou en personne à Buea, Cameroun ?</string>
+    <string name="question_setup_wifi_card_text">Voulez-vous configurer cet appareil pour accéder au Wifi de la conférence ?</string>
+    <string name="related_videos">Vidéos associées</string>
+    <string name="remove_from_schedule">Dans l\'agenda</string>
+    <string name="remove_from_schedule_desc">Bouton permettant de supprimer la session de votre agenda.</string>
+    <string name="retry">Réessayer</string>
+    <string name="schedule_conflict_with_previous">(conflit)</string>
+    <string name="schedule_end_time">à <ns1:g id="endTime">%1$s</ns1:g>
+  </string>
+    <string name="schedule_session_subtitle">
+    <ns1:g id="speakers">%1$s</ns1:g>\n<ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="search_hint">Rechercher les sessions</string>
+    <string name="search_label">Sessions SMCONF</string>
+    <string name="session_calendar_suffix">- ajouté par l\'application Android SMCONF</string>
+    <string name="session_details_a11y_session_added">Session ajoutée à votre agenda</string>
+    <string name="session_details_a11y_session_removed">Session supprimée de votre agenda</string>
+    <string name="session_feedback_advanced">Trop avancée</string>
+    <string name="session_feedback_basic">Trop basique</string>
+    <string description="Session feedback section title" name="session_feedback_content">Le contenu était :</string>
+    <string descripton="Session feedback section title" name="session_feedback_content_label_text">En fonction de la description / mes attentes, le contenu était :</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_extremely_relevant">Extrêmement</string>
+    <string description="A positive overall session feedback option" name="session_feedback_great">Génial</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_not_at_all_relevant">Pas du tout</string>
+    <string description="A negative overall session feedback option" name="session_feedback_notgreat">Pas génial</string>
+    <string name="session_feedback_notification_text">Laissez votre avis sur %1$s</string>
+    <string name="session_feedback_notification_ticker">Laissez votre avis sur la session</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_notrel">Non pertinent</string>
+    <string description="A session feedback section label asking for any other feedback. It indicates the user should not add personal information" name="session_feedback_other">Autre chose que nous devrions savoir ?\n(Veuillez n\'ajouter aucune information personnelle dans vos commentaires).</string>
+    <string description="A positive speaker quality session feedback option" name="session_feedback_outstanding">Exceptionnel</string>
+    <string description="A negative speaker quality session feedback option" name="session_feedback_poor">Faible</string>
+    <string description="A positive relevance session feedback option" name="session_feedback_rel">Pertinent</string>
+    <string name="session_feedback_relevance">Quelle était la pertinence de cette session par rapport à vos projets ?</string>
+    <string name="session_feedback_speaker_quality">Qualité des orateurs :</string>
+    <string name="session_feedback_submitlink">Envoyer l\'avis</string>
+    <string description="Hint for adding other session feedback" name="session_feedback_tell_us">Dites-nous !</string>
+    <string name="session_finished">Terminée</string>
+    <string name="session_give_feedback_message">Comment avez-vous trouvé cette session ? Voulez-vous nous envoyer votre avis ?</string>
+    <string name="session_link_livestream">Regarder en direct</string>
+    <string name="session_link_moderator">Modérateur</string>
+    <string name="session_link_notes">Notes officielles</string>
+    <string name="session_link_pdf">Diapositives</string>
+    <string name="session_link_youtube">Vidéo Youtube</string>
+    <string name="session_links">Plus</string>
+    <string name="session_live_now_message">Cette session est actuellement retransmise en direct ! Voulez-vous regarder le flux en direct ?</string>
+    <string name="session_live_streamed">Streaming en direct</string>
+    <string name="session_livestream_block">En direct !</string>
+    <string name="session_livestream_captions">Légendes</string>
+    <string name="session_livestream_error_init">Désolé, une erreur d\'initialisation est survenue dans le lecteur YouTube (%1$s)</string>
+    <string name="session_livestream_error_playback">Désolé, une erreur est survenue lors du chargement de flux en direct, veuillez réessayer plus tard</string>
+    <string name="session_livestream_info">Infos</string>
+    <string name="session_livestream_play_pause">Lecture / Pause</string>
+    <string name="session_livestream_title">SMCONF en direct</string>
+    <string name="session_notification_text_1">commence dans <ns1:g id="remaining_time">%1$d</ns1:g> min(s).</string>
+    <string name="session_now">Maintenant</string>
+    <string description="A session feedback section label asking the user to rate the session overall" name="session_rating_label_text">Évaluation de la session :</string>
+    <string name="session_replay">Rejouer</string>
+    <string name="session_requirements">Pré-requis</string>
+    <string name="session_speakers">Orateurs</string>
+    <string name="session_subtitle">
+    <ns1:g id="time">%1$s</ns1:g> dans <ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="session_subtitle_short">
+    <ns1:g id="time">%1$s</ns1:g>
+  </string>
+    <string name="session_watch">Visionner</string>
+    <string name="session_watch_live">Visionner en direct</string>
+    <string name="setup_wifi_yes">Oui !</string>
+    <string name="share_livestream_template">Regarde SMCONF 2016 en direct : « <ns1:g id="title">%1$s</ns1:g> » à <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="share_template">Consultation de « <ns1:g id="title">%1$s</ns1:g> » à <ns1:g id="hashtags">%2$s</ns1:g> <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="snooze_x_min">Me rappeler dans <ns1:g id="remaining_time">%1$d</ns1:g> min(s).</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#SMCONF2016&apos; box." name="social_SMCONF2016_gplus_content_description">Allez sur Google Plus avec le hashtag SMCONF2016</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#SMCONF2016&apos; box." name="social_SMCONF2016_twitter_content_description">Allez sur Twitter avec le hashtag SMCONF2016</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#SMCONF2016 extended&apos; box." name="social_extended_gplus_content_description">Allez sur Google Plus avec le hashtag extended</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#SMCONF2016 extended&apos; box." name="social_extended_twitter_content_description">Allez sur Twitter avec le hashtag extended</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; GPlus page." name="social_gplus_devs_content_description">Accédez à Google Developers sur Google Plus</string>
+    <string name="social_intro">Cliquez sur le hashtag pour suivre la conversation sur Google+</string>
+    <string descripton="Accessibility description for the GPlus icon in the &apos;#SMCONF2016 request&apos; box." name="social_request_gplus_content_description">Allez sur Google Plus avec le hashtag #SMCONF2016</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#SMCONF2016 extended&apos; box." name="social_request_twitter_content_description">Allez sur Twitter avec le hashtag #SMCONF2016</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; Twitter page." name="social_twitter_devs_content_description">Accédez à Google Developers sur Twitter</string>
+    <string name="speaker_googleplus_profile">Profil Google+ : <ns1:g id="speakername">%1$s</ns1:g>
+  </string>
+    <string description="Accessibility for the links to the G+ or Twitter pages for speakers. For example: Go to the Twitter page for Sally Sample." name="speaker_social_page">Accédez à la page %1$s pour %2$s</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string description="Indicates the item is actionable and the user can tap on it" name="talkback_button">Bouton %1$S</string>
+    <string description="Indicates the item is an image" name="talkback_image">%1$S image</string>
+    <string description="Indicates the item is a link (and actionable)" name="talkback_link">%1$S lien</string>
+    <string description="Indicates the item does nothing when tapped" name="talkback_not_clickable">%1$S pas cliquable</string>
+    <string description="Indicates the item is currently not selected" name="talkback_not_selected">%1$S pas sélectionné</string>
+    <string descripton="Indicates the item is currently selected" name="talkback_selected">%1$S sélectionné</string>
+    <string description="Indicates what happens when the user taps on an item" name="talkback_tapfor">appuyez pour %1$S</string>
+    <string name="themes">Thèmes</string>
+    <string name="time_hint_about_to_start_min">Cette session va commencer dans <ns1:g id="minutes">%1$d</ns1:g> min(s).</string>
+    <string name="time_hint_about_to_start_shortly">Cette session est sur le point de commencer (moins d\'une minute).</string>
+    <string name="time_hint_session_ended">Cette session est terminée.</string>
+    <string name="time_hint_started_just">Cette session est en cours !</string>
+    <string name="time_hint_started_min">Cette session est en cours ! (Elle a commencé il y a <ns1:g id="minutes">%1$d</ns1:g> min(s).)</string>
+    <string name="times_shown_in_tz">Toutes les heures indiquées dans <ns1:g id="timezone">%1$s</ns1:g>
+  </string>
+    <string name="title_about">À propos de</string>
+    <string name="title_activity_new_social">Social</string>
+    <string name="title_explore">Explorer</string>
+    <string name="title_explore_sessions_filter">Filtre</string>
+    <string name="title_map">Plan</string>
+    <string name="title_my_schedule">Mon agenda</string>
+    <string name="title_office_hours">Heures de consultation</string>
+    <string name="title_sandbox_detail">Informations sur la société</string>
+    <string name="title_search">Recherche</string>
+    <string name="title_session_detail">Informations de la session</string>
+    <string name="title_session_feedback">Avis sur la session</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_share">Partager à l\'aide de</string>
+    <string name="title_topic_filtered_video_library">Vidéos sur <ns1:g id="topic">%1$s</ns1:g>
+  </string>
+    <string name="title_video_library">Vidéos</string>
+    <string name="title_video_library_filter">Filtre</string>
+    <string name="title_year_and_topic_filtered_video_library">
+    <ns1:g id="year">%1$d</ns1:g> vidéos sur <ns1:g id="topic">%2$s</ns1:g>
+  </string>
+    <string name="title_year_filtered_video_library">
+    <ns1:g id="year">%1$d</ns1:g> vidéos</string>
+    <string name="topic_filter_section_label">Sujet</string>
+    <string name="topics">Sujets</string>
+    <string name="types">Types</string>
+    <string description="Generic error message used for errors that should never happen. This explains to the user that we can&apos;t execute the request when they click a button or touch a part of the screen that should normally be touchable." name="unknown_error">Oups, nous ne pouvons pas traiter cette demande.</string>
+    <string name="unknown_room">(Pièce non spécifiée)</string>
+    <string name="update_app">Mettre à jour l\'application</string>
+    <string name="update_available">Une nouvelle version de cette application est disponible sur Google Play.</string>
+    <string name="watch_now">Regarder maintenant !</string>
+    <string description="Short text asking if they&apos;re interested in what&apos;s around them" name="welcome_around">Autour de vous</string>
+    <string name="welcome_attending">Participation en personne ?</string>
+    <string name="welcome_attending_text">Assistez-vous à SMCONF à distance ou en personne à San Francisco ?</string>
+    <string name="welcome_conduct_text"><b>Excellez les uns envers les autres.</b>\nNous voulons que l\'I/O soit une excellente expérience pour chacun, peu importe l’identité ou l\'expression sexuelle, l\'orientation sexuelle, le handicap, l\'apparence physique, la taille corporelle, l\'origine ethnique, la nationalité, l’âge ou la religion. Traitez chaque individu avec respect. Participez sachant que chaque personne mérite de se trouver ici -- et que chacun d\'entre nous a le droit de profiter de notre expérience sans craindre un harcèlement, une discrimination ou bien de la condescendance, qu\'elle soit flagrante ou via des micro-agressions.\n\n<b>Si vous entendez ou constatez quelque chose, dites-le.</b>\nLe harcèlement n\'est pas toléré, et vous êtes en droit d\'intervenir avec politesse lorsque d\'autres font preuve d\'irrespect. Assumez également les intentions positives. Une personne vous faisant sentir mal à l\'aise peut ne pas être consciente de ce qu\'elle fait, ainsi attirer poliment son attention sur son comportement est encouragé.\n\n<b>Oui et.</b>\nBâtissez sur les idées des autres. Nous profitons tous lorsque nous créons ensemble.</string>
+    <string name="welcome_conduct_title">Code de bonne conduite de SMCONF 2016</string>
+    <string description="Text for a button which allows the user to enable the feature" name="welcome_enable">Activer</string>
+    <string description="Text for a button which allows the user to reject the feature" name="welcome_no_thanks">Non merci</string>
+    <string description="Medium text asking to choose an account from a list" name="welcome_select_accoun_text">Veuillez choisir un compte à utiliser :</string>
+    <string description="Short text asking them to select an account" name="welcome_select_account">Sélectionnez un compte</string>
+    <string description="Medium-length welcome text indicating the subsequent text is important legal information " name="welcome_text">Avant de commencer, voici quelques informations juridiques importantes concernant votre utilisation de cette application. Cela ne prendra qu\'une minute !</string>
+    <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application SMCONF 2016!</string>
+    <string name="wifi_dialog_button_configure">Ajouter un réseau Wi-Fi</string>
+    <string name="wifi_dialog_button_settings">Ouvrir les paramètres Wi-FI</string>
+    <string name="wifi_install_error_message">Désolé, impossible de mettre à jour la configuration Wi-Fi</string>
+    <string name="year_filter_section_label">Année</string>
+</resources>

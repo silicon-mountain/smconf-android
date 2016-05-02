@@ -44,7 +44,11 @@
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
                     android:layout_centerInParent="true"
+<<<<<<< HEAD
                     android:src="@drawable/hash_io_15"
+=======
+                    android:src="@mipmap/ic_launcher"
+>>>>>>> ioschedLarry/master
                     android:contentDescription="@string/io15_logo_not_clickable"
                     android:clickable="false"
                     android:focusable="false" />

@@ -58,7 +58,10 @@ import java.util.Iterator;
 import java.util.List;
 
 import static android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+<<<<<<< HEAD
 import static com.google.samples.apps.iosched.settings.ConfMessageCardUtils.ConferencePrefChangeListener;
+=======
+>>>>>>> ioschedLarry/master
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
@@ -109,8 +112,13 @@ public class ExploreIOFragment extends Fragment implements UpdatableView<Explore
 
     private ThrottledContentObserver mSessionsObserver, mTagsObserver;
 
+<<<<<<< HEAD
     private ConferencePrefChangeListener mConfMessagesAnswerChangeListener =
             new ConferencePrefChangeListener() {
+=======
+    private ConfMessageCardUtils.ConferencePrefChangeListener mConfMessagesAnswerChangeListener =
+            new ConfMessageCardUtils.ConferencePrefChangeListener() {
+>>>>>>> ioschedLarry/master
         @Override
         protected void onPrefChanged(String key, boolean value) {
             fireReloadEvent();

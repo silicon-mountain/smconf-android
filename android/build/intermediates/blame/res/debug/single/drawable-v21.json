@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_map.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_map.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/photo_item_foreground.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/photo_item_foreground.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/add_schedule_fab_ripple_background_off.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/add_schedule_fab_ripple_background_off.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/message_card_wifi.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/message_card_wifi.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_post_twitter.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_post_twitter.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_explore.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_explore.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_videocam.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_videocam.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/photo_item_foreground_borderless.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/photo_item_foreground_borderless.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/io_logo.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/io_logo.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_schedule.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_schedule.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/io_logo_social_anim.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/io_logo_social_anim.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_info_outline.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_info_outline.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/message_card_keynote.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/message_card_keynote.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_forum.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_forum.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/message_card_credentials.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/message_card_credentials.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/message_card_after_hours.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/message_card_after_hours.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/lyft_logo.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/lyft_logo.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_settings.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_settings.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/schedule_item_touchoverlay_dark.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/schedule_item_touchoverlay_dark.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/add_schedule_fab_ripple_background_on.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/add_schedule_fab_ripple_background_on.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_submit_feedback.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_submit_feedback.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/schedule_item_touchoverlay.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/schedule_item_touchoverlay.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/add_schedule_button_icon_unchecked.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/add_schedule_button_icon_unchecked.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/io_logo_white_anim.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/io_logo_white_anim.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/add_schedule_fab_icon_anim.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/add_schedule_fab_icon_anim.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/io_logo_white_animated.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/io_logo_white_animated.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_play_circle_fill.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_play_circle_fill.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/ic_post_gplus.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/ic_post_gplus.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/popup_item_background.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/popup_item_background.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/drawable-v21/io_logo_social_animated.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/drawable-v21/io_logo_social_animated.xml"
+    }
+]

@@ -19,7 +19,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+<<<<<<< HEAD
     tools:context="com.google.samples.apps.iosched.debug.DebugActivity$PlaceholderFragment">
+=======
+    tools:context=".debug.DebugActivity$PlaceholderFragment">
+>>>>>>> ioschedLarry/master
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

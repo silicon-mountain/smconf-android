@@ -17,7 +17,10 @@
 package com.google.samples.apps.iosched.util;
 
 import android.content.Context;
+<<<<<<< HEAD
 import android.support.v4.text.TextUtilsCompat;
+=======
+>>>>>>> ioschedLarry/master
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 

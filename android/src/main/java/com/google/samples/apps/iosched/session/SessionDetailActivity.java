@@ -24,8 +24,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.google.samples.apps.iosched.R;
+<<<<<<< HEAD
 import com.google.samples.apps.iosched.session.SessionDetailModel.SessionDetailQueryEnum;
 import com.google.samples.apps.iosched.session.SessionDetailModel.SessionDetailUserActionEnum;
+=======
+import com.google.samples.apps.iosched.provider.ScheduleContract;
+>>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.myschedule.MyScheduleActivity;
 import com.google.samples.apps.iosched.util.BeamUtils;
@@ -38,7 +42,11 @@ import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
 /**
  * Displays the details about a session. This Activity is launched via an {@code Intent} with
  * {@link Intent#ACTION_VIEW} and a {@link Uri} built with
+<<<<<<< HEAD
  * {@link com.google.samples.apps.iosched.provider.ScheduleContract.Sessions#buildSessionUri(String)}.
+=======
+ * {@link ScheduleContract.Sessions#buildSessionUri(String)}.
+>>>>>>> ioschedLarry/master
  */
 public class SessionDetailActivity extends BaseActivity {
 
@@ -87,15 +95,24 @@ public class SessionDetailActivity extends BaseActivity {
         mSessionUri = getIntent().getData();
 
         if (mSessionUri == null) {
+<<<<<<< HEAD
             LOGE(TAG, "SessionDetailActivity started with null session Uri!");
+=======
+            LogUtils.LOGE(TAG, "SessionDetailActivity started with null session Uri!");
+>>>>>>> ioschedLarry/master
             finish();
             return;
         }
 
         addPresenterFragment(R.id.session_detail_frag,
                 new SessionDetailModel(mSessionUri, getApplicationContext(),
+<<<<<<< HEAD
                         new SessionsHelper(this)), SessionDetailQueryEnum.values(),
                 SessionDetailUserActionEnum.values());
+=======
+                        new SessionsHelper(this)), SessionDetailModel.SessionDetailQueryEnum.values(),
+                SessionDetailModel.SessionDetailUserActionEnum.values());
+>>>>>>> ioschedLarry/master
     }
 
     public Uri getSessionUri() {

@@ -430,7 +430,11 @@
     <string name="navdrawer_item_my_schedule">جدولي</string>
 
     <!-- Menu item to open the Explore Screen with the Live I/O card [CHAR_LIMIT=20] -->
+<<<<<<< HEAD
     <string name="navdrawer_item_io_live">I/O مباشر</string>
+=======
+    <string name="navdrawer_item_io_live">SMCONF مباشر</string>
+>>>>>>> ioschedLarry/master
 
     <!-- Menu item to open the Settings screen [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_settings">الإعدادات</string>

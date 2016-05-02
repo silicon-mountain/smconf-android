@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/values-w560dp-v13/values-w560dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 70,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endColumn": 69,
+                    "endOffset": 191
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 69,
+                        "endOffset": 863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 196,
+                    "endColumn": 66,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 66,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 68,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 868,
+                        "endColumn": 68,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endColumn": 66,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 66,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 65,
+                    "endOffset": 460
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/integers.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 731,
+                        "endColumn": 63,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 465,
+                    "endColumn": 73,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-w560dp/integers.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 659,
+                        "endColumn": 71,
+                        "endOffset": 728
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -100,6 +100,10 @@ import com.google.samples.apps.iosched.util.LUtils;
 import com.google.samples.apps.iosched.util.LoginAndAuthHelper;
 import com.google.samples.apps.iosched.util.RecentTasksStyler;
 import com.google.samples.apps.iosched.util.TimeUtils;
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.util.ThrottledContentObserver;
+>>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.util.UIUtils;
 import com.google.samples.apps.iosched.videolibrary.VideoLibraryActivity;
 import com.google.samples.apps.iosched.welcome.WelcomeActivity;
@@ -1531,12 +1535,21 @@ public abstract class BaseActivity extends AppCompatActivity implements
     }
 
     /**
+<<<<<<< HEAD
      * Adds a {@link com.google.samples.apps.iosched.framework.PresenterFragmentImpl} to the
      * Activity if required, and sets it up with the {@code model}, {@code queries},
      * {@code actions} and the {@link com.google.samples.apps.iosched.framework.UpdatableView}
      * corresponding to the {@code updatableViewResId}.
      *
      * @return the {@link com.google.samples.apps.iosched.framework.PresenterFragmentImpl},
+=======
+     * Adds a {@link PresenterFragmentImpl} to the
+     * Activity if required, and sets it up with the {@code model}, {@code queries},
+     * {@code actions} and the {@link UpdatableView}
+     * corresponding to the {@code updatableViewResId}.
+     *
+     * @return the {@link PresenterFragmentImpl},
+>>>>>>> ioschedLarry/master
      */
     public PresenterFragmentImpl addPresenterFragment(int updatableViewResId, Model model, QueryEnum[] queries,
                                                       UserActionEnum[] actions) {
@@ -1562,7 +1575,11 @@ public abstract class BaseActivity extends AppCompatActivity implements
 
     /**
      * Registers the {@code presenter} as a
+<<<<<<< HEAD
      * {@link com.google.samples.apps.iosched.util.ThrottledContentObserver} for the given
+=======
+     * {@link ThrottledContentObserver} for the given
+>>>>>>> ioschedLarry/master
      * {@code uri}. When the content is changed, the specified {@code queries} are run.
      */
     public void registerPresenterFragmentAsContentObserverForUri

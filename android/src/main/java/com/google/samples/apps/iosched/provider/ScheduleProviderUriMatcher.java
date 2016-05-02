@@ -18,11 +18,16 @@ package com.google.samples.apps.iosched.provider;
 
 import android.content.UriMatcher;
 import android.net.Uri;
+<<<<<<< HEAD
 import android.util.Log;
 import android.util.SparseArray;
 
 import java.util.HashMap;
 
+=======
+import android.util.SparseArray;
+
+>>>>>>> ioschedLarry/master
 /**
  * Provides methods to match a {@link android.net.Uri} to a {@link ScheduleUriEnum}.
  * <p />

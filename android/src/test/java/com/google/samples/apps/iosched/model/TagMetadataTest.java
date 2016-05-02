@@ -16,6 +16,10 @@
 
 package com.google.samples.apps.iosched.model;
 
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.model.TagMetadata;
+>>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 
 import org.junit.Rule;

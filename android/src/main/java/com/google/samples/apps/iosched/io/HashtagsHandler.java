@@ -26,6 +26,10 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.util.LogUtils;
+>>>>>>> ioschedLarry/master
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,7 +39,11 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class HashtagsHandler extends JSONHandler {
 
+<<<<<<< HEAD
     private static final String TAG = makeLogTag(HashtagsHandler.class);
+=======
+    private static final String TAG = LogUtils.makeLogTag(HashtagsHandler.class);
+>>>>>>> ioschedLarry/master
     private HashMap<String, Hashtag> mHashtags = new HashMap<String, Hashtag>();
 
     public HashtagsHandler(Context context) {
@@ -44,7 +52,11 @@ public class HashtagsHandler extends JSONHandler {
 
     @Override
     public void process(JsonElement element) {
+<<<<<<< HEAD
         LOGD(TAG, "process");
+=======
+        LogUtils.LOGD(TAG, "process");
+>>>>>>> ioschedLarry/master
         for (Hashtag hashtag : new Gson().fromJson(element, Hashtag[].class)) {
             mHashtags.put(hashtag.name, hashtag);
         }
@@ -52,7 +64,11 @@ public class HashtagsHandler extends JSONHandler {
 
     @Override
     public void makeContentProviderOperations(ArrayList<ContentProviderOperation> list) {
+<<<<<<< HEAD
         LOGD(TAG, "makeContentProviderOperations");
+=======
+        LogUtils.LOGD(TAG, "makeContentProviderOperations");
+>>>>>>> ioschedLarry/master
         Uri uri = ScheduleContractHelper.setUriAsCalledFromSyncAdapter(
                 ScheduleContract.Hashtags.CONTENT_URI);
         // Remove all the current entries
@@ -71,7 +87,11 @@ public class HashtagsHandler extends JSONHandler {
             builder.withValue(ScheduleContract.Hashtags.HASHTAG_ORDER, hashtag.order);
             list.add(builder.build());
         }
+<<<<<<< HEAD
         LOGD(TAG, "Hashtags: " + mHashtags.size());
+=======
+        LogUtils.LOGD(TAG, "Hashtags: " + mHashtags.size());
+>>>>>>> ioschedLarry/master
     }
 
 }

@@ -36,12 +36,19 @@ import com.google.samples.apps.iosched.sync.userdata.UserDataSyncHelperFactory;
 import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
 
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.util.LogUtils;
+>>>>>>> ioschedLarry/master
 import com.turbomanage.httpclient.BasicHttpClient;
 
 import java.io.IOException;
 
+<<<<<<< HEAD
 import static com.google.samples.apps.iosched.util.LogUtils.*;
 
+=======
+>>>>>>> ioschedLarry/master
 /**
  * A helper class for dealing with conference data synchronization. All operations occur on the
  * thread they're called from, so it's best to wrap calls in an {@link android.os.AsyncTask}, or
@@ -49,7 +56,11 @@ import static com.google.samples.apps.iosched.util.LogUtils.*;
  */
 public class SyncHelper {
 
+<<<<<<< HEAD
     private static final String TAG = makeLogTag(SyncHelper.class);
+=======
+    private static final String TAG = LogUtils.makeLogTag(SyncHelper.class);
+>>>>>>> ioschedLarry/master
 
     private Context mContext;
 
@@ -76,7 +87,11 @@ public class SyncHelper {
 
     public static void requestManualSync(Account mChosenAccount, boolean userDataSyncOnly) {
         if (mChosenAccount != null) {
+<<<<<<< HEAD
             LOGD(TAG, "Requesting manual sync for account " + mChosenAccount.name
+=======
+            LogUtils.LOGD(TAG, "Requesting manual sync for account " + mChosenAccount.name
+>>>>>>> ioschedLarry/master
                     + " userDataSyncOnly=" + userDataSyncOnly);
             Bundle b = new Bundle();
             b.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
@@ -91,11 +106,16 @@ public class SyncHelper {
             boolean pending = ContentResolver.isSyncPending(mChosenAccount,
                     ScheduleContract.CONTENT_AUTHORITY);
             if (pending) {
+<<<<<<< HEAD
                 LOGD(TAG, "Warning: sync is PENDING. Will cancel.");
+=======
+                LogUtils.LOGD(TAG, "Warning: sync is PENDING. Will cancel.");
+>>>>>>> ioschedLarry/master
             }
             boolean active = ContentResolver.isSyncActive(mChosenAccount,
                     ScheduleContract.CONTENT_AUTHORITY);
             if (active) {
+<<<<<<< HEAD
                 LOGD(TAG, "Warning: sync is ACTIVE. Will cancel.");
             }
 
@@ -108,6 +128,20 @@ public class SyncHelper {
             ContentResolver.requestSync(mChosenAccount, ScheduleContract.CONTENT_AUTHORITY, b);
         } else {
             LOGD(TAG, "Can't request manual sync -- no chosen account.");
+=======
+                LogUtils.LOGD(TAG, "Warning: sync is ACTIVE. Will cancel.");
+            }
+
+            if (pending || active) {
+                LogUtils.LOGD(TAG, "Cancelling previously pending/active sync.");
+                ContentResolver.cancelSync(mChosenAccount, ScheduleContract.CONTENT_AUTHORITY);
+            }
+
+            LogUtils.LOGD(TAG, "Requesting sync now.");
+            ContentResolver.requestSync(mChosenAccount, ScheduleContract.CONTENT_AUTHORITY, b);
+        } else {
+            LogUtils.LOGD(TAG, "Can't request manual sync -- no chosen account.");
+>>>>>>> ioschedLarry/master
         }
     }
 
@@ -132,7 +166,11 @@ public class SyncHelper {
         boolean dataChanged = false;
 
         if (!SettingsUtils.isDataBootstrapDone(mContext)) {
+<<<<<<< HEAD
             LOGD(TAG, "Sync aborting (data bootstrap not done yet)");
+=======
+            LogUtils.LOGD(TAG, "Sync aborting (data bootstrap not done yet)");
+>>>>>>> ioschedLarry/master
             // Start the bootstrap process so that the next time sync is called,
             // it is already bootstrapped.
             DataBootstrapService.startDataBootstrapIfNecessary(mContext);
@@ -142,7 +180,11 @@ public class SyncHelper {
         final boolean userDataScheduleOnly = extras
                 .getBoolean(SyncAdapter.EXTRA_SYNC_USER_DATA_ONLY, false);
 
+<<<<<<< HEAD
         LOGI(TAG, "Performing sync for account: " + account);
+=======
+        LogUtils.LOGI(TAG, "Performing sync for account: " + account);
+>>>>>>> ioschedLarry/master
         SettingsUtils.markSyncAttemptedNow(mContext);
         long opStart;
         long syncDuration, choresDuration;
@@ -182,11 +224,19 @@ public class SyncHelper {
                 if (AccountUtils.hasToken(mContext, account.name)) {
                     AccountUtils.refreshAuthToken(mContext);
                 } else {
+<<<<<<< HEAD
                     LOGW(TAG, "No auth token yet for this account. Skipping remote sync.");
                 }
             } catch (Throwable throwable) {
                 throwable.printStackTrace();
                 LOGE(TAG, "Error performing remote sync.");
+=======
+                    LogUtils.LOGW(TAG, "No auth token yet for this account. Skipping remote sync.");
+                }
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+                LogUtils.LOGE(TAG, "Error performing remote sync.");
+>>>>>>> ioschedLarry/master
                 increaseIoExceptions(syncResult);
             }
         }
@@ -199,7 +249,11 @@ public class SyncHelper {
                 performPostSyncChores(mContext);
             } catch (Throwable throwable) {
                 throwable.printStackTrace();
+<<<<<<< HEAD
                 LOGE(TAG, "Error performing post sync chores.");
+=======
+                LogUtils.LOGE(TAG, "Error performing post sync chores.");
+>>>>>>> ioschedLarry/master
             }
         }
         choresDuration = System.currentTimeMillis() - opStart;
@@ -212,7 +266,11 @@ public class SyncHelper {
 
         if (dataChanged) {
             long totalDuration = choresDuration + syncDuration;
+<<<<<<< HEAD
             LOGD(TAG, "SYNC STATS:\n" +
+=======
+            LogUtils.LOGD(TAG, "SYNC STATS:\n" +
+>>>>>>> ioschedLarry/master
                     " *  Account synced: " + (account == null ? "null" : account.name) + "\n" +
                     " *  Content provider operations: " + operations + "\n" +
                     " *  Sync took: " + syncDuration + "ms\n" +
@@ -224,7 +282,11 @@ public class SyncHelper {
                     (mRemoteDataFetcher.getTotalBytesDownloaded() / 1024) + "kB");
         }
 
+<<<<<<< HEAD
         LOGI(TAG, "End of sync (" + (dataChanged ? "data changed" : "no data change") + ")");
+=======
+        LogUtils.LOGI(TAG, "End of sync (" + (dataChanged ? "data changed" : "no data change") + ")");
+>>>>>>> ioschedLarry/master
 
         updateSyncInterval(mContext, account);
 
@@ -233,12 +295,20 @@ public class SyncHelper {
 
     public static void performPostSyncChores(final Context context) {
         // Update search index.
+<<<<<<< HEAD
         LOGD(TAG, "Updating search index.");
+=======
+        LogUtils.LOGD(TAG, "Updating search index.");
+>>>>>>> ioschedLarry/master
         context.getContentResolver().update(ScheduleContract.SearchIndex.CONTENT_URI,
                 new ContentValues(), null, null);
 
         // Sync calendar.
+<<<<<<< HEAD
         LOGD(TAG, "Session data changed. Syncing starred sessions with Calendar.");
+=======
+        LogUtils.LOGD(TAG, "Session data changed. Syncing starred sessions with Calendar.");
+>>>>>>> ioschedLarry/master
         syncCalendar(context);
     }
 
@@ -249,7 +319,11 @@ public class SyncHelper {
     }
 
     private void doUserFeedbackDataSync() {
+<<<<<<< HEAD
         LOGD(TAG, "Syncing feedback");
+=======
+        LogUtils.LOGD(TAG, "Syncing feedback");
+>>>>>>> ioschedLarry/master
         new FeedbackSyncHelper(mContext, new FeedbackApiHelper(mHttpClient,
                 BuildConfig.FEEDBACK_API_ENDPOINT)).sync();
     }
@@ -263,22 +337,38 @@ public class SyncHelper {
      */
     private boolean doConferenceDataSync() throws IOException {
         if (!isOnline()) {
+<<<<<<< HEAD
             LOGD(TAG, "Not attempting remote sync because device is OFFLINE");
             return false;
         }
 
         LOGD(TAG, "Starting remote sync.");
+=======
+            LogUtils.LOGD(TAG, "Not attempting remote sync because device is OFFLINE");
+            return false;
+        }
+
+        LogUtils.LOGD(TAG, "Starting remote sync.");
+>>>>>>> ioschedLarry/master
 
         // Fetch the remote data files via RemoteConferenceDataFetcher.
         String[] dataFiles = mRemoteDataFetcher.fetchConferenceDataIfNewer(
                 mConferenceDataHandler.getDataTimestamp());
 
         if (dataFiles != null) {
+<<<<<<< HEAD
             LOGI(TAG, "Applying remote data.");
             // Save the remote data to the database.
             mConferenceDataHandler.applyConferenceData(dataFiles,
                     mRemoteDataFetcher.getServerDataTimestamp(), true);
             LOGI(TAG, "Done applying remote data.");
+=======
+            LogUtils.LOGI(TAG, "Applying remote data.");
+            // Save the remote data to the database.
+            mConferenceDataHandler.applyConferenceData(dataFiles,
+                    mRemoteDataFetcher.getServerDataTimestamp(), true);
+            LogUtils.LOGI(TAG, "Done applying remote data.");
+>>>>>>> ioschedLarry/master
 
             // Mark that conference data sync has succeeded.
             SettingsUtils.markSyncSucceededNow(mContext);
@@ -299,11 +389,19 @@ public class SyncHelper {
      */
     private boolean doUserDataSync(String accountName) throws IOException {
         if (!isOnline()) {
+<<<<<<< HEAD
             LOGD(TAG, "Not attempting userdata sync because device is OFFLINE");
             return false;
         }
 
         LOGD(TAG, "Starting user data sync.");
+=======
+            LogUtils.LOGD(TAG, "Not attempting userdata sync because device is OFFLINE");
+            return false;
+        }
+
+        LogUtils.LOGD(TAG, "Starting user data sync.");
+>>>>>>> ioschedLarry/master
 
         AbstractUserDataSyncHelper helper = UserDataSyncHelperFactory.buildSyncHelper(
                 mContext, accountName);
@@ -349,12 +447,21 @@ public class SyncHelper {
     }
 
     public static void updateSyncInterval(final Context context, final Account account) {
+<<<<<<< HEAD
         LOGD(TAG, "Checking sync interval for " + account);
         long recommended = calculateRecommendedSyncInterval(context);
         long current = SettingsUtils.getCurSyncInterval(context);
         LOGD(TAG, "Recommended sync interval " + recommended + ", current " + current);
         if (recommended != current) {
             LOGD(TAG,
+=======
+        LogUtils.LOGD(TAG, "Checking sync interval for " + account);
+        long recommended = calculateRecommendedSyncInterval(context);
+        long current = SettingsUtils.getCurSyncInterval(context);
+        LogUtils.LOGD(TAG, "Recommended sync interval " + recommended + ", current " + current);
+        if (recommended != current) {
+            LogUtils.LOGD(TAG,
+>>>>>>> ioschedLarry/master
                     "Setting up sync for account " + account + ", interval " + recommended + "ms");
             ContentResolver.setIsSyncable(account, ScheduleContract.CONTENT_AUTHORITY, 1);
             ContentResolver.setSyncAutomatically(account, ScheduleContract.CONTENT_AUTHORITY, true);
@@ -367,7 +474,11 @@ public class SyncHelper {
             }
             SettingsUtils.setCurSyncInterval(context, recommended);
         } else {
+<<<<<<< HEAD
             LOGD(TAG, "No need to update sync interval.");
+=======
+            LogUtils.LOGD(TAG, "No need to update sync interval.");
+>>>>>>> ioschedLarry/master
         }
     }
 }

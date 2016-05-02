@@ -16,6 +16,18 @@
 
 package com.google.samples.apps.iosched.session;
 
+<<<<<<< HEAD
+=======
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.rule.ActivityTestRule;
+import android.support.test.runner.AndroidJUnit4;
+import android.test.suitebuilder.annotation.LargeTest;
+import android.util.Pair;
+
+>>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.framework.PresenterFragmentImpl;
 import com.google.samples.apps.iosched.model.TagMetadata;
@@ -30,6 +42,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+<<<<<<< HEAD
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -39,6 +52,8 @@ import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.util.Pair;
 
+=======
+>>>>>>> ioschedLarry/master
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

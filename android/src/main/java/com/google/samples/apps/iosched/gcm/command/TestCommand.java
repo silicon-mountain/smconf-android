@@ -17,15 +17,27 @@ package com.google.samples.apps.iosched.gcm.command;
 
 import android.content.Context;
 import com.google.samples.apps.iosched.gcm.GCMCommand;
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.util.LogUtils;
+>>>>>>> ioschedLarry/master
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGI;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class TestCommand extends GCMCommand {
+<<<<<<< HEAD
     private static final String TAG = makeLogTag("TestCommand");
 
     @Override
     public void execute(Context context, String type, String extraData) {
         LOGI(TAG, "Received GCM message: type=" + type + ", extraData=" + extraData);
+=======
+    private static final String TAG = LogUtils.makeLogTag("TestCommand");
+
+    @Override
+    public void execute(Context context, String type, String extraData) {
+        LogUtils.LOGI(TAG, "Received GCM message: type=" + type + ", extraData=" + extraData);
+>>>>>>> ioschedLarry/master
     }
 }

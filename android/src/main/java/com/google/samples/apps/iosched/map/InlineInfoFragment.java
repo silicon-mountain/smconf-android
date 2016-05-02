@@ -16,6 +16,7 @@
 
 package com.google.samples.apps.iosched.map;
 
+<<<<<<< HEAD
 import com.google.samples.apps.iosched.R;
 
 import android.animation.ObjectAnimator;
@@ -23,10 +24,20 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
+=======
+import android.database.Cursor;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+>>>>>>> ioschedLarry/master
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.R;
+
+>>>>>>> ioschedLarry/master
 /**
  * Map info fragment that displays its content within in.
  *
@@ -34,7 +45,11 @@ import android.view.ViewGroup;
  * marked as scrollable if required.
  * It is designed to be displayed at the left of the screen with a fixed width that is the only
  * value that is returned to
+<<<<<<< HEAD
  * {@link com.google.samples.apps.iosched.map.MapInfoFragment.Callback#onInfoSizeChanged(int, int,
+=======
+ * {@link MapInfoFragment.Callback#onInfoSizeChanged(int, int,
+>>>>>>> ioschedLarry/master
  * int, int)}.
  */
 public class InlineInfoFragment extends MapInfoFragment {

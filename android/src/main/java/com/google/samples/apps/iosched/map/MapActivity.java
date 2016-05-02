@@ -16,12 +16,15 @@
 
 package com.google.samples.apps.iosched.map;
 
+<<<<<<< HEAD
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.session.SessionDetailConstants;
 import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
 
+=======
+>>>>>>> ioschedLarry/master
 import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,17 +32,35 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+<<<<<<< HEAD
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 /**
  * Activity that displays a {@link com.google.samples.apps.iosched.map.MapFragment} and a {@link
  * com.google.samples.apps.iosched.map.MapInfoFragment}.
+=======
+import com.google.samples.apps.iosched.R;
+import com.google.samples.apps.iosched.provider.ScheduleContract;
+import com.google.samples.apps.iosched.session.SessionDetailConstants;
+import com.google.samples.apps.iosched.ui.BaseActivity;
+import com.google.samples.apps.iosched.util.AnalyticsHelper;
+
+import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
+
+/**
+ * Activity that displays a {@link MapFragment} and a {@link
+ * MapInfoFragment}.
+>>>>>>> ioschedLarry/master
  * Supports 'detached' mode, where the toolbar contains an up navigation option that finishes this
  * Activity. (see {@link #EXTRA_DETACHED_MODE}
  * Optionally a room can be specified via {@link #EXTRA_ROOM} that pans the map to its indicated
  * marker.
  *
+<<<<<<< HEAD
  * @see com.google.samples.apps.iosched.map.MapInfoFragment#newInstace(android.content.Context)
+=======
+ * @see MapInfoFragment#newInstace(android.content.Context)
+>>>>>>> ioschedLarry/master
  */
 public class MapActivity extends BaseActivity
         implements SlideableInfoFragment.Callback, MapFragment.Callbacks {
@@ -168,10 +189,17 @@ public class MapActivity extends BaseActivity
      * The size is self reported from the fragment and has to be adjusted before it can be
      * applied to the map.
      *
+<<<<<<< HEAD
      * For {@link com.google.samples.apps.iosched.map.InlineInfoFragment} (that is only displayed
      * on the left of the screen), the full extend of its container layout (including padding) is
      * passed to the map fragment.
      * For {@link com.google.samples.apps.iosched.map.SlideableInfoFragment} (that is only
+=======
+     * For {@link InlineInfoFragment} (that is only displayed
+     * on the left of the screen), the full extend of its container layout (including padding) is
+     * passed to the map fragment.
+     * For {@link SlideableInfoFragment} (that is only
+>>>>>>> ioschedLarry/master
      * displayed
      * at the bottom of the screen), its actual height is passed through to the map.
      */

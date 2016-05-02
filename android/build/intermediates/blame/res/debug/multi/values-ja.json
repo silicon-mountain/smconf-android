@@ -1,0 +1,4164 @@
+[
+    {
+        "outputFile": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/values-ja/values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 23747,
+                        "endLine": 232,
+                        "endColumn": 12,
+                        "endOffset": 24041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 432
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 4,
+                        "startOffset": 24337,
+                        "endLine": 237,
+                        "endColumn": 12,
+                        "endOffset": 24556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 437,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 550
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 555,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 748
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 45,
+                        "startOffset": 25307,
+                        "endLine": 248,
+                        "endColumn": 12,
+                        "endOffset": 25563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 753,
+                    "endColumn": 96,
+                    "endOffset": 845
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 850,
+                    "endColumn": 106,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endColumn": 120,
+                    "endOffset": 1073
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1078,
+                    "endColumn": 92,
+                    "endOffset": 1166
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1171,
+                    "endColumn": 104,
+                    "endOffset": 1271
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1276,
+                    "endColumn": 81,
+                    "endOffset": 1353
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1358,
+                    "endColumn": 97,
+                    "endOffset": 1451
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1456,
+                    "endColumn": 107,
+                    "endOffset": 1559
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1564,
+                    "endColumn": 77,
+                    "endOffset": 1637
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1642,
+                    "endColumn": 101,
+                    "endOffset": 1739
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1744,
+                    "endColumn": 98,
+                    "endOffset": 1838
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1843,
+                    "endColumn": 94,
+                    "endOffset": 1933
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1938,
+                    "endColumn": 102,
+                    "endOffset": 2036
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2041,
+                    "endColumn": 94,
+                    "endOffset": 2131
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2136,
+                    "endColumn": 95,
+                    "endOffset": 2227
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2232,
+                    "endColumn": 110,
+                    "endOffset": 2338
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2343,
+                    "endColumn": 96,
+                    "endOffset": 2435
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2440,
+                    "endLine": 33,
+                    "endColumn": 189,
+                    "endOffset": 2672
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2677,
+                    "endColumn": 53,
+                    "endOffset": 2726
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2731,
+                    "endColumn": 55,
+                    "endOffset": 2782
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2787,
+                    "endColumn": 101,
+                    "endOffset": 2884
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 750,
+                        "startColumn": 114,
+                        "startOffset": 48289,
+                        "endLine": 752,
+                        "endColumn": 104,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2889,
+                    "endColumn": 56,
+                    "endOffset": 2941
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2946,
+                    "endColumn": 46,
+                    "endOffset": 2988
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2993,
+                    "endColumn": 39,
+                    "endOffset": 3028
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3033,
+                    "endColumn": 48,
+                    "endOffset": 3077
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3082,
+                    "endColumn": 53,
+                    "endOffset": 3131
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3136,
+                    "endColumn": 76,
+                    "endOffset": 3208
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3213,
+                    "endColumn": 107,
+                    "endOffset": 3316
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3321,
+                    "endColumn": 50,
+                    "endOffset": 3367
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3372,
+                    "endColumn": 46,
+                    "endOffset": 3414
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3419,
+                    "endColumn": 47,
+                    "endOffset": 3462
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3467,
+                    "endColumn": 44,
+                    "endOffset": 3507
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3512,
+                    "endColumn": 44,
+                    "endOffset": 3552
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3557,
+                    "endColumn": 263,
+                    "endOffset": 3816
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3821,
+                    "endColumn": 211,
+                    "endOffset": 4028
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 4033,
+                    "endColumn": 52,
+                    "endOffset": 4081
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4086,
+                    "endColumn": 54,
+                    "endOffset": 4136
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4141,
+                    "endColumn": 54,
+                    "endOffset": 4191
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4196,
+                    "endColumn": 49,
+                    "endOffset": 4241
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4246,
+                    "endColumn": 52,
+                    "endOffset": 4294
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4299,
+                    "endColumn": 98,
+                    "endOffset": 4393
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4398,
+                    "endColumn": 105,
+                    "endOffset": 4499
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4504,
+                    "endColumn": 40,
+                    "endOffset": 4540
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4545,
+                    "endColumn": 196,
+                    "endOffset": 4737
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4742,
+                    "endColumn": 52,
+                    "endOffset": 4790
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 4795,
+                    "endColumn": 132,
+                    "endOffset": 4923
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4928,
+                    "endColumn": 124,
+                    "endOffset": 5048
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5053,
+                    "endColumn": 106,
+                    "endOffset": 5155
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 5160,
+                    "endColumn": 115,
+                    "endOffset": 5271
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5276,
+                    "endColumn": 137,
+                    "endOffset": 5409
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 5414,
+                    "endColumn": 113,
+                    "endOffset": 5523
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5528,
+                    "endColumn": 163,
+                    "endOffset": 5687
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5692,
+                    "endColumn": 115,
+                    "endOffset": 5803
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5808,
+                    "endColumn": 164,
+                    "endOffset": 5968
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 5973,
+                    "endColumn": 166,
+                    "endOffset": 6135
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 6140,
+                    "endColumn": 112,
+                    "endOffset": 6248
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 6253,
+                    "endColumn": 147,
+                    "endOffset": 6396
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6401,
+                    "endColumn": 116,
+                    "endOffset": 6513
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 6518,
+                    "endColumn": 143,
+                    "endOffset": 6657
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6662,
+                    "endColumn": 142,
+                    "endOffset": 6800
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6805,
+                    "endColumn": 115,
+                    "endOffset": 6916
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6921,
+                    "endColumn": 163,
+                    "endOffset": 7080
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 7085,
+                    "endColumn": 153,
+                    "endOffset": 7234
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 7239,
+                    "endColumn": 128,
+                    "endOffset": 7363
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 7368,
+                    "endColumn": 152,
+                    "endOffset": 7516
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 7521,
+                    "endColumn": 119,
+                    "endOffset": 7636
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 7641,
+                    "endColumn": 134,
+                    "endOffset": 7771
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 7776,
+                    "endColumn": 180,
+                    "endOffset": 7952
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 7957,
+                    "endColumn": 122,
+                    "endOffset": 8075
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 8080,
+                    "endColumn": 102,
+                    "endOffset": 8178
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 8183,
+                    "endColumn": 135,
+                    "endOffset": 8314
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 8319,
+                    "endColumn": 113,
+                    "endOffset": 8428
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 8433,
+                    "endColumn": 83,
+                    "endOffset": 8512
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 8517,
+                    "endColumn": 88,
+                    "endOffset": 8601
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 8606,
+                    "endColumn": 100,
+                    "endOffset": 8702
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 8707,
+                    "endColumn": 171,
+                    "endOffset": 8874
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ja/common_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 8879,
+                    "endColumn": 74,
+                    "endOffset": 8949
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 8954,
+                    "endColumn": 114,
+                    "endOffset": 9064
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 9069,
+                    "endColumn": 46,
+                    "endOffset": 9111
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 9116,
+                    "endColumn": 49,
+                    "endOffset": 9161
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 9166,
+                    "endColumn": 50,
+                    "endOffset": 9212
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 9217,
+                    "endColumn": 38,
+                    "endOffset": 9251
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 9256,
+                    "endColumn": 48,
+                    "endOffset": 9300
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 9305,
+                    "endColumn": 62,
+                    "endOffset": 9363
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 9368,
+                    "endColumn": 64,
+                    "endOffset": 9428
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 9433,
+                    "endColumn": 64,
+                    "endOffset": 9493
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 9498,
+                    "endColumn": 51,
+                    "endOffset": 9545
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 9550,
+                    "endColumn": 66,
+                    "endOffset": 9612
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 9617,
+                    "endColumn": 52,
+                    "endOffset": 9665
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 9670,
+                    "endColumn": 60,
+                    "endOffset": 9726
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 9731,
+                    "endColumn": 47,
+                    "endOffset": 9774
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 9779,
+                    "endColumn": 63,
+                    "endOffset": 9838
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 9843,
+                    "endColumn": 50,
+                    "endOffset": 9889
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 9894,
+                    "endColumn": 66,
+                    "endOffset": 9956
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 9961,
+                    "endColumn": 49,
+                    "endOffset": 10006
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 10011,
+                    "endColumn": 51,
+                    "endOffset": 10058
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 10063,
+                    "endColumn": 132,
+                    "endOffset": 10191
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 10196,
+                    "endColumn": 48,
+                    "endOffset": 10240
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 10245,
+                    "endColumn": 70,
+                    "endOffset": 10311
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 10316,
+                    "endColumn": 58,
+                    "endOffset": 10370
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 10375,
+                    "endColumn": 55,
+                    "endOffset": 10426
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 10431,
+                    "endColumn": 61,
+                    "endOffset": 10488
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 10493,
+                    "endColumn": 69,
+                    "endOffset": 10558
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 10563,
+                    "endColumn": 57,
+                    "endOffset": 10616
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 10621,
+                    "endColumn": 54,
+                    "endOffset": 10671
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 10676,
+                    "endColumn": 78,
+                    "endOffset": 10750
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 10755,
+                    "endColumn": 111,
+                    "endOffset": 10862
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 10867,
+                    "endColumn": 52,
+                    "endOffset": 10915
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 10920,
+                    "endColumn": 500,
+                    "endOffset": 11416
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/legal_text.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 11421,
+                    "endColumn": 87,
+                    "endOffset": 11504
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 11509,
+                    "endColumn": 87,
+                    "endOffset": 11592
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 11597,
+                    "endColumn": 324,
+                    "endOffset": 11917
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 11922,
+                    "endColumn": 67,
+                    "endOffset": 11985
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 11990,
+                    "endColumn": 68,
+                    "endOffset": 12054
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 12059,
+                    "endColumn": 352,
+                    "endOffset": 12407
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 12412,
+                    "endColumn": 232,
+                    "endOffset": 12640
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 12645,
+                    "endColumn": 264,
+                    "endOffset": 12905
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 12910,
+                    "endColumn": 422,
+                    "endOffset": 13328
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 7661,
+                        "endColumn": 392,
+                        "endOffset": 8048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 13333,
+                    "endColumn": 187,
+                    "endOffset": 13516
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 13521,
+                    "endLine": 137,
+                    "endColumn": 11,
+                    "endOffset": 13829
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 8440,
+                        "endLine": 80,
+                        "endColumn": 11,
+                        "endOffset": 8668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 13834,
+                    "endColumn": 45,
+                    "endOffset": 13875
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 13880,
+                    "endColumn": 46,
+                    "endOffset": 13922
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 13927,
+                    "endColumn": 121,
+                    "endOffset": 14044
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 14049,
+                    "endColumn": 74,
+                    "endOffset": 14119
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 14124,
+                    "endColumn": 77,
+                    "endOffset": 14197
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 445,
+                        "startColumn": 4,
+                        "startOffset": 40073,
+                        "endColumn": 81,
+                        "endOffset": 40149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 14202,
+                    "endColumn": 41,
+                    "endOffset": 14239
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 14244,
+                    "endColumn": 178,
+                    "endOffset": 14418
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 14423,
+                    "endColumn": 150,
+                    "endOffset": 14569
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 14574,
+                    "endColumn": 171,
+                    "endOffset": 14741
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 14746,
+                    "endColumn": 144,
+                    "endOffset": 14886
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 14891,
+                    "endColumn": 52,
+                    "endOffset": 14939
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 14944,
+                    "endColumn": 46,
+                    "endOffset": 14986
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 14991,
+                    "endColumn": 42,
+                    "endOffset": 15029
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 15034,
+                    "endColumn": 41,
+                    "endOffset": 15071
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 15076,
+                    "endColumn": 76,
+                    "endOffset": 15148
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 15153,
+                    "endColumn": 55,
+                    "endOffset": 15204
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 15209,
+                    "endColumn": 97,
+                    "endOffset": 15302
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 15307,
+                    "endColumn": 65,
+                    "endOffset": 15368
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 15373,
+                    "endColumn": 73,
+                    "endOffset": 15442
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 15447,
+                    "endColumn": 66,
+                    "endOffset": 15509
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 15514,
+                    "endColumn": 50,
+                    "endOffset": 15560
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 15565,
+                    "endColumn": 48,
+                    "endOffset": 15609
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 15614,
+                    "endColumn": 146,
+                    "endOffset": 15756
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 15761,
+                    "endColumn": 119,
+                    "endOffset": 15876
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 755,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 756,
+                        "endColumn": 123,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 15881,
+                    "endColumn": 49,
+                    "endOffset": 15926
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 15931,
+                    "endColumn": 100,
+                    "endOffset": 16027
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 501,
+                        "startColumn": 4,
+                        "startOffset": 43999,
+                        "endColumn": 104,
+                        "endOffset": 44086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 16032,
+                    "endColumn": 70,
+                    "endOffset": 16098
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 16103,
+                    "endColumn": 105,
+                    "endOffset": 16204
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 498,
+                        "startColumn": 4,
+                        "startOffset": 43606,
+                        "endColumn": 109,
+                        "endOffset": 43710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 16209,
+                    "endColumn": 66,
+                    "endOffset": 16271
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 16276,
+                    "endColumn": 96,
+                    "endOffset": 16368
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 16373,
+                    "endColumn": 53,
+                    "endOffset": 16422
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 16427,
+                    "endColumn": 53,
+                    "endOffset": 16476
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 16481,
+                    "endColumn": 70,
+                    "endOffset": 16547
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 16552,
+                    "endColumn": 58,
+                    "endOffset": 16606
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 16611,
+                    "endColumn": 50,
+                    "endOffset": 16657
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 16662,
+                    "endColumn": 63,
+                    "endOffset": 16721
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 16726,
+                    "endColumn": 54,
+                    "endOffset": 16776
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 16781,
+                    "endColumn": 56,
+                    "endOffset": 16833
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 16838,
+                    "endColumn": 55,
+                    "endOffset": 16889
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 16894,
+                    "endColumn": 65,
+                    "endOffset": 16955
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 16960,
+                    "endColumn": 73,
+                    "endOffset": 17029
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 17034,
+                    "endColumn": 77,
+                    "endOffset": 17107
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 17112,
+                    "endLine": 181,
+                    "endColumn": 50,
+                    "endOffset": 17195
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 18525,
+                        "endLine": 170,
+                        "endColumn": 54,
+                        "endOffset": 18762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 17200,
+                    "endColumn": 78,
+                    "endOffset": 17274
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 17279,
+                    "endColumn": 65,
+                    "endOffset": 17340
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 17345,
+                    "endColumn": 84,
+                    "endOffset": 17425
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 17430,
+                    "endColumn": 60,
+                    "endOffset": 17486
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 17491,
+                    "endColumn": 46,
+                    "endOffset": 17533
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 17538,
+                    "endColumn": 38,
+                    "endOffset": 17572
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 17577,
+                    "endColumn": 38,
+                    "endOffset": 17611
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 17616,
+                    "endColumn": 38,
+                    "endOffset": 17650
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 17655,
+                    "endColumn": 38,
+                    "endOffset": 17689
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 17694,
+                    "endColumn": 38,
+                    "endOffset": 17728
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 17733,
+                    "endColumn": 38,
+                    "endOffset": 17767
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 17772,
+                    "endColumn": 33,
+                    "endOffset": 17801
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 17806,
+                    "endColumn": 38,
+                    "endOffset": 17840
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 17845,
+                    "endColumn": 70,
+                    "endOffset": 17911
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 17916,
+                    "endColumn": 71,
+                    "endOffset": 17983
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 17988,
+                    "endColumn": 91,
+                    "endOffset": 18075
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 18080,
+                    "endColumn": 69,
+                    "endOffset": 18145
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 18150,
+                    "endColumn": 137,
+                    "endOffset": 18283
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 18288,
+                    "endColumn": 77,
+                    "endOffset": 18361
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 18366,
+                    "endColumn": 314,
+                    "endOffset": 18676
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 18681,
+                    "endColumn": 78,
+                    "endOffset": 18755
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 18760,
+                    "endColumn": 136,
+                    "endOffset": 18892
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 18897,
+                    "endColumn": 60,
+                    "endOffset": 18953
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 18958,
+                    "endColumn": 108,
+                    "endOffset": 19062
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 19067,
+                    "endColumn": 78,
+                    "endOffset": 19141
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 19146,
+                    "endColumn": 113,
+                    "endOffset": 19255
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 19260,
+                    "endColumn": 82,
+                    "endOffset": 19338
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 19343,
+                    "endColumn": 110,
+                    "endOffset": 19449
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 19454,
+                    "endColumn": 75,
+                    "endOffset": 19525
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 19530,
+                    "endColumn": 104,
+                    "endOffset": 19630
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 19635,
+                    "endColumn": 86,
+                    "endOffset": 19717
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 19722,
+                    "endColumn": 336,
+                    "endOffset": 20054
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 20059,
+                    "endColumn": 48,
+                    "endOffset": 20103
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 20108,
+                    "endColumn": 58,
+                    "endOffset": 20162
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 20167,
+                    "endColumn": 83,
+                    "endOffset": 20246
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 20251,
+                    "endColumn": 37,
+                    "endOffset": 20284
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 20289,
+                    "endColumn": 64,
+                    "endOffset": 20349
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 20354,
+                    "endLine": 220,
+                    "endColumn": 47,
+                    "endOffset": 20435
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 609,
+                        "startColumn": 4,
+                        "startOffset": 48179,
+                        "endLine": 611,
+                        "endColumn": 51,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 20440,
+                    "endLine": 223,
+                    "endColumn": 11,
+                    "endOffset": 20562
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 45,
+                        "startOffset": 19279,
+                        "endLine": 178,
+                        "endColumn": 11,
+                        "endOffset": 19395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 20567,
+                    "endColumn": 47,
+                    "endOffset": 20610
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 20615,
+                    "endColumn": 57,
+                    "endOffset": 20668
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 20673,
+                    "endColumn": 83,
+                    "endOffset": 20752
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 20757,
+                    "endColumn": 88,
+                    "endOffset": 20841
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 20846,
+                    "endColumn": 87,
+                    "endOffset": 20929
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 20934,
+                    "endColumn": 62,
+                    "endOffset": 20992
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 20997,
+                    "endColumn": 60,
+                    "endOffset": 21053
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 21058,
+                    "endColumn": 107,
+                    "endOffset": 21161
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 21166,
+                    "endColumn": 147,
+                    "endOffset": 21309
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 21314,
+                    "endColumn": 126,
+                    "endOffset": 21436
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 21441,
+                    "endColumn": 113,
+                    "endOffset": 21550
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 21555,
+                    "endColumn": 137,
+                    "endOffset": 21688
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 21693,
+                    "endColumn": 117,
+                    "endOffset": 21806
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 21811,
+                    "endColumn": 78,
+                    "endOffset": 21885
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 21890,
+                    "endColumn": 80,
+                    "endOffset": 21966
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 21971,
+                    "endColumn": 120,
+                    "endOffset": 22087
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 22092,
+                    "endColumn": 235,
+                    "endOffset": 22323
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 22328,
+                    "endColumn": 126,
+                    "endOffset": 22450
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 22455,
+                    "endColumn": 126,
+                    "endOffset": 22577
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 22582,
+                    "endColumn": 116,
+                    "endOffset": 22694
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 22699,
+                    "endColumn": 89,
+                    "endOffset": 22784
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 22789,
+                    "endColumn": 69,
+                    "endOffset": 22854
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 22859,
+                    "endColumn": 66,
+                    "endOffset": 22921
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 22926,
+                    "endColumn": 118,
+                    "endOffset": 23040
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 23045,
+                    "endColumn": 47,
+                    "endOffset": 23088
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 23093,
+                    "endColumn": 88,
+                    "endOffset": 23177
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 23182,
+                    "endColumn": 58,
+                    "endOffset": 23236
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 23241,
+                    "endColumn": 54,
+                    "endOffset": 23291
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 23296,
+                    "endColumn": 52,
+                    "endOffset": 23344
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 23349,
+                    "endColumn": 49,
+                    "endOffset": 23394
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 23399,
+                    "endColumn": 59,
+                    "endOffset": 23454
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 23459,
+                    "endColumn": 45,
+                    "endOffset": 23500
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 23505,
+                    "endColumn": 90,
+                    "endOffset": 23591
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 23596,
+                    "endColumn": 60,
+                    "endOffset": 23652
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 23657,
+                    "endColumn": 57,
+                    "endOffset": 23710
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 23715,
+                    "endColumn": 62,
+                    "endOffset": 23773
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 23778,
+                    "endColumn": 102,
+                    "endOffset": 23876
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 23881,
+                    "endColumn": 111,
+                    "endOffset": 23988
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 23993,
+                    "endColumn": 54,
+                    "endOffset": 24043
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 24048,
+                    "endColumn": 65,
+                    "endOffset": 24109
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 24114,
+                    "endColumn": 61,
+                    "endOffset": 24171
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 24176,
+                    "endLine": 266,
+                    "endColumn": 59,
+                    "endOffset": 24279
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 661,
+                        "startColumn": 93,
+                        "startOffset": 48268,
+                        "endLine": 663,
+                        "endColumn": 63,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 24284,
+                    "endColumn": 46,
+                    "endOffset": 24326
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 24331,
+                    "endColumn": 154,
+                    "endOffset": 24481
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 24486,
+                    "endColumn": 47,
+                    "endOffset": 24529
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 24534,
+                    "endColumn": 53,
+                    "endOffset": 24583
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 24588,
+                    "endColumn": 50,
+                    "endOffset": 24634
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 24639,
+                    "endLine": 273,
+                    "endColumn": 75,
+                    "endOffset": 24747
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 669,
+                        "startColumn": 93,
+                        "startOffset": 48268,
+                        "endLine": 671,
+                        "endColumn": 83,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 24752,
+                    "endLine": 276,
+                    "endColumn": 11,
+                    "endOffset": 24836
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 672,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 675,
+                        "endColumn": 11,
+                        "endOffset": 48286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 24841,
+                    "endColumn": 46,
+                    "endOffset": 24883
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 24888,
+                    "endColumn": 55,
+                    "endOffset": 24939
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 24944,
+                    "endColumn": 46,
+                    "endOffset": 24986
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 24991,
+                    "endColumn": 166,
+                    "endOffset": 25153
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 679,
+                        "startColumn": 93,
+                        "startOffset": 48268,
+                        "endLine": 681,
+                        "endColumn": 178,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 25158,
+                    "endLine": 282,
+                    "endColumn": 115,
+                    "endOffset": 25304
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 682,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 684,
+                        "endColumn": 127,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 25309,
+                    "endColumn": 85,
+                    "endOffset": 25390
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 685,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 686,
+                        "endColumn": 89,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 25395,
+                    "endColumn": 191,
+                    "endOffset": 25582
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 25587,
+                    "endColumn": 195,
+                    "endOffset": 25778
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 25783,
+                    "endColumn": 202,
+                    "endOffset": 25981
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 25986,
+                    "endColumn": 72,
+                    "endOffset": 26054
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 26059,
+                    "endColumn": 190,
+                    "endOffset": 26245
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 26250,
+                    "endColumn": 193,
+                    "endOffset": 26439
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 26444,
+                    "endColumn": 193,
+                    "endOffset": 26633
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 26638,
+                    "endColumn": 199,
+                    "endOffset": 26833
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 26838,
+                    "endColumn": 201,
+                    "endOffset": 27035
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 27040,
+                    "endLine": 294,
+                    "endColumn": 11,
+                    "endOffset": 27144
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 689,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 690,
+                        "endColumn": 11,
+                        "endOffset": 48223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 27149,
+                    "endColumn": 211,
+                    "endOffset": 27356
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 27361,
+                    "endColumn": 100,
+                    "endOffset": 27457
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 27462,
+                    "endColumn": 126,
+                    "endOffset": 27584
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 27589,
+                    "endColumn": 95,
+                    "endOffset": 27680
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 27685,
+                    "endColumn": 110,
+                    "endOffset": 27791
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 27796,
+                    "endColumn": 124,
+                    "endOffset": 27916
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 27921,
+                    "endColumn": 124,
+                    "endOffset": 28041
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 28046,
+                    "endColumn": 107,
+                    "endOffset": 28149
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 28154,
+                    "endColumn": 129,
+                    "endOffset": 28279
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 28284,
+                    "endColumn": 38,
+                    "endOffset": 28318
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 28323,
+                    "endColumn": 108,
+                    "endOffset": 28427
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 694,
+                        "startColumn": 93,
+                        "startOffset": 48268,
+                        "endLine": 696,
+                        "endColumn": 112,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 28432,
+                    "endColumn": 87,
+                    "endOffset": 28515
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 28520,
+                    "endColumn": 67,
+                    "endOffset": 28583
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 28588,
+                    "endColumn": 80,
+                    "endOffset": 28664
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 28669,
+                    "endColumn": 112,
+                    "endOffset": 28777
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 702,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 703,
+                        "endColumn": 116,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 28782,
+                    "endColumn": 99,
+                    "endOffset": 28877
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 704,
+                        "startColumn": 0,
+                        "startOffset": 48299,
+                        "endLine": 705,
+                        "endColumn": 103,
+                        "endOffset": 48312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 28882,
+                    "endColumn": 42,
+                    "endOffset": 28920
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 28925,
+                    "endColumn": 59,
+                    "endOffset": 28980
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 28985,
+                    "endColumn": 44,
+                    "endOffset": 29025
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 29030,
+                    "endColumn": 63,
+                    "endOffset": 29089
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 29094,
+                    "endColumn": 41,
+                    "endOffset": 29131
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 29136,
+                    "endColumn": 54,
+                    "endOffset": 29186
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 29191,
+                    "endColumn": 51,
+                    "endOffset": 29238
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 29243,
+                    "endColumn": 54,
+                    "endOffset": 29293
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 29298,
+                    "endColumn": 43,
+                    "endOffset": 29337
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 29342,
+                    "endColumn": 56,
+                    "endOffset": 29394
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 29399,
+                    "endColumn": 65,
+                    "endOffset": 29460
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 29465,
+                    "endColumn": 45,
+                    "endOffset": 29506
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 29511,
+                    "endColumn": 49,
+                    "endOffset": 29556
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 29561,
+                    "endLine": 325,
+                    "endColumn": 52,
+                    "endOffset": 29664
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 43,
+                        "startOffset": 20423,
+                        "endLine": 192,
+                        "endColumn": 56,
+                        "endOffset": 20583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 29669,
+                    "endColumn": 51,
+                    "endOffset": 29716
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 29721,
+                    "endColumn": 60,
+                    "endOffset": 29777
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 29782,
+                    "endLine": 329,
+                    "endColumn": 84,
+                    "endOffset": 29926
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 4,
+                        "startOffset": 21019,
+                        "endLine": 200,
+                        "endColumn": 92,
+                        "endOffset": 21175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 29931,
+                    "endLine": 331,
+                    "endColumn": 47,
+                    "endOffset": 30028
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 20663,
+                        "endLine": 196,
+                        "endColumn": 51,
+                        "endOffset": 20877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 30033,
+                    "endColumn": 59,
+                    "endOffset": 30088
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 30093,
+                    "endColumn": 39,
+                    "endOffset": 30128
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 30133,
+                    "endColumn": 42,
+                    "endOffset": 30171
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 30176,
+                    "endColumn": 322,
+                    "endOffset": 30494
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 30499,
+                    "endColumn": 49,
+                    "endOffset": 30544
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 30549,
+                    "endColumn": 49,
+                    "endOffset": 30594
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 30599,
+                    "endColumn": 84,
+                    "endOffset": 30679
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 30684,
+                    "endColumn": 44,
+                    "endOffset": 30724
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 30729,
+                    "endColumn": 135,
+                    "endOffset": 30860
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 30865,
+                    "endColumn": 65,
+                    "endOffset": 30926
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 30931,
+                    "endColumn": 83,
+                    "endOffset": 31010
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 31015,
+                    "endColumn": 543,
+                    "endOffset": 31554
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/conduct_text.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 31559,
+                    "endColumn": 71,
+                    "endOffset": 31626
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 31631,
+                    "endColumn": 125,
+                    "endOffset": 31752
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 31757,
+                    "endColumn": 126,
+                    "endOffset": 31879
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 31884,
+                    "endColumn": 140,
+                    "endOffset": 32020
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 32025,
+                    "endColumn": 119,
+                    "endOffset": 32140
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 32145,
+                    "endColumn": 189,
+                    "endOffset": 32330
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 32335,
+                    "endColumn": 74,
+                    "endOffset": 32405
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 32410,
+                    "endColumn": 72,
+                    "endOffset": 32478
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 32483,
+                    "endColumn": 65,
+                    "endOffset": 32544
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 32549,
+                    "endColumn": 82,
+                    "endOffset": 32627
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 32632,
+                    "endColumn": 55,
+                    "endOffset": 32683
+                },
+                "from": {
+                    "file": "/root/Desktop/AndroidLab/iosched/android/src/main/res/values-ja/strings.xml"
+                }
+            }
+        ]
+    }
+]

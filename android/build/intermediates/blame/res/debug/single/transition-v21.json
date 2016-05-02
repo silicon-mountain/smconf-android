@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/transition-v21/shared_element.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/transition-v21/shared_element.xml"
+    },
+    {
+        "merged": "/root/Desktop/AndroidLab/iosched/android/build/intermediates/res/merged/debug/transition-v21/window_enter_exit.xml",
+        "source": "/root/Desktop/AndroidLab/iosched/android/src/main/res/transition-v21/window_enter_exit.xml"
+    }
+]

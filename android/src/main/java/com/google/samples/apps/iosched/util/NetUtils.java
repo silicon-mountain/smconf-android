@@ -19,10 +19,15 @@ package com.google.samples.apps.iosched.util;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
+<<<<<<< HEAD
 import static com.google.samples.apps.iosched.util.LogUtils.*;
 
 public class NetUtils {
     private static final String TAG = makeLogTag(NetUtils.class);
+=======
+public class NetUtils {
+    private static final String TAG = LogUtils.makeLogTag(NetUtils.class);
+>>>>>>> ioschedLarry/master
     private static String mUserAgent = null;
 
     public static String getUserAgent(String appName, Context context) {
@@ -32,9 +37,15 @@ public class NetUtils {
                 String packageName = context.getPackageName();
                 String version = context.getPackageManager().getPackageInfo(packageName, 0).versionName;
                 mUserAgent = mUserAgent + " (" + packageName + "/" + version + ")";
+<<<<<<< HEAD
                 LOGD(TAG, "User agent set to: " + mUserAgent);
             } catch (PackageManager.NameNotFoundException e) {
                 LOGE(TAG, "Unable to find self by package name", e);
+=======
+                LogUtils.LOGD(TAG, "User agent set to: " + mUserAgent);
+            } catch (PackageManager.NameNotFoundException e) {
+                LogUtils.LOGE(TAG, "Unable to find self by package name", e);
+>>>>>>> ioschedLarry/master
             }
         }
         return mUserAgent;

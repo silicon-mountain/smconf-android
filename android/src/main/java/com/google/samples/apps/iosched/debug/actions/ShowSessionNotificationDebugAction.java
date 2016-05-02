@@ -28,7 +28,10 @@ import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.map.MapActivity;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.debug.DebugAction;
+<<<<<<< HEAD
 import com.google.samples.apps.iosched.util.UIUtils;
+=======
+>>>>>>> ioschedLarry/master
 
 /**
 * Show a notification that a session is about to start. Simplified version of the one shown at

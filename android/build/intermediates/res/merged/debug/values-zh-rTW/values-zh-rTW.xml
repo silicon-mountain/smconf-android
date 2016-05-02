@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="schedule_block_subtitle">
+    <item quantity="other">
+      <ns1:g id="number_of_sessions">%1$d</ns1:g> 個可參與的會議</item>
+  </plurals>
+    <plurals name="session_notification_text">
+    <item quantity="other">同時，还有 <ns1:g id="num_sessions">%2$d</ns1:g> 個會議將在<ns1:g id="remaining_time">%1$d</ns1:g>分鐘后開始</item>
+  </plurals>
+    <plurals name="session_notification_ticker">
+    <item quantity="other">%d 個會議即將開始。</item>
+  </plurals>
+    <plurals name="session_notification_title">
+    <item quantity="other"> <ns1:g id="num_sessions">%2$d</ns1:g> 個會議將在<ns1:g id="remaining_time">%1$d</ns1:g>分鐘后開始</item>
+  </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="about_body">&lt;b>Google I/O 2015&lt;/b>&lt;br> 版本
+        %s&lt;br>&lt;br> &lt;a href=http://m.google.com/utos>服務條款&lt;/a>&lt;br>&lt;br> &lt;a href=http://www.google.com/policies/privacy/>隱私權政策&lt;/a></string>
+    <string name="about_eula">最終用戶許可協議</string>
+    <string name="about_licenses">開源許可證</string>
+    <string name="accept">接受</string>
+    <string name="add_account">添加帳戶</string>
+    <string name="add_to_schedule">添加到日程安排</string>
+    <string name="add_to_schedule_desc">添加會議到您日程安排的按鈕</string>
+    <string description="Label of filter option that allow to display all elements" name="all">全部</string>
+    <string name="all_sessions">所有會議</string>
+    <string name="all_themes">所有主題</string>
+    <string name="all_topics">所有話題</string>
+    <string name="all_types">所有類型</string>
+    <string name="all_years">所有年份</string>
+    <string description="This string is the message of the notification shown to the user when Google Play services          can&apos;t connect from a background sync." name="app_data_notification_resolution_content">I/O應用程式需要完成後台同步。</string>
+    <string descripton="This string is the title of a notification shown to the user when Google Play         services can&apos;t connect." name="app_data_notification_resolution_title">I/O應用程式需要權限</string>
+    <string name="app_name">Google I/O 2015</string>
+    <string name="attending_in_person">親自</string>
+    <string name="attending_remotely">遠程</string>
+    <string name="browse_events">瀏覽事件</string>
+    <string name="browse_sessions">瀏覽會議…</string>
+    <string name="calltoaction_wifi_configure">&lt;br>&lt;br>點擊‘增加 Wi-Fi 網絡’繼續。</string>
+    <string name="calltoaction_wifi_settings">&lt;br>&lt;br>點擊‘打開 Wi-Fi 設置’啟用 Wi-Fi。</string>
+    <string name="cancel">取消</string>
+    <string description="Accessibility description for a control that allows the user to close the current screen          and go back to the previous one." name="close_and_go_back">關閉並返回</string>
+    <string name="close_detail_pane">關閉詳情頁面</string>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"有一個應用程式要求更新 Android Wear 應用程式。"</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"您必須更新 Android Wear 應用程式，這個應用程式才能運作。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"更新 Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"啟用 Google Play 服務"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，這個應用程式才能運作。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」提出要求"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"取得 Google Play 服務"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"您的手機並未安裝 Google Play 服務，所以無法執行這個應用程式。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"您的平板電腦並未安裝 Google Play 服務，所以無法執行這個應用程式。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"取得 Google Play 服務"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"這個裝置上沒有您所指定的帳戶，請選擇其他帳戶。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無效的帳戶"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"應用程式要求啟用 Google Play 服務。"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"需要數據連線才能連上 Google Play 服務。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"網路錯誤"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"應用程式要求安裝 Google Play 服務。"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"應用程式要求更新 Google Play 服務。"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play 服務發生錯誤"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"登入指定的帳戶時發生錯誤，請選擇其他帳戶。"</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"登入失敗"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play 服務發生不明問題。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"您的裝置不支援部分應用程式所需的 Google Play 服務。如需協助，請與您的裝置製造商聯絡。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play 服務"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"您必須更新 Google Play 服務，才能執行這個應用程式。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"在手機上開啟"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"登入"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"使用 Google 帳戶登入"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"您必須使用另外一項或多項 Google Play 服務，才能存取這個應用程式，但目前無法取得這些服務。請與開發人員聯絡，尋求相關協助。"</string>
+    <string name="data_stale_warning">您正在看的數據可能已過時</string>
+    <string description="Shown as the titles of the tabs for the user&apos;s schedule" name="day_n">第%d天</string>
+    <string name="day_title_today">今天</string>
+    <string name="day_title_tomorrow">明天</string>
+    <string name="day_title_yesterday">昨天</string>
+    <string name="decline">拒絕</string>
+    <string name="description_about">關於</string>
+    <string name="description_add_schedule">添加到日程安排</string>
+    <string name="description_app_feedback">應用反饋</string>
+    <string name="description_app_feedback_old">反饋</string>
+    <string name="description_captions">字幕</string>
+    <string name="description_configure_wifi">配置 Wi-Fi</string>
+    <string name="description_filter">篩選</string>
+    <string name="description_i_o_extended">I/O Extended</string>
+    <string name="description_map">地圖</string>
+    <string name="description_presentation">切換屏幕輸出</string>
+    <string name="description_refresh">刷新</string>
+    <string name="description_remove_schedule">從日程安排中移除</string>
+    <string name="description_search">搜索</string>
+    <string name="description_settings">設置</string>
+    <string name="description_setup_wifi_body">既然您在會議現場，我們可以設置該設備以方便您訪問會議的Wi-Fi網絡 (5Ghz)。通過配置設備連接到此無線網絡，會有效緩解網絡阻塞。</string>
+    <string name="description_share">分享</string>
+    <string name="description_social_stream">查看 Google+ 社交流</string>
+    <string name="drawer_close">已關閉導航視圖</string>
+    <string name="drawer_open">已開啟導航視圖</string>
+    <string name="empty_captions">本會議無字幕。</string>
+    <string name="empty_session_detail">本會議無詳細信息。</string>
+    <string name="empty_sessions">未找到會議。</string>
+    <string name="empty_waiting_for_sync">等待同步中…</string>
+    <string name="empty_widget_text">接下來沒有更多會議了。\n我們明天再見！</string>
+    <string name="empty_widget_text_signed_out">點擊上方的 Google I/O 2015 的圖標以登入並開始使用該應用。</string>
+    <string name="ended_sessions">已經結束的會議</string>
+    <string name="eula_legal_text">使用此應用程式受以下政策規管： a) Google 服務條款 (http://www.google.com/intl/zh-TW/policies/terms/)；b) Google 隱私政策 (http://www.google.com/intl/zh-TW/policies/privacy/)；及 c) 任何適用的 Google 特定服務條款及隱私政策。Google 的服務及隱私政策可能會經常更新，不另行通知。\n\n此應用程式會在您使用時收集特定資料，包括透過 Google Analytics 收集的資料。Google 的隱私政策闡明您使用應用程式時 Google 處理您的資料及保護您的隱私的方式。 使用這一應用程式即表明您同意根據 Google 隱私政策使用您的資料。</string>
+    <string name="explore_attending_in_person_toast">親自參加I/O（您可在設定中更改）</string>
+    <string name="explore_attending_remotely_toast">遠端參加I/O（您可在設定中更改）</string>
+    <string description="A message card displayed in the Explore I/O page that asks users to opt into a                          feature." name="explore_io_msgcards_after_hours_card">&lt;b>會後聚會&lt;/b>&lt;br>&lt;/br>這是你不想錯過的一次聚會！歡迎與會者在5月28日晚上前往享受美食、飲品、音樂遊戲以及其他更多內容。與會者需佩戴大會徽章和NFC腕帶方可進入。</string>
+    <string name="explore_io_msgcards_answer_no">不，謝謝。</string>
+    <string name="explore_io_msgcards_answer_yes">當然，我們開始吧！</string>
+    <string description="This message is displayed on the Explore I/O screen to ask users whether             they would like to opt in to receive messages regarding the conference." name="explore_io_msgcards_ask_opt_in">
+        &lt;b>會議提示讯息&lt;/b>&lt;br/>
+        您是否願意收到有關會議的重要提示訊息？此訊息即時推送，並可能包含來自合作夥伴的商業宣傳。</string>
+    <string name="explore_io_msgcards_conf_creds_card">&lt;b>大會證件&lt;/b> &lt;br>今年，每名與會者將收到一條不可轉讓的NFC功能腕帶。您憑藉腕帶和I/O徽章即可參加主題演講、會議、沙箱和會後聚會。請記住，請隨時佩戴。</string>
+    <string description="This string is presented to users when they attempt to click something that indicates they          can watch a video but it turns out we can&apos;t show the video." name="explore_io_video_id_not_valid">很抱歉，影片網址似乎有問題。</string>
+    <string description="Sub-title for a session in ExploreSessionsActivity that shows the day, time and room name for a given session. Example: Day 1 / 9:00AM - 11:00AM / Room 1" name="explore_sessions_show_day_hour_and_room">
+    <ns1:g example="Day 1" id="day">%1$s</ns1:g> / <ns1:g example="2:00PM" id="start_time">
+        %2$s</ns1:g> - <ns1:g example="3:00PM" id="end_time">%3$s</ns1:g> / <ns1:g id="room">%4$s</ns1:g>
+  </string>
+    <string description="Show the Day 1 or Day 2 as part of either the ExploreSessionsActivity title or in the session details." name="explore_sessions_show_day_n">第%d天</string>
+    <string description="Show Day and start time of a session as the title when viewing browsing sessions (ExploreSessionActivity) from MySchedule." name="explore_sessions_time_slot_title">
+    <ns1:g example="Day 1" id="day">%1$s</ns1:g>，<ns1:g example="2:30PM" id="start_time">%2$s</ns1:g>
+  </string>
+    <string name="give_feedback">是</string>
+    <string name="go_to_settings">轉到設定</string>
+    <string name="google_account_required_message">要使用此應用，在您的設備上必須至少擁有一個Google賬戶。</string>
+    <string name="google_account_required_title">需要Google帳戶</string>
+    <string name="google_i_o_year">I/O <ns1:g id="year">%1$d</ns1:g>
+  </string>
+    <string name="got_it">了解</string>
+    <string description="Accessibility description for the IO15 extended logo that is not a link." name="io15_extended_logo_not_clickable">IO15遠端徽標不可點擊</string>
+    <string description="Accessibility description for the IO15 logo that is not a link." name="io15_logo_not_clickable">IO15徽標不可點擊</string>
+    <string description="Accessibility description for the IO15 request logo that is not a link." name="io15_request_logo_not_clickable">IO15請求徽標不可點擊</string>
+    <string description="Accessibility description for the I/O logo that is not a link." name="io_logo_not_clickable">IO徽標不可點擊</string>
+    <string name="keynote_group_title">主旨演講</string>
+    <string name="live_available">直播</string>
+    <string name="live_now">現在直播</string>
+    <string name="loading">加載中…</string>
+    <string name="login_failed_text">由於一些問題，我們暫時無法加載您選擇的演講。</string>
+    <string name="login_failed_text_retry">重試</string>
+    <string name="mandatory_update_error">您的應用已過期。您必須升級以便繼續使用它。</string>
+    <string name="map_at">在 %1$s：&lt;br>&lt;b>%2$s&lt;/b></string>
+    <string name="map_now_playing">現在播放中：&lt;br>&lt;b>%1$s&lt;/b></string>
+    <string name="map_touch_to_see_session">點擊以查看會議</string>
+    <string name="more_information">更多資訊</string>
+    <string name="more_items_button">更多</string>
+    <string description="Accessibility description for viewing more sessions/videos." name="more_items_button_desc_a11y">點擊可顯示更多內容。</string>
+    <string name="more_sessions">更多會議</string>
+    <string name="my_schedule_page_desc_a11y">現在顯示您<ns1:g id="day">%1$s</ns1:g>的日程安排。</string>
+    <string name="my_schedule_rate_this_session">評價本環節</string>
+    <string name="my_schedule_tab_desc_a11y">點擊顯示您<ns1:g id="day">%1$s</ns1:g>的日程安排。</string>
+    <string name="my_schedule_watch_live_now">馬上觀看直播</string>
+    <string name="navdrawer_description_a11y">用於切換應用程式主要功能的導航菜單</string>
+    <string name="navdrawer_item_debug">調試</string>
+    <string name="navdrawer_item_explore">探索</string>
+    <string name="navdrawer_item_explore_a11y">探索 Google I/O</string>
+    <string name="navdrawer_item_io_live">I/O直播</string>
+    <string name="navdrawer_item_map">地圖</string>
+    <string name="navdrawer_item_my_schedule">我的日程安排</string>
+    <string name="navdrawer_item_settings">設置</string>
+    <string name="navdrawer_item_sign_in">登入</string>
+    <string name="navdrawer_item_social">社交</string>
+    <string name="navdrawer_item_video_library">影片</string>
+    <string name="navdrawer_status_attending_in_person">親自參加 I/O</string>
+    <string name="navdrawer_status_attending_remotely">遠程參加 I/O</string>
+    <string name="new_videos_title">
+    <ns1:g id="year">%1$d</ns1:g>年新影片</string>
+    <string name="no_connection_cant_login">無法登入，請檢查您的網絡連接。</string>
+    <string name="no_matching_sessions">沒有匹配的會議。</string>
+    <string name="no_matching_sessions_in_interval">在這個時段沒有可參加的會議。</string>
+    <string name="no_matching_videos">沒有匹配的視頻。</string>
+    <string name="no_thanks">不，謝謝</string>
+    <string name="not_now">稍後</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="ok">確定</string>
+    <string name="others">其它</string>
+    <string name="permission_write">修改Google I/O 日程安排數據</string>
+    <string name="plus_one_description_standard">輕觸即可加一。</string>
+    <string name="pref_analytics_enabled_description">如果選中，匿名的使用統計資訊將被發送到Google。</string>
+    <string name="pref_analytics_enabled_title">發送匿名的使用統計資訊</string>
+    <string name="pref_attendee_at_venue_description">如果選中，將顯示所有的會議和現場活動。否則，將只顯示實時會議。</string>
+    <string name="pref_attendee_at_venue_title">我會在 Google I/O 大會！</string>
+    <string description="Description in the Settings screen for the setting that enables display of             cards with conference information in the explore screen." name="pref_conf_message_cards_enabled_description">在"探索"界面顯示會議信息。此信息即時顯示，並可能包含來自合作夥伴的商業宣傳。</string>
+    <string name="pref_conf_message_cards_enabled_title">顯示會議提示訊息</string>
+    <string name="pref_local_times_description">如果選中，時間會顯示為您設備的本地時間。如果不選中，時間會顯示為PDT 時間，也就是會議的本地時間。</string>
+    <string name="pref_local_times_title">顯示本地時間</string>
+    <string name="pref_notify_feedback_description">如果選中，該應用程序會彈出通知，要求您對所選会议进行評價。</string>
+    <string name="pref_notify_feedback_title">請提醒我對我參加的會議進行評價</string>
+    <string name="pref_notify_starred_sessions_description">如果選中，當您選擇的會議即將開始時，應用將彈出一個通知。</string>
+    <string name="pref_notify_starred_sessions_title">請通知我參加演講</string>
+    <string name="pref_sync_with_calendar_description">如果選中，您選擇的會議將會自動同步到您的Google日曆。</string>
+    <string name="pref_sync_with_calendar_title">與Google日曆同步</string>
+    <string name="question_i_o_extended">您想知道更多即將發生在您的所處地區的 I/O Extended活動嗎？</string>
+    <string name="question_local_or_remote">您打算遠程或親自參加在舊金山的 I/O 嗎？</string>
+    <string descripton="Text of a card shown in the Explore I/O screen that asks the user if they want to configure          the conference WiFi. &apos;Not now&apos; and &apos;Yes, please&apos; are options show on the card" name="question_setup_wifi_card_text">&lt;b>大會Wi-Fi&lt;/b>&lt;br/>您想設置裝置以使用大會Wi-Fi嗎？</string>
+    <string name="related_videos">相關視頻</string>
+    <string name="remove_from_schedule">在日程表內</string>
+    <string name="remove_from_schedule_desc">點擊按鈕以從您的日程安排中刪除會議。</string>
+    <string name="retry">重試</string>
+    <string name="schedule_conflict_with_previous">（衝突）</string>
+    <string name="schedule_end_time">直到 <ns1:g id="endTime">%1$s</ns1:g>
+  </string>
+    <string name="schedule_session_subtitle">
+    <ns1:g id="speakers">%1$s</ns1:g>\n<ns1:g id="room">%2$s</ns1:g>
+  </string>
+    <string name="search_hint">搜索會議</string>
+    <string name="search_label">Google I/O 大會</string>
+    <string name="session_calendar_suffix">- 由 Google I/O Android 應用添加</string>
+    <string name="session_details_a11y_session_added">會議已經添加到您的日程安排</string>
+    <string name="session_details_a11y_session_removed">會議已經從您的日程安排移除</string>
+    <string name="session_feedback_advanced">太先進</string>
+    <string name="session_feedback_basic">太簡單</string>
+    <string description="Session feedback section title" name="session_feedback_content">內容為：</string>
+    <string descripton="Session feedback section title" name="session_feedback_content_label_text">根據描述/我的期望，內容是：</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_extremely_relevant">非常不好</string>
+    <string description="A positive overall session feedback option" name="session_feedback_great">很好</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_not_at_all_relevant">一點也不</string>
+    <string description="A negative overall session feedback option" name="session_feedback_notgreat">不好</string>
+    <string name="session_feedback_notification_text">為%1$s提供反饋</string>
+    <string name="session_feedback_notification_ticker">提供會議反饋</string>
+    <string description="A negative relevance session feedback option" name="session_feedback_notrel">不相關</string>
+    <string description="A session feedback section label asking for any other feedback. It indicates the user should not add personal information" name="session_feedback_other">還有什麼想告訴我們嗎？\n\n（請不要在您的評論中添加任何個人資訊。）</string>
+    <string description="A positive speaker quality session feedback option" name="session_feedback_outstanding">優秀</string>
+    <string description="A negative speaker quality session feedback option" name="session_feedback_poor">很差</string>
+    <string description="A positive relevance session feedback option" name="session_feedback_rel">相關</string>
+    <string name="session_feedback_relevance">這次會議與您的項目有多相關？</string>
+    <string name="session_feedback_speaker_quality">發言人質量：</string>
+    <string name="session_feedback_submitlink">提交反饋</string>
+    <string description="Hint for adding other session feedback" name="session_feedback_tell_us">請告訴我們！</string>
+    <string name="session_finished">已經結束</string>
+    <string name="session_give_feedback_message">您覺得今場演講怎樣？您想發送反饋嗎？</string>
+    <string name="session_link_livestream">觀看直播</string>
+    <string name="session_link_moderator">主席</string>
+    <string name="session_link_notes">官方備註</string>
+    <string name="session_link_pdf">幻燈片</string>
+    <string name="session_link_youtube">YouTube 視頻</string>
+    <string name="session_links">更多</string>
+    <string name="session_live_now_message">本會議現場直播中！你想觀看現場視頻流嗎？</string>
+    <string name="session_live_streamed">直播串流</string>
+    <string name="session_livestream_block">直播！</string>
+    <string name="session_livestream_captions">字幕</string>
+    <string name="session_livestream_error_init">抱歉，初始化 YouTube 播放器時出現了錯誤 (%1$s)</string>
+    <string name="session_livestream_error_playback">抱歉，加載實時視頻流出現了錯誤，請稍後再試</string>
+    <string name="session_livestream_info">信息</string>
+    <string name="session_livestream_play_pause">播放/暫停</string>
+    <string name="session_livestream_title">I/O 直播</string>
+    <string name="session_notification_text_1">在 <ns1:g id="remaining_time">%1$d</ns1:g> 分鐘后開始</string>
+    <string name="session_now">現在</string>
+    <string description="A session feedback section label asking the user to rate the session overall" name="session_rating_label_text">環節評級：</string>
+    <string name="session_replay">重播</string>
+    <string name="session_requirements">要求</string>
+    <string name="session_speakers">演講者</string>
+    <string name="session_subtitle">在<ns1:g id="room">%2$s</ns1:g>的<ns1:g id="time">%1$s</ns1:g>
+  </string>
+    <string name="session_subtitle_short">
+    <ns1:g id="time">%1$s</ns1:g>
+  </string>
+    <string name="session_watch">觀看</string>
+    <string name="session_watch_live">觀看直播</string>
+    <string name="setup_wifi_yes">是的！</string>
+    <string name="share_livestream_template">觀看 I/O 直播：‘<ns1:g id="title">%1$s</ns1:g>’，在<ns1:g id="hashtags">%2$s</ns1:g>
+    <ns1:g id="url">%3$s</ns1:g>
+  </string>
+    <string name="share_template">在<ns1:g id="hashtags">%2$s</ns1:g>
+    <ns1:g id="url">%3$s</ns1:g>查看‘<ns1:g id="title">%1$s</ns1:g>’</string>
+    <string name="snooze_x_min">停頓 <ns1:g id="remaining_time">%1$d</ns1:g> 分鐘</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15 extended&apos; box." name="social_extended_gplus_content_description">轉到含有遠端井號標籤的Google Plus頁面</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_extended_twitter_content_description">轉到含有遠端井號標籤的Twitter頁面</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; GPlus page." name="social_gplus_devs_content_description">轉到Google Developers的Google Plus頁面</string>
+    <string name="social_intro">點擊一個 hashtag 跟隨在 Google+上的談話</string>
+    <string description="Accessibility description for the GPlus icon in the &apos;#io15&apos; box." name="social_io15_gplus_content_description">轉到含有io15井號標籤的Google Plus頁面</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15&apos; box." name="social_io15_twitter_content_description">轉到含有io15井號標籤的Twitter頁面</string>
+    <string descripton="Accessibility description for the GPlus icon in the &apos;#io15 request&apos; box." name="social_request_gplus_content_description">轉到含有請求井號標籤的Google Plus頁面</string>
+    <string description="Accessibility description for the Twitter icon in the &apos;#io15 extended&apos; box." name="social_request_twitter_content_description">轉到含有請求伸井號標籤的Twitter頁面</string>
+    <string description="Accessibility description for link to the &apos;Google Developers&apos; Twitter page." name="social_twitter_devs_content_description">轉到Google Developers的Twitter頁面</string>
+    <string name="speaker_googleplus_profile">Google+資料：<ns1:g id="speakername">%1$s</ns1:g>
+  </string>
+    <string description="Accessibility for the links to the G+ or Twitter pages for speakers. For example: Go to the Twitter page for Sally Sample." name="speaker_social_page">轉至%2$s的%1$s頁面</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string description="Indicates the item is actionable and the user can tap on it" name="talkback_button">%1$S按鈕</string>
+    <string description="Indicates the item is an image" name="talkback_image">%1$S圖像</string>
+    <string description="Indicates the item is a link (and actionable)" name="talkback_link">%1$S連結</string>
+    <string description="Indicates the item does nothing when tapped" name="talkback_not_clickable">%1$S不可點擊</string>
+    <string description="Indicates the item is currently not selected" name="talkback_not_selected">%1$S未選</string>
+    <string descripton="Indicates the item is currently selected" name="talkback_selected">%1$S已選</string>
+    <string description="Indicates what happens when the user taps on an item" name="talkback_tapfor">點擊即可%1$S</string>
+    <string name="themes">主題</string>
+    <string name="time_hint_about_to_start_min">本會議在 <ns1:g id="minutes">%1$d</ns1:g> 分鐘後開始</string>
+    <string name="time_hint_about_to_start_shortly">本次會議即將開始（1分鐘內）。</string>
+    <string name="time_hint_session_ended">本會議已經結束。</string>
+    <string name="time_hint_started_just">本次會議正在進行！ （剛開始）</string>
+    <string name="time_hint_started_min">本次會議正在進行！（<ns1:g id="minutes">%1$d</ns1:g>分鐘前開始）</string>
+    <string name="times_shown_in_tz">以 <ns1:g id="timezone">%1$s</ns1:g> 顯示的所有時刻</string>
+    <string name="title_about">關於</string>
+    <string name="title_activity_new_social">社交</string>
+    <string name="title_explore">探索</string>
+    <string name="title_explore_sessions_filter">篩選</string>
+    <string name="title_map">地圖</string>
+    <string name="title_my_schedule">我的日程安排表</string>
+    <string name="title_office_hours">辦公時間</string>
+    <string name="title_sandbox_detail">公司信息</string>
+    <string name="title_search">搜索</string>
+    <string name="title_session_detail">會議信息</string>
+    <string name="title_session_feedback">會議反饋</string>
+    <string name="title_settings">設置</string>
+    <string name="title_share">分享正在使用的</string>
+    <string name="title_topic_filtered_video_library">關於<ns1:g id="topic">%1$s</ns1:g>的影片</string>
+    <string name="title_video_library">影片</string>
+    <string name="title_video_library_filter">篩選</string>
+    <string name="title_year_and_topic_filtered_video_library">
+    <ns1:g id="year">%1$d</ns1:g>年的影片，主題為<ns1:g id="topic">%2$s</ns1:g>
+  </string>
+    <string name="title_year_filtered_video_library">
+    <ns1:g id="year">%1$d</ns1:g>年的影片</string>
+    <string name="topic_filter_section_label">主題</string>
+    <string name="topics">話題</string>
+    <string name="types">類型</string>
+    <string description="Generic error message used for errors that should never happen. This explains to the user          that we can&apos;t execute the request when they click a button or touch a part of the screen          that should normally be touchable." name="unknown_error">哎呦，我們無法處理該請求。</string>
+    <string name="unknown_room">（不明房間）</string>
+    <string name="update_app">更新應用</string>
+    <string name="update_available">Google Play 上有這個應用的最新版本。</string>
+    <string name="watch_now">現在觀看！</string>
+    <string description="Short text asking if they&apos;re interested in what&apos;s around them" name="welcome_around">您周圍</string>
+    <string name="welcome_attending">親臨現場？</string>
+    <string name="welcome_attending_text">你是遠端參與I/O還是親臨三藩市大會現場？</string>
+    <string name="welcome_conduct_text"><b>彼此出眾。</b>\n我們希望，I/O能夠不因性別身份和表現、性取向、殘疾、相貌、體型、種族、國籍、年齡或宗教，給每一個人帶來良好的體驗。尊重每個人。參與的同時應承認，每個人都可以到這裡來——我們每個人都有權來體驗，無需擔心會受到明目張膽或微歧視方式實施的騷擾、歧視或屈尊。\n\n<b>如果你聽到或看到什麼，就說什麼。</b>\n我們不容許出現騷擾，當他人態度不尊重時，你有權禮貌地應對。另外，也要假設人家本沒有惡意。讓你覺得不舒服的人可能不知道自己在做什麼，我們鼓勵禮貌地提醒他們注意自己的行為。\n\n<b>肯定，並</b>\n完善彼此的觀點。當我們共同創造時，大家都從中受益。</string>
+    <string name="welcome_conduct_title">I/O社區最佳實踐</string>
+    <string description="Text for a button which allows the user to enable the feature" name="welcome_enable">啟用</string>
+    <string description="Text for a button which allows the user to reject the feature" name="welcome_no_thanks">不，謝謝</string>
+    <string description="Medium text asking to choose an account from a list" name="welcome_select_accoun_text">請選擇要使用的帳戶：</string>
+    <string description="Short text asking them to select an account" name="welcome_select_account">選擇一個帳戶</string>
+    <string description="Medium-length welcome text indicating the subsequent text is important legal information " name="welcome_text">在我們開始之前，這裡提供與您使用這款應用程式有關的一些重要法律資料。只需要一分鐘！</string>
+    <string name="welcome_to_google_i_o_app">歡迎來到 Google  I/O 應用！</string>
+    <string name="wifi_dialog_button_configure">增加 WiFi 網絡</string>
+    <string name="wifi_dialog_button_settings">打開 WiFi 設置</string>
+    <string name="wifi_install_error_message">抱歉，無法更新 WiFi 配置</string>
+    <string name="year_filter_section_label">年</string>
+</resources>

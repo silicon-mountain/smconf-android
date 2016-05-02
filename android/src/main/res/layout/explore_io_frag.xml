@@ -34,11 +34,19 @@
     <!-- Views in FrameLayout are stacked on top of each other so this is what is displayed when
      CollectionView is empty -->
     <ImageView
+<<<<<<< HEAD
         android:id="@android:id/empty"
+=======
+>>>>>>> ioschedLarry/master
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/app_primary_accent"
         android:scaleType="fitCenter"
+<<<<<<< HEAD
         android:src="@drawable/io_logo" />
+=======
+        android:src="@mipmap/actionbar_logo"
+        android:id="@android:id/empty"/>
+>>>>>>> ioschedLarry/master
 
 </FrameLayout>

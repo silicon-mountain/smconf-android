@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="session_details_floating_height">600dp</dimen>
+    <dimen name="session_details_floating_width">600dp</dimen>
+    <dimen name="social_landscape_io_logo_panel_height">336dp</dimen>
+    <integer name="deprecated_explore_1st_level_grid_columns">4</integer>
+    <integer name="deprecated_explore_2nd_level_grid_columns">3</integer>
+    <integer name="deprecated_explore_wide_layout_hero_weight">3</integer>
+    <integer name="links_columns">1</integer>
+    <integer name="login_pane_width_percent">50</integer>
+    <integer name="video_library_columns">3</integer>
+</resources>

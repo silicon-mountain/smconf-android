@@ -26,6 +26,10 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
+<<<<<<< HEAD
+=======
+import com.google.samples.apps.iosched.util.LogUtils;
+>>>>>>> ioschedLarry/master
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -33,7 +37,11 @@ import java.util.HashMap;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class TagsHandler extends JSONHandler {
+<<<<<<< HEAD
     private static final String TAG = makeLogTag(TagsHandler.class);
+=======
+    private static final String TAG = LogUtils.makeLogTag(TagsHandler.class);
+>>>>>>> ioschedLarry/master
 
     private HashMap<String, Tag> mTags = new HashMap<String, Tag>();
 

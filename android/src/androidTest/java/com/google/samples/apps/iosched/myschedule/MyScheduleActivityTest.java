@@ -15,17 +15,28 @@
  */
 package com.google.samples.apps.iosched.myschedule;
 
+<<<<<<< HEAD
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+=======
+>>>>>>> ioschedLarry/master
 import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.suitebuilder.annotation.LargeTest;
 
+<<<<<<< HEAD
+=======
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+>>>>>>> ioschedLarry/master
 import static android.support.test.espresso.matcher.ViewMatchers.assertThat;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
