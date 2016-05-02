@@ -18,10 +18,7 @@
 package com.google.samples.apps.iosched.ui.widget;
 
 import android.content.Context;
-<<<<<<< HEAD
 import android.provider.Settings;
-=======
->>>>>>> ioschedLarry/master
 import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 import android.widget.Checkable;

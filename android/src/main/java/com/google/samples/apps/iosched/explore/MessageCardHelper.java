@@ -5,10 +5,6 @@ import com.google.samples.apps.iosched.explore.data.MessageData;
 import com.google.samples.apps.iosched.settings.ConfMessageCardUtils;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.util.WiFiUtils;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,11 +20,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * stream.
  */
 public class MessageCardHelper {
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(MessageCardHelper.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(MessageCardHelper.class);
->>>>>>> ioschedLarry/master
 
     private static final String TWITTER_PACKAGE_NAME = "com.twitter.android";
     private static final String GPLUS_PACKAGE_NAME = "com.google.android.apps.plus";
@@ -45,11 +37,7 @@ public class MessageCardHelper {
         messageData.setStartButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking conference messages question answered with decline.");
-=======
-                LogUtils.LOGD(TAG, "Marking conference messages question answered with decline.");
->>>>>>> ioschedLarry/master
                 ConfMessageCardUtils.markAnsweredConfMessageCardsPrompt(view.getContext(), true);
                 ConfMessageCardUtils.setConfMessageCardsEnabled(view.getContext(), false);
 
@@ -58,11 +46,7 @@ public class MessageCardHelper {
         messageData.setEndButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking conference messages question answered with affirmation.");
-=======
-                LogUtils.LOGD(TAG, "Marking conference messages question answered with affirmation.");
->>>>>>> ioschedLarry/master
                 ConfMessageCardUtils.markAnsweredConfMessageCardsPrompt(view.getContext(), true);
                 ConfMessageCardUtils.setConfMessageCardsEnabled(view.getContext(), true);
             }
@@ -84,11 +68,7 @@ public class MessageCardHelper {
         messageData.setStartButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking wifi setup declined.");
-=======
-                LogUtils.LOGD(TAG, "Marking wifi setup declined.");
->>>>>>> ioschedLarry/master
 
                 // Switching like this ensure the value change listener is fired.
                 SettingsUtils.markDeclinedWifiSetup(view.getContext(), false);
@@ -98,11 +78,7 @@ public class MessageCardHelper {
         messageData.setEndButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Installing conference wifi.");
-=======
-                LogUtils.LOGD(TAG, "Installing conference wifi.");
->>>>>>> ioschedLarry/master
                 WiFiUtils.installConferenceWiFi(view.getContext());
 
                 // Switching like this ensure the value change listener is fired.
@@ -127,11 +103,7 @@ public class MessageCardHelper {
         messageData.setEndButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking conference credentials card dismissed.");
-=======
-                LogUtils.LOGD(TAG, "Marking conference credentials card dismissed.");
->>>>>>> ioschedLarry/master
 
                 ConfMessageCardUtils.markDismissedConfMessageCard(
                         view.getContext(),
@@ -155,11 +127,7 @@ public class MessageCardHelper {
         messageData.setStartButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking conference credentials card dismissed.");
-=======
-                LogUtils.LOGD(TAG, "Marking conference credentials card dismissed.");
->>>>>>> ioschedLarry/master
                 ConfMessageCardUtils.markDismissedConfMessageCard(
                         view.getContext(),
                         ConfMessageCardUtils.ConfMessageCard.WIFI_FEEDBACK);
@@ -169,11 +137,7 @@ public class MessageCardHelper {
         messageData.setEndButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Providing feedback");
-=======
-                LogUtils.LOGD(TAG, "Providing feedback");
->>>>>>> ioschedLarry/master
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.putExtra(Intent.EXTRA_TEXT, "#io15wifi ");
@@ -213,11 +177,7 @@ public class MessageCardHelper {
         messageData.setEndButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking keynote access card dismissed.");
-=======
-                LogUtils.LOGD(TAG, "Marking keynote access card dismissed.");
->>>>>>> ioschedLarry/master
 
                 ConfMessageCardUtils.markDismissedConfMessageCard(
                         view.getContext(),
@@ -240,11 +200,7 @@ public class MessageCardHelper {
         messageData.setEndButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking after hours card dismissed.");
-=======
-                LogUtils.LOGD(TAG, "Marking after hours card dismissed.");
->>>>>>> ioschedLarry/master
 
                 ConfMessageCardUtils.markDismissedConfMessageCard(
                         view.getContext(),

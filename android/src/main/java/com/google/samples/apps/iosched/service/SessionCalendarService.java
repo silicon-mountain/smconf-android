@@ -22,11 +22,6 @@ import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.util.AccountUtils;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.provider.ScheduleProvider;
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import android.app.IntentService;
 import android.content.ContentProviderOperation;
@@ -52,11 +47,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * the {@link CalendarContract} API available in Android 4.0 or above.
  */
 public class SessionCalendarService extends IntentService {
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(SessionCalendarService.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(SessionCalendarService.class);
->>>>>>> ioschedLarry/master
 
     public static final String ACTION_ADD_SESSION_CALENDAR =
             "com.google.samples.apps.iosched.action.ADD_SESSION_CALENDAR";
@@ -112,15 +103,9 @@ public class SessionCalendarService extends IntentService {
                 sendBroadcast(new Intent(
                         SessionCalendarService.ACTION_UPDATE_ALL_SESSIONS_CALENDAR_COMPLETED));
             } catch (RemoteException e) {
-<<<<<<< HEAD
                 LOGE(TAG, "Error adding all sessions to Google Calendar", e);
             } catch (OperationApplicationException e) {
                 LOGE(TAG, "Error adding all sessions to Google Calendar", e);
-=======
-                LogUtils.LOGE(TAG, "Error adding all sessions to Google Calendar", e);
-            } catch (OperationApplicationException e) {
-                LogUtils.LOGE(TAG, "Error adding all sessions to Google Calendar", e);
->>>>>>> ioschedLarry/master
             }
 
         } else if (ACTION_CLEAR_ALL_SESSIONS_CALENDAR.equals(action)) {
@@ -128,15 +113,9 @@ public class SessionCalendarService extends IntentService {
                 getContentResolver().applyBatch(CalendarContract.AUTHORITY,
                         processClearAllSessions(resolver, getCalendarId(intent)));
             } catch (RemoteException e) {
-<<<<<<< HEAD
                 LOGE(TAG, "Error clearing all sessions from Google Calendar", e);
             } catch (OperationApplicationException e) {
                 LOGE(TAG, "Error clearing all sessions from Google Calendar", e);
-=======
-                LogUtils.LOGE(TAG, "Error clearing all sessions from Google Calendar", e);
-            } catch (OperationApplicationException e) {
-                LogUtils.LOGE(TAG, "Error clearing all sessions from Google Calendar", e);
->>>>>>> ioschedLarry/master
             }
 
         } else {
@@ -157,15 +136,9 @@ public class SessionCalendarService extends IntentService {
                             extras.getString(EXTRA_SESSION_TITLE),
                             extras.getString(EXTRA_SESSION_ROOM)));
         } catch (RemoteException e) {
-<<<<<<< HEAD
             LOGE(TAG, "Error adding session to Google Calendar", e);
         } catch (OperationApplicationException e) {
             LOGE(TAG, "Error adding session to Google Calendar", e);
-=======
-            LogUtils.LOGE(TAG, "Error adding session to Google Calendar", e);
-        } catch (OperationApplicationException e) {
-            LogUtils.LOGE(TAG, "Error adding session to Google Calendar", e);
->>>>>>> ioschedLarry/master
         }
     }
 
@@ -209,11 +182,7 @@ public class SessionCalendarService extends IntentService {
 
     /**
      * Processes all sessions in the
-<<<<<<< HEAD
      * {@link com.google.samples.apps.iosched.provider.ScheduleProvider}, adding or removing
-=======
-     * {@link ScheduleProvider}, adding or removing
->>>>>>> ioschedLarry/master
      * calendar events to/from the specified Google Calendar depending on whether a session is
      * in the user's schedule or not.
      */
@@ -277,11 +246,7 @@ public class SessionCalendarService extends IntentService {
         // Add Calendar event.
         if (isAddEvent) {
             if (sessionBlockStart == 0L || sessionBlockEnd == 0L || sessionTitle == null) {
-<<<<<<< HEAD
                 LOGW(TAG, "Unable to add a Calendar event due to insufficient input parameters.");
-=======
-                LogUtils.LOGW(TAG, "Unable to add a Calendar event due to insufficient input parameters.");
->>>>>>> ioschedLarry/master
                 return batch;
             }
 

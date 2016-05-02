@@ -18,20 +18,14 @@ package com.google.samples.apps.iosched.util;
 
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 
-<<<<<<< HEAD
 import android.annotation.TargetApi;
-=======
->>>>>>> ioschedLarry/master
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
-<<<<<<< HEAD
 import android.os.Build;
-=======
->>>>>>> ioschedLarry/master
 import android.os.Parcelable;
 
 /**

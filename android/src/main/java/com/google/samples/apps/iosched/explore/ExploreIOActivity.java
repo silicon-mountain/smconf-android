@@ -16,19 +16,6 @@
 
 package com.google.samples.apps.iosched.explore;
 
-<<<<<<< HEAD
-=======
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.text.TextUtils;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Toast;
-
->>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.explore.ExploreModel.ExploreQueryEnum;
 import com.google.samples.apps.iosched.explore.ExploreModel.ExploreUserActionEnum;
@@ -45,7 +32,6 @@ import com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
 import com.google.samples.apps.iosched.util.UIUtils;
 
-<<<<<<< HEAD
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -56,29 +42,19 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-=======
->>>>>>> ioschedLarry/master
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 /**
-<<<<<<< HEAD
  * Display a summary of what is happening at Google I/O this year. Theme and topic cards are
-=======
- * Display a summary of what is happening at the Silicon Mountain Conference this year. Theme and topic cards are
->>>>>>> ioschedLarry/master
  * displayed based on the session data. Conference messages are also displayed as cards..
  */
 public class ExploreIOActivity extends BaseActivity implements Toolbar.OnMenuItemClickListener {
 
     private static final String TAG = makeLogTag(ExploreIOActivity.class);
 
-<<<<<<< HEAD
     private static final String SCREEN_LABEL = "Explore I/O";
-=======
-    private static final String SCREEN_LABEL = "Explore SMCONF";
->>>>>>> ioschedLarry/master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

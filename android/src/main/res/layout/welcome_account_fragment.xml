@@ -20,11 +20,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context="com.google.samples.apps.iosched.welcome.AccountFragment"
-=======
-    tools:context=".welcome.AccountFragment"
->>>>>>> ioschedLarry/master
     android:orientation="vertical"
     android:padding="@dimen/welcome_content_padding">
 

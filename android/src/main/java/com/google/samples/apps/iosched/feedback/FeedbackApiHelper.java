@@ -16,7 +16,6 @@
 
 package com.google.samples.apps.iosched.feedback;
 
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.BuildConfig;
 import com.turbomanage.httpclient.BasicHttpClient;
 import com.turbomanage.httpclient.HttpResponse;
@@ -28,25 +27,13 @@ import java.util.Map;
 
 import static com.google.common.base.Preconditions.checkState;
 import static com.google.samples.apps.iosched.util.LogUtils.*;
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
-import com.turbomanage.httpclient.BasicHttpClient;
-
-import java.util.HashMap;
-
-import static com.google.common.base.Preconditions.checkState;
->>>>>>> ioschedLarry/master
 
 /**
  * Sends feedback data to the server Feedback API.
  */
 public class FeedbackApiHelper {
 
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(FeedbackApiHelper.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(FeedbackApiHelper.class);
->>>>>>> ioschedLarry/master
     
     private final String mUrl;
 
@@ -71,11 +58,7 @@ public class FeedbackApiHelper {
                 + " invalid. SessionId " + sessionId + " Questions: " + questions);
 
         // TODO: Implement custom survey handling code here
-<<<<<<< HEAD
         LOGE(TAG, "Survey handler not implemented!");
-=======
-        LogUtils.LOGE(TAG, "Survey handler not implemented!");
->>>>>>> ioschedLarry/master
         return true;
     }
 

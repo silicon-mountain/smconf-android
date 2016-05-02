@@ -15,18 +15,9 @@
  */
 package com.google.samples.apps.iosched.framework;
 
-<<<<<<< HEAD
 /**
  * Represents a data query, which itself is carried out using the content provider
  * {@link com.google.samples.apps.iosched.provider.ScheduleProvider}.
-=======
-import com.google.samples.apps.iosched.provider.ScheduleContract;
-import com.google.samples.apps.iosched.provider.ScheduleProvider;
-
-/**
- * Represents a data query, which itself is carried out using the content provider
- * {@link ScheduleProvider}.
->>>>>>> ioschedLarry/master
  */
 public interface QueryEnum {
 
@@ -38,11 +29,7 @@ public interface QueryEnum {
 
     /**
      * @return the projection for the query. The fields in the projection are defined in
-<<<<<<< HEAD
      * the {@link com.google.samples.apps.iosched.provider.ScheduleContract}
-=======
-     * the {@link ScheduleContract}
->>>>>>> ioschedLarry/master
      */
     public String[] getProjection();
 

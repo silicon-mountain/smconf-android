@@ -24,7 +24,6 @@ import android.util.Log;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
 import com.google.samples.apps.iosched.sync.userdata.UserAction;
-<<<<<<< HEAD
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
@@ -32,9 +31,6 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 import java.io.StringReader;
-=======
-
->>>>>>> ioschedLarry/master
 import java.util.ArrayList;
 import java.util.List;
 

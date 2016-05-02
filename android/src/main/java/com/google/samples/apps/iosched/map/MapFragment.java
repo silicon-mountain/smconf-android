@@ -38,10 +38,6 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
 import com.google.samples.apps.iosched.util.MapUtils;
 
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 import com.jakewharton.disklrucache.DiskLruCache;
 
 import android.app.Activity;
@@ -91,11 +87,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment impleme
     // Default level (index of level in IndoorBuilding object for Moscone)
     private static final int MOSCONE_DEFAULT_LEVEL_INDEX = 1;
 
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(MapFragment.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(MapFragment.class);
->>>>>>> ioschedLarry/master
 
     // Tile Providers
     private SparseArray<CachedTileProvider> mTileProviders =
@@ -214,11 +206,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment impleme
             outState.putString(EXTRAS_HIGHLIGHT_ROOM, null);
         }
 
-<<<<<<< HEAD
         LOGD(TAG, "Saved state: " + outState);
-=======
-        LogUtils.LOGD(TAG, "Saved state: " + outState);
->>>>>>> ioschedLarry/master
     }
 
     @Override
@@ -345,11 +333,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment impleme
             centerOnMoscone(false);
         }
 
-<<<<<<< HEAD
         LOGD(TAG, "Map setup complete.");
-=======
-        LogUtils.LOGD(TAG, "Map setup complete.");
->>>>>>> ioschedLarry/master
     }
 
     @Override
@@ -406,11 +390,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment impleme
      *              describes Moscone.
      */
     private void showFloorElementsIndex(int floor) {
-<<<<<<< HEAD
         LOGD(TAG, "Show floor " + floor);
-=======
-        LogUtils.LOGD(TAG, "Show floor " + floor);
->>>>>>> ioschedLarry/master
 
         // Hide previous floor elements if the floor has changed
         if (mFloor != floor) {
@@ -448,11 +428,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment impleme
             }
 
         } else {
-<<<<<<< HEAD
             LOGD(TAG, "Can't show floor index " + floor + ".");
-=======
-            LogUtils.LOGD(TAG, "Can't show floor index " + floor + ".");
->>>>>>> ioschedLarry/master
         }
     }
 
@@ -607,11 +583,7 @@ public class MapFragment extends com.google.android.gms.maps.MapFragment impleme
         // For all other markers the model needs to be looked up first.
         if (marker.equals(mMosconeMaker)) {
             // Return camera to Moscone
-<<<<<<< HEAD
             LOGD(TAG, "Clicked on Moscone marker, return to initial display.");
-=======
-            LogUtils.LOGD(TAG, "Clicked on Moscone marker, return to initial display.");
->>>>>>> ioschedLarry/master
             centerOnMoscone(true);
 
         } else if (model != null && MapUtils.hasInfoTitleOnly(model.type)) {

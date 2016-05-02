@@ -31,10 +31,6 @@ import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.myschedule.MyScheduleAdapter;
 import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -46,11 +42,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 
 public class ScheduleHelper {
 
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(ScheduleHelper.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(ScheduleHelper.class);
->>>>>>> ioschedLarry/master
 
     private Context mContext;
 
@@ -131,17 +123,10 @@ public class ScheduleHelper {
             ScheduleItem i = it.next();
             if (i.type == ScheduleItem.FREE) {
                 if (i.endTime < now) {
-<<<<<<< HEAD
                     LOGD(TAG, "Removing empty block in the past.");
                     it.remove();
                 } else if (i.numOfSessions == 0) {
                     LOGD(TAG, "Removing block with zero sessions: " + new Date(i.startTime) + "-" + new Date(i.endTime));
-=======
-                    LogUtils.LOGD(TAG, "Removing empty block in the past.");
-                    it.remove();
-                } else if (i.numOfSessions == 0) {
-                    LogUtils.LOGD(TAG, "Removing block with zero sessions: " + new Date(i.startTime) + "-" + new Date(i.endTime));
->>>>>>> ioschedLarry/master
                     it.remove();
                 } else {
                     i.subtitle = mContext.getResources().getQuantityString(

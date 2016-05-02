@@ -18,10 +18,6 @@ package com.google.samples.apps.iosched.videolibrary;
 
 import com.google.samples.apps.iosched.InvalidEnum;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.videolibrary.VideoLibraryModel;
->>>>>>> ioschedLarry/master
 
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;

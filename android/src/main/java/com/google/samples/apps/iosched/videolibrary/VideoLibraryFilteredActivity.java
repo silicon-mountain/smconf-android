@@ -29,11 +29,8 @@ import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.ui.widget.CollectionView;
 import com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.videolibrary.VideoLibraryModel.VideoLibraryQueryEnum;
 import com.google.samples.apps.iosched.videolibrary.VideoLibraryModel.VideoLibraryUserActionEnum;
-=======
->>>>>>> ioschedLarry/master
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
@@ -80,13 +77,8 @@ public class VideoLibraryFilteredActivity extends BaseActivity implements
 
         setContentView(R.layout.video_library_filtered_act);
 
-<<<<<<< HEAD
         addPresenterFragment(R.id.video_library_frag, model, VideoLibraryQueryEnum.values(),
                 VideoLibraryUserActionEnum.values());
-=======
-        addPresenterFragment(R.id.video_library_frag, model, VideoLibraryModel.VideoLibraryQueryEnum.values(),
-                VideoLibraryModel.VideoLibraryUserActionEnum.values());
->>>>>>> ioschedLarry/master
 
         // ANALYTICS EVENT: View the Filtered Video Library screen
         // Contains: Nothing (Page name is a constant)

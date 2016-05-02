@@ -23,11 +23,8 @@ import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.ui.widget.CollectionView;
 import com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.videolibrary.VideoLibraryModel.VideoLibraryUserActionEnum;
 import com.google.samples.apps.iosched.videolibrary.VideoLibraryModel.VideoLibraryQueryEnum;
-=======
->>>>>>> ioschedLarry/master
 
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
@@ -48,17 +45,10 @@ public class VideoLibraryActivity extends BaseActivity {
 
         addPresenterFragment(R.id.video_library_frag,
                 new VideoLibraryModel(getApplicationContext(), this),
-<<<<<<< HEAD
                 new VideoLibraryQueryEnum[]{VideoLibraryQueryEnum.VIDEOS,
                         VideoLibraryQueryEnum.MY_VIEWED_VIDEOS},
                 new VideoLibraryUserActionEnum[]{VideoLibraryUserActionEnum.RELOAD,
                         VideoLibraryUserActionEnum.VIDEO_PLAYED});
-=======
-                new VideoLibraryModel.VideoLibraryQueryEnum[]{VideoLibraryModel.VideoLibraryQueryEnum.VIDEOS,
-                        VideoLibraryModel.VideoLibraryQueryEnum.MY_VIEWED_VIDEOS},
-                new VideoLibraryModel.VideoLibraryUserActionEnum[]{VideoLibraryModel.VideoLibraryUserActionEnum.RELOAD,
-                        VideoLibraryModel.VideoLibraryUserActionEnum.VIDEO_PLAYED});
->>>>>>> ioschedLarry/master
 
         // ANALYTICS SCREEN: View the video library screen
         // Contains: Nothing (Page name is a constant)

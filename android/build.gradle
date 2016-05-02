@@ -32,21 +32,13 @@ repositories {
 
 android {
     compileSdkVersion 23
-<<<<<<< HEAD
     buildToolsVersion "23.0.1"
-=======
-    buildToolsVersion "23.0.2"
->>>>>>> ioschedLarry/master
 
     defaultConfig {
         version "${version_code}"
         versionName "${version_name}"
         minSdkVersion 14
-<<<<<<< HEAD
         targetSdkVersion 22
-=======
-        targetSdkVersion 23
->>>>>>> ioschedLarry/master
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         buildConfigField("boolean", "ENABLE_DEBUG_TOOLS", "false")
@@ -73,11 +65,7 @@ android {
 
     signingConfigs {
         debug {
-<<<<<<< HEAD
             storeFile file(System.getenv("HOME")+"/.android/debug.keystore")
-=======
-            storeFile file("/root/.android/debug.keystore")
->>>>>>> ioschedLarry/master
             storePassword "android"
             keyAlias "androiddebugkey"
             keyPassword "android"
@@ -135,11 +123,8 @@ android {
     testOptions {
         unitTests.returnDefaultValues = true
     }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ioschedLarry/master
 }
 
 dependencies {
@@ -183,10 +168,7 @@ dependencies {
     // Dependencies for android tests which reside in the "androidTest" src folder.
     androidTestCompile 'com.android.support.test:runner:0.4.1'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
-<<<<<<< HEAD
     androidTestCompile 'com.android.support:support-annotations:23.0.1'
-=======
->>>>>>> ioschedLarry/master
 
     // Dependencies for unit tests which reside in the "tests" src folder.
     testCompile 'junit:junit:4.12'
@@ -201,11 +183,7 @@ dependencies {
     compile 'com.google.code.findbugs:jsr305:2.0.1'
 
     // Needed to implement the IdlingResource interface on certain async models.
-<<<<<<< HEAD
     compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.1'
-=======
-    compile 'com.android.support.test.espresso:espresso-idling-resource:2.0'
->>>>>>> ioschedLarry/master
 
     compile 'com.google.guava:guava:18.0'
 }

@@ -15,13 +15,6 @@
  */
 package com.google.samples.apps.iosched.util;
 
-<<<<<<< HEAD
-=======
-import android.content.Context;
-import android.support.annotation.DrawableRes;
-import android.text.TextUtils;
-
->>>>>>> ioschedLarry/master
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
@@ -29,7 +22,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.maps.android.ui.IconGenerator;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.map.util.MarkerModel;
-<<<<<<< HEAD
 
 import com.jakewharton.disklrucache.DiskLruCache;
 
@@ -37,10 +29,6 @@ import android.content.Context;
 import android.support.annotation.DrawableRes;
 import android.text.TextUtils;
 
-=======
-import com.jakewharton.disklrucache.DiskLruCache;
-
->>>>>>> ioschedLarry/master
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FilenameFilter;
@@ -58,11 +46,7 @@ public class MapUtils {
     private static final String TAG = LogUtils.makeLogTag(MapUtils.class);
 
     /**
-<<<<<<< HEAD
      * Returns the room type for a {@link com.google.samples.apps.iosched.map.util.MarkerModel}
-=======
-     * Returns the room type for a {@link MarkerModel}
->>>>>>> ioschedLarry/master
      * for a given String.
      */
     public static int detectMarkerType(String markerType) {

@@ -19,21 +19,14 @@
 
     <string description="Accessibility for the links to the G+ or Twitter pages for speakers. For example: Go to the Twitter page for Sally Sample." name="speaker_social_page">Accédez à la page %1$s pour %2$s</string>
 
-<<<<<<< HEAD
     <string description="Accessibility description for the GPlus icon in the '#io15' box." name="social_io15_gplus_content_description">Allez sur Google Plus avec le hashtag io15</string>
 
     <string description="Accessibility description for the Twitter icon in the '#io15' box." name="social_io15_twitter_content_description">Allez sur Twitter avec le hashtag io15</string>
-=======
-    <string description="Accessibility description for the GPlus icon in the '#SMCONF2016' box." name="social_SMCONF2016_gplus_content_description">Allez sur Google Plus avec le hashtag SMCONF2016</string>
-
-    <string description="Accessibility description for the Twitter icon in the '#SMCONF2016' box." name="social_SMCONF2016_twitter_content_description">Allez sur Twitter avec le hashtag SMCONF2016</string>
->>>>>>> ioschedLarry/master
 
     <string description="Accessibility description for link to the 'Google Developers' GPlus page." name="social_gplus_devs_content_description">Accédez à Google Developers sur Google Plus</string>
 
     <string description="Accessibility description for link to the 'Google Developers' Twitter page." name="social_twitter_devs_content_description">Accédez à Google Developers sur Twitter</string>
 
-<<<<<<< HEAD
     <string description="Accessibility description for the GPlus icon in the '#io15 extended' box." name="social_extended_gplus_content_description">Allez sur Google Plus avec le hashtag extended</string>
 
     <string description="Accessibility description for the Twitter icon in the '#io15 extended' box." name="social_extended_twitter_content_description">Allez sur Twitter avec le hashtag extended</string>
@@ -49,23 +42,6 @@
     <string description="Accessibility description for the IO15 request logo that is not a link." name="io15_request_logo_not_clickable">Logo IO15 demande non cliquable</string>
 
     <string description="Accessibility description for the I/O logo that is not a link." name="io_logo_not_clickable">Logo Google I/O non cliquable</string>
-=======
-    <string description="Accessibility description for the GPlus icon in the '#SMCONF2016 extended' box." name="social_extended_gplus_content_description">Allez sur Google Plus avec le hashtag extended</string>
-
-    <string description="Accessibility description for the Twitter icon in the '#SMCONF2016 extended' box." name="social_extended_twitter_content_description">Allez sur Twitter avec le hashtag extended</string>
-
-    <string descripton="Accessibility description for the GPlus icon in the '#SMCONF2016 request' box." name="social_request_gplus_content_description">Allez sur Google Plus avec le hashtag #SMCONF2016</string>
-
-    <string description="Accessibility description for the Twitter icon in the '#SMCONF2016 extended' box." name="social_request_twitter_content_description">Allez sur Twitter avec le hashtag #SMCONF2016</string>
-
-    <string description="Accessibility description for the SMCONF2016 logo that is not a link." name="SMCONF2016_logo_not_clickable">Logo SMCONF2016 non cliquable</string>
-
-    <string description="Accessibility description for the SMCONF2016 extended logo that is not a link." name="SMCONF2016_extended_logo_not_clickable">Logo SMCONF2016 extended non cliquable</string>
-
-    <string description="Accessibility description for the SMCONF2016 request logo that is not a link." name="SMCONF2016_request_logo_not_clickable">Logo SMCONF2016 demande non cliquable</string>
-
-    <string description="Accessibility description for the SMCONF logo that is not a link." name="io_logo_not_clickable">Logo SMCONF non cliquable</string>
->>>>>>> ioschedLarry/master
 
     <string description="Accessibility description for viewing more sessions/videos." name="more_items_button_desc_a11y">Appuyez pour afficher plus d\'articles.</string>
 
@@ -99,24 +75,14 @@
   </string>
 
     <string name="explore_io_msgcards_ask_opt_in"
-<<<<<<< HEAD
             description="This message is displayed on the Explore I/O screen to ask users whether
-=======
-            description="This message is displayed on the Explore SMCONF screen to ask users whether
->>>>>>> ioschedLarry/master
             they would like to opt in to receive messages regarding the conference."><![CDATA[
         <b>Cartes de notification relatives à la conférence</b><br/>
         Souhaiteriez-vous vous abonner aux cartes de notification relatives à la conférence? Celles-ci apparaîtront au fur et à mesure, et peuvent inclure des messages promotionnels de nos partenaires.]]></string>
 
-<<<<<<< HEAD
     <string name="explore_io_msgcards_after_hours_card">&lt;B&gt; After Hours &lt;/ b&gt; &lt;br&gt; &lt;/ br&gt; Il s\'agit d\'une fête que vous ne voulez pas manquer ! Les participants sont invités à profiter de la nourriture, des boissons, de la musique, des jeux et plus au cours de la soirée du 28 mai. Le badge de la conférence et le bracelet NFC sont obligatoires pour entrer.</string>
 
     <string description="A message card displayed in the Explore I/O page that tells users" name="explore_io_msgcards_keynote_access_card">&lt;B&gt; Acces au keynote &lt;/ b&gt; &lt;br&gt; La couleur de votre bracelete indique votre accès principal &lt;br&gt; &lt;b&gt; Bracelet bleu &lt;/ b&gt; &lt;br&gt; Acces au keynote: la ligne commence à l\'extérieur de Moscone West sur la 4th Street &lt;br&gt; &lt;b&gt; Bracelet gris&lt;/ b&gt; &lt;br&gt; Coin keynote réservé: la ligne débute à l\'extérieur de Moscone West sur la 4th Street.&lt;br&gt; &lt;b&gt; Bracelet orange&lt;/ b&gt; &lt;br&gt; Playground: la ligne débute à l\'extérieur de Moscone West sur Howard Street.</string>
-=======
-    <string name="explore_io_msgcards_after_hours_card">&lt;B&gt; After Hours &lt;/ b&gt; &lt;br&gt; &lt;/ br&gt; Il s\'agit d\'une fête que vous ne voulez pas manquer ! Les participants sont invités à profiter de la nourriture, des boissons, de la musique, des jeux et plus. Le badge de la conférence et le bracelet NFC sont obligatoires pour entrer.</string>
-
-    <string description="A message card displayed in the Explore SMCONF page that tells users" name="explore_io_msgcards_keynote_access_card">&lt;B&gt; Acces au keynote &lt;/ b&gt; &lt;br&gt; La couleur de votre bracelete indique votre accès principal &lt;br&gt; &lt;b&gt; Bracelet bleu &lt;/ b&gt; &lt;br&gt; Acces au keynote: la ligne commence à l\'extérieur de Moscone West sur la 4th Street &lt;br&gt; &lt;b&gt; Bracelet gris&lt;/ b&gt; &lt;br&gt; Coin keynote réservé: la ligne débute à l\'extérieur de Moscone West sur la 4th Street.&lt;br&gt; &lt;b&gt; Bracelet orange&lt;/ b&gt; &lt;br&gt; Playground: la ligne débute à l\'extérieur de Moscone West sur Howard Street.</string>
->>>>>>> ioschedLarry/master
 
     <string description="This string is presented to users when they attempt to click something that indicates they can watch a video but it turns out we can't show the video." name="explore_io_video_id_not_valid">Désolé, il semble y avoir un problème avec l\'URL de la vidéo.</string>
 
@@ -183,25 +149,15 @@
      <!-- Accessibility description for navigation drawer -->
      <string name="navdrawer_description_a11y">Tiroir de navigation utilisé pour basculer entre les fonctions principales de l\'application</string>
  
-<<<<<<< HEAD
      <!-- Menu item to open the Explore Screen with the Live I/O card [CHAR_LIMIT=20] -->
      <!-- Menu item to open the Watch Live screen on the Navigation Drawer. [CHAR_LIMIT=20] -->
      <string name="navdrawer_item_io_live">I/O en direct</string>
-=======
-     <!-- Menu item to open the Explore Screen with the Live SMCONF card [CHAR_LIMIT=20] -->
-     <!-- Menu item to open the Watch Live screen on the Navigation Drawer. [CHAR_LIMIT=20] -->
-     <string name="navdrawer_item_io_live">SMCONF en direct</string>
->>>>>>> ioschedLarry/master
      <string name="navdrawer_item_video_library">Vidéothèque</string>
      <!-- Menu item to open the debugging screen on debug builds [CHAR_LIMIT=20] -->
      <string name="navdrawer_item_debug">Déboguer</string>
  
      <!-- List dropdown item on the Video Library screen allowing the user to choose to see
-<<<<<<< HEAD
      the videos from the last year of Google I/O. -->
-=======
-     the videos from the last year of Google SMCONF. -->
->>>>>>> ioschedLarry/master
      <string name="new_videos_title">Nouveautés <xliff:g id="year">%1$d</xliff:g>
   </string>
 
@@ -213,11 +169,7 @@
             description="Description in the Settings screen for the setting that enables display of
             cards with conference information in the explore screen.">Afficher les cartes avec les informations relatives à la conférence sur l\'écran Explorer. Ces cartes apparaisent au fur et à mesure, et peuvent inclure des messages promotionnels de nos partenaires.</string>
 
-<<<<<<< HEAD
      <!-- Text of a card shown in the Explore I/O screen that asks the user if they want to configure
-=======
-     <!-- Text of a card shown in the Explore SMCONF screen that asks the user if they want to configure
->>>>>>> ioschedLarry/master
           the conference WiFi. "Not now" and "Yes, please" are options show on the card -->
      <string name="question_setup_wifi_card_text">Voulez-vous configurer cet appareil pour accéder au Wifi de la conférence ?</string>
      <string name="schedule_session_subtitle">
@@ -226,7 +178,6 @@
      <string name="title_video_library">Vidéos</string>
 
      <!-- Short text introducing the code of conduct for attendees coming in person -->
-<<<<<<< HEAD
      <string name="welcome_conduct_title">Code de bonne conduite de Google I/O</string>
  
      <!-- Short text asking if the user is attending Google I/O in person -->
@@ -234,15 +185,6 @@
  
      <!-- Medium-length welcome text asking if the user is attending Google I/O in person -->
      <string name="welcome_attending_text">Assistez-vous à Google I/O à distance ou en personne à San Francisco ?</string>
-=======
-     <string name="welcome_conduct_title">Code de bonne conduite de SMCONF 2016</string>
- 
-     <!-- Short text asking if the user is attending Google SMCONF in person -->
-     <string name="welcome_attending">Participation en personne ?</string>
- 
-     <!-- Medium-length welcome text asking if the user is attending Google SMCONF in person -->
-     <string name="welcome_attending_text">Assistez-vous à SMCONF à distance ou en personne à San Francisco ?</string>
->>>>>>> ioschedLarry/master
  
      <!-- Title of the Video library screen when only videos of a given topic are displayed -->
      <string name="title_topic_filtered_video_library">Vidéos sur <xliff:g id="topic">%1$s</xliff:g>
@@ -277,34 +219,20 @@
  
      <!-- BEGIN Explore Message Card User Messages -->
 
-<<<<<<< HEAD
      <!-- This is used on the Explore I/O message cards to answer yes to a particular message -->
      <string name="explore_io_msgcards_answer_yes">Bien sûr, allons-y maintenant !</string>
  
      <!-- This is used on the Explore I/O message cards to answer no to a particular message -->
-=======
-     <!-- This is used on the Explore SMCONF message cards to answer yes to a particular message -->
-     <string name="explore_io_msgcards_answer_yes">Bien sûr, allons-y maintenant !</string>
- 
-     <!-- This is used on the Explore SMCONF message cards to answer no to a particular message -->
->>>>>>> ioschedLarry/master
      <string name="explore_io_msgcards_answer_no">Non merci.</string>
  
      <!-- END Explore Message Card User Messages -->
  
      <!-- This string is the title of a notification shown to the user when Google Play
          services can't connect. -->
-<<<<<<< HEAD
      <string name="app_data_notification_resolution_title">L\'application Google I/O nécessite une autorisation</string>
      <!-- This string is the message of the notification shown to the user when Google Play services
           can't connect from a background sync. -->
      <string name="app_data_notification_resolution_content">L\'application Google I/O nécessite une action pour compléter la synchronisation en arrière-plan.</string>
-=======
-     <string name="app_data_notification_resolution_title">L\'application SMCONF nécessite une autorisation</string>
-     <!-- This string is the message of the notification shown to the user when Google Play services
-          can't connect from a background sync. -->
-     <string name="app_data_notification_resolution_content">L\'application SMCONF nécessite une action pour compléter la synchronisation en arrière-plan.</string>
->>>>>>> ioschedLarry/master
 
     <!-- Shown in the schedule to indicate how many sessions are available on that particular time slot. -->
     <plurals name="schedule_block_subtitle">
@@ -334,11 +262,7 @@
   </plurals>
 
     <!-- Shown in the 'About' window of the app. -->
-<<<<<<< HEAD
     <string name="about_body">&lt;b&gt;Google I/O 2015&lt;/b&gt;&lt;br&gt; Version %s
-=======
-    <string name="about_body">&lt;b&gt; SMCONF 2015&lt;/b&gt;&lt;br&gt; Version %s
->>>>>>> ioschedLarry/master
         &lt;br&gt;&lt;br&gt; &lt;a href=http://m.google.com/utos&gt;Conditions d\'utilisation&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=http://www.google.com/policies/privacy/&gt;Règles de confidentialité&lt;/a&gt;</string>
 
     <!-- Shown as a link in the About screen of the app; user can click to see the EULA. -->
@@ -379,19 +303,11 @@
     <string name="all_types">Tous les genres</string>
 
     <!-- Shown in a drop-down list on the Video Library screen, indicating that videos from all
-<<<<<<< HEAD
     I/O years are being displayed. -->
     <string name="all_years">Toutes les années</string>
 
     <!-- Name of the application, shown in the application's title bar. -->
     <string name="app_name">Google I/O 2015</string>
-=======
-    SMCONF years are being displayed. -->
-    <string name="all_years">Toutes les années</string>
-
-    <!-- Name of the application, shown in the application's title bar. -->
-    <string name="app_name">SMCONF 2016</string>
->>>>>>> ioschedLarry/master
 
     <!-- Label on a button that is one possible answer to the question "Are you attending the
     conference in person in San Francisco or remotely via livestream?" -->
@@ -401,11 +317,7 @@
     conference in person in San Francisco or remotely via livestream?" -->
     <string name="attending_remotely">À distance</string>
 
-<<<<<<< HEAD
     <!-- Label on a button that allows the user to browse Google I/O Extended events that they
-=======
-    <!-- Label on a button that allows the user to browse Google SMCONF Extended events that they
->>>>>>> ioschedLarry/master
     might be interested in attending. -->
     <string name="browse_events">Parcourir les événements</string>
 
@@ -463,13 +375,8 @@
     <!-- Menu item that allows user to configure the conference WiFi on their device. -->
     <string name="description_configure_wifi">Configurer une connexion Wi-Fi</string>
 
-<<<<<<< HEAD
     <!-- Menu item that takes the user to a page that shows a list of Google I/O Extended events. -->
     <string name="description_i_o_extended">I/O Extended</string>
-=======
-    <!-- Menu item that takes the user to a page that shows a list of Google SMCONF Extended events. -->
-    <string name="description_i_o_extended">SMCONF 2016</string>
->>>>>>> ioschedLarry/master
 
     <!-- Menu item that takes the user to the conference venue map screen -->
     <string name="description_map">Plan</string>
@@ -529,11 +436,7 @@
     <string name="empty_widget_text">Plus de sessions à venir.\nRendez-vous l\'année prochaine !</string>
 
     <!-- Shown on a widget instructing user how to start using the widget. -->
-<<<<<<< HEAD
     <string name="empty_widget_text_signed_out">Appuyez sur le logo Google I/O 2015 ci-dessus pou
-=======
-    <string name="empty_widget_text_signed_out">Appuyez sur le logo SMCONF 2015 ci-dessus pou
->>>>>>> ioschedLarry/master
         r vous connecter et commencer à utiliser l\'application.</string>
 
     <!-- Shown as a header on a list of sessions to indicate that the sessions that appear on that
@@ -553,13 +456,8 @@
     <string name="google_account_required_title">Compte Google requis</string>
 
     <!-- List dropdown item on the Video Library screen allowing the user to choose to see
-<<<<<<< HEAD
     the videos from a particular year of Google I/O. -->
     <string name="google_i_o_year">I/O <xliff:g id="year">%1$d</xliff:g>
-=======
-    the videos from a particular year of Google SMCONF. -->
-    <string name="google_i_o_year">SMCONF <xliff:g id="year">%1$d</xliff:g>
->>>>>>> ioschedLarry/master
   </string>
 
     <!-- Label on a button that the user can click to dismiss an reminder or information message.
@@ -622,11 +520,7 @@
     <string name="navdrawer_item_explore">Explorer</string>
 
     <!-- Accessibility description for menu item to open the Explore screen. -->
-<<<<<<< HEAD
     <string name="navdrawer_item_explore_a11y">Explorer Google I/O</string>
-=======
-    <string name="navdrawer_item_explore_a11y">Explorer SMCONF 2016</string>
->>>>>>> ioschedLarry/master
 
     <!-- Menu item to open the Map screen [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_map">Plan</string>
@@ -640,29 +534,17 @@
     <!-- Menu item to start the Sign In flow [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_sign_in">Connexion</string>
 
-<<<<<<< HEAD
     <!-- Menu item to open a screen that lists I/O related hashtags. Each hashtag, when clicked, will
-=======
-    <!-- Menu item to open a screen that lists SMCONF related hashtags. Each hashtag, when clicked, will
->>>>>>> ioschedLarry/master
     open Google+ stream of posts that uses the hashtag [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_social">Social</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are
     attending the conference in person in San Francisco. -->
-<<<<<<< HEAD
     <string name="navdrawer_status_attending_in_person">Participer à Google I/O en personne</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are
     attending the conference remotely via live streaming. -->
     <string name="navdrawer_status_attending_remotely">Participer à Google I/O à distance</string>
-=======
-    <string name="navdrawer_status_attending_in_person">Participer à SMCONF en personne</string>
-
-    <!-- Text indicator that appears below the user's name, showing that they are
-    attending the conference remotely via live streaming. -->
-    <string name="navdrawer_status_attending_remotely">Participer à SMCONF à distance</string>
->>>>>>> ioschedLarry/master
 
     <!-- Message shown in a toast (popup) when the user clicks to change the active account but
     there is no network connection -->
@@ -711,13 +593,8 @@
     <string name="others">Autres</string>
 
     <!-- An application permission (this permission allows the application to modify the Google
-<<<<<<< HEAD
     I/O schedule data). Shows on a permissions dialog screen. -->
     <string name="permission_write">Modifier les données de l\'agenda Google I/O</string>
-=======
-    SMCONF schedule data). Shows on a permissions dialog screen. -->
-    <string name="permission_write">Modifier les données de l\'agenda SMCONF</string>
->>>>>>> ioschedLarry/master
 
     <!-- Description of the Google+ +1 button for accessibility screen readers -->
     <string name="plus_one_description_standard">Touchez pour ajouter à Google+.</string>
@@ -731,19 +608,11 @@
     statistics to Google. -->
     <string name="pref_analytics_enabled_description">Lorsque cette option est cochée, des statistiques d\'utilisation anonymes seront envoyées à Google.</string>
 
-<<<<<<< HEAD
     <!-- Summary in the Settings screen for the "I will be at Google I/O" option -->
     <string name="pref_attendee_at_venue_description">Si cette option est cochée, tous les événements et sessions sur place seront affichés. Seules les séances en direct seront affichées dans le cas contraire.</string>
 
     <!-- Title in the Settings screen for the "I will be at Google I/O" option -->
     <string name="pref_attendee_at_venue_title">Je serai à Google I/O !</string>
-=======
-    <!-- Summary in the Settings screen for the "I will be at Google SMCONF" option -->
-    <string name="pref_attendee_at_venue_description">Si cette option est cochée, tous les événements et sessions sur place seront affichés. Seules les séances en direct seront affichées dans le cas contraire.</string>
-
-    <!-- Title in the Settings screen for the "I will be at Google SMCONF" option -->
-    <string name="pref_attendee_at_venue_title">Je serai à SMCONF !</string>
->>>>>>> ioschedLarry/master
 
     <!-- Summary in the Settings screen for the "Show local times" option -->
     <string name="pref_local_times_description">Si cette option est cochée, l\'heure locale de votre appareil sera utilisée pour les différentes heures affichées. L\'heure locale de la conférence (Heure du Pacifique) sera utilisée dans le cas contraire.</string>
@@ -769,7 +638,6 @@
     <!-- Summary in the Settings screen for the "Synchronize my schedule with Google Calendar" option -->
     <string name="pref_sync_with_calendar_title">Synchroniser avec Google Agenda</string>
 
-<<<<<<< HEAD
     <!-- Text of a card shown in the session explorer that asks the user if he wants to see I/O
     extended events in his area. "Browse events" and "No, thanks" are the buttons shown in the card -->
     <string name="question_i_o_extended">Voulez-vous en savoir plus sur les événements Google I/O Extended qui ont lieu près de chez vous ?</string>
@@ -777,15 +645,6 @@
     <!-- Text of a card shown in the session explorer that asks the user if he will be attending I/O
     in person or remotely. "Remotely" and "In person" are the buttons shown in the card -->
     <string name="question_local_or_remote">Assistez-vous à Google I/O à distance ou en personne à San Francisco ?</string>
-=======
-    <!-- Text of a card shown in the session explorer that asks the user if he wants to see SMCONF
-    extended events in his area. "Browse events" and "No, thanks" are the buttons shown in the card -->
-    <string name="question_i_o_extended">Voulez-vous en savoir plus sur les événements SMCONF 2016 qui ont lieu près de chez vous ?</string>
-
-    <!-- Text of a card shown in the session explorer that asks the user if he will be attending SMCONF
-    in person or remotely. "Remotely" and "In person" are the buttons shown in the card -->
-    <string name="question_local_or_remote">Assistez-vous à SMCONF 2016 à distance ou en personne à Buea, Cameroun ?</string>
->>>>>>> ioschedLarry/master
 
     <!-- Section title for videos related to a particular event session -->
     <string name="related_videos">Vidéos associées</string>
@@ -811,17 +670,10 @@
 
     <!-- Search label that shows the type of data being searched for when the user clicks the
     Search button. -->
-<<<<<<< HEAD
     <string name="search_label">Sessions Google I/O</string>
 
     <!-- A fragment of text appended to a Google calendar event indicating it was added by this application -->
     <string name="session_calendar_suffix">- ajouté par l\'application Android Google I/O</string>
-=======
-    <string name="search_label">Sessions SMCONF</string>
-
-    <!-- A fragment of text appended to a Google calendar event indicating it was added by this application -->
-    <string name="session_calendar_suffix">- ajouté par l\'application Android SMCONF</string>
->>>>>>> ioschedLarry/master
 
     <!-- Accessibility text announced as a response to pressing a button to add a session to the schedule. -->
     <string name="session_details_a11y_session_added">Session ajoutée à votre agenda</string>
@@ -895,13 +747,8 @@
     <!-- Hint for a play/pause video button -->
     <string name="session_livestream_play_pause">Lecture / Pause</string>
 
-<<<<<<< HEAD
     <!-- Actionbar title for I/O Live -->
     <string name="session_livestream_title">I/O en direct</string>
-=======
-    <!-- Actionbar title for SMCONF Live -->
-    <string name="session_livestream_title">SMCONF en direct</string>
->>>>>>> ioschedLarry/master
 
     <!-- Notification text that a session is starting in some number of minutes -->
     <string name="session_notification_text_1">commence dans <xliff:g id="remaining_time">%1$d</xliff:g> min(s).</string>
@@ -928,13 +775,8 @@
     <!-- Button text indicating the user would like us to set up wifi access -->
     <string name="setup_wifi_yes">Oui !</string>
 
-<<<<<<< HEAD
     <!-- Re-share template text indicating the user is watching I/O Live -->
     <string name="share_livestream_template">Regarde Google I/O en direct : « <xliff:g id="title">%1$s</xliff:g> » à <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g>
-=======
-    <!-- Re-share template text indicating the user is watching SMCONF Live -->
-    <string name="share_livestream_template">Regarde SMCONF 2016 en direct : « <xliff:g id="title">%1$s</xliff:g> » à <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g>
->>>>>>> ioschedLarry/master
   </string>
 
     <!-- Re-share template text indicating the user is at a particular session -->
@@ -1025,11 +867,7 @@
     <string name="watch_now">Regarder maintenant !</string>
 
     <!-- Short text welcoming the user to the application -->
-<<<<<<< HEAD
     <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application Google I/O !</string>
-=======
-    <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application SMCONF 2016!</string>
->>>>>>> ioschedLarry/master
 
     <!-- Text for a button which will add a wi-fi network -->
     <string name="wifi_dialog_button_configure">Ajouter un réseau Wi-Fi</string>
@@ -1040,13 +878,8 @@
     <!-- Toast failure message if the user's wifi couldn't be updated -->
     <string name="wifi_install_error_message">Désolé, impossible de mettre à jour la configuration Wi-Fi</string>
 
-<<<<<<< HEAD
     <string name="explore_attending_in_person_toast">Présent à la Google I/O en personne (peut être modifié dans les Paramètres)</string>
     <string name="explore_attending_remotely_toast">Présent à la Google I/O à distance (peut être modifié dans les Paramètres)</string>
-=======
-    <string name="explore_attending_in_person_toast">Présent à la SMCONF en personne (peut être modifié dans les Paramètres)</string>
-    <string name="explore_attending_remotely_toast">Présent à la SMCONF à distance (peut être modifié dans les Paramètres)</string>
->>>>>>> ioschedLarry/master
     <string name="go_to_settings">Aller aux Paramètres</string>
     <string name="more_information">Plus d\'informations</string>
 </resources>

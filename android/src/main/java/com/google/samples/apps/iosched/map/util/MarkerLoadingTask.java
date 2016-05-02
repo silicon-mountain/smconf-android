@@ -32,11 +32,7 @@ import java.util.List;
 
 /**
  * Background task that queries the content provider and prepares a list of {@link MarkerModel}s
-<<<<<<< HEAD
  * wrapped in a {@link com.google.samples.apps.iosched.map.util.MarkerLoadingTask.MarkerEntry}
-=======
- * wrapped in a {@link MarkerLoadingTask.MarkerEntry}
->>>>>>> ioschedLarry/master
  * that can be used to create Markers.
  */
 public class MarkerLoadingTask extends AsyncTaskLoader<List<MarkerLoadingTask.MarkerEntry>> {

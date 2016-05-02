@@ -17,7 +17,6 @@
 package com.google.samples.apps.iosched.about;
 
 
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.ui.BaseActivity;
@@ -25,8 +24,6 @@ import com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout;
 import com.google.samples.apps.iosched.util.AboutUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
 
-=======
->>>>>>> ioschedLarry/master
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -34,16 +31,6 @@ import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
 
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.BuildConfig;
-import com.google.samples.apps.iosched.R;
-import com.google.samples.apps.iosched.ui.BaseActivity;
-import com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout;
-import com.google.samples.apps.iosched.util.AboutUtils;
-import com.google.samples.apps.iosched.util.UIUtils;
-
->>>>>>> ioschedLarry/master
 public class AboutActivity extends BaseActivity {
 
     private static final String URL_TERMS = "http://m.google.com/utos";

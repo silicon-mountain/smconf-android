@@ -16,13 +16,6 @@
 
 package com.google.samples.apps.iosched.util;
 
-<<<<<<< HEAD
-=======
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-
->>>>>>> ioschedLarry/master
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
@@ -31,7 +24,6 @@ import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.settings.ConfMessageCardUtils;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 
-<<<<<<< HEAD
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
@@ -39,8 +31,6 @@ import android.util.Log;
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 
-=======
->>>>>>> ioschedLarry/master
 /**
  * Centralized Analytics interface to ensure proper initialization and
  * consistent analytics application across the app.
@@ -82,11 +72,7 @@ public class AnalyticsHelper {
         if (isInitialized()) {
             mTracker.setScreenName(screenName);
             mTracker.send(new HitBuilders.AppViewBuilder().build());
-<<<<<<< HEAD
             LOGD(TAG, "Screen View recorded: " + screenName);
-=======
-            LogUtils.LOGD(TAG, "Screen View recorded: " + screenName);
->>>>>>> ioschedLarry/master
         }
     }
 
@@ -103,11 +89,7 @@ public class AnalyticsHelper {
                     .setValue(value)
                     .build());
 
-<<<<<<< HEAD
             LOGD(TAG, "Event recorded: \n" +
-=======
-            LogUtils.LOGD(TAG, "Event recorded: \n" +
->>>>>>> ioschedLarry/master
                     "\tCategory: " + category +
                     "\tAction: " + action +
                     "\tLabel: " + label +
@@ -135,11 +117,7 @@ public class AnalyticsHelper {
         eventBuilder.setCustomDimension(dimensionIndex, dimensionValue);
         sendEvent(category, action, label, 0, eventBuilder);
 
-<<<<<<< HEAD
         LOGD(TAG, "Custom Dimension Attached:\n" +
-=======
-        LogUtils.LOGD(TAG, "Custom Dimension Attached:\n" +
->>>>>>> ioschedLarry/master
                 "\tindex: " + dimensionIndex +
                 "\tvalue: " + dimensionValue);
     }
@@ -175,11 +153,7 @@ public class AnalyticsHelper {
         if (mTracker == null) {
             int useProfile;
             if (BuildConfig.DEBUG) {
-<<<<<<< HEAD
                 LOGD(TAG, "Analytics manager using DEBUG ANALYTICS PROFILE.");
-=======
-                LogUtils.LOGD(TAG, "Analytics manager using DEBUG ANALYTICS PROFILE.");
->>>>>>> ioschedLarry/master
                 useProfile = R.xml.analytics_debug;
             } else {
                 useProfile = R.xml.analytics_release;
@@ -305,11 +279,7 @@ public class AnalyticsHelper {
     public static void enableOrDisableAnalyticsAsNecessary() {
         try {
             setAnalyticsEnabled(shouldEnableAnalytics());
-<<<<<<< HEAD
             LOGD(TAG, "Analytics" + (isInitialized() ? "" : " not") + " initialized"
-=======
-            LogUtils.LOGD(TAG, "Analytics" + (isInitialized() ? "" : " not") + " initialized"
->>>>>>> ioschedLarry/master
                     + ", TOS" + (SettingsUtils.isTosAccepted(sAppContext) ? "" : " not") + " accepted"
                     + ", Setting is" + (SettingsUtils.isAnalyticsEnabled(sAppContext) ? "" : " not")
                     + " checked");
@@ -326,11 +296,7 @@ public class AnalyticsHelper {
         GoogleAnalytics instance  = GoogleAnalytics.getInstance(sAppContext);
         if (instance != null) {
             instance.setAppOptOut(!enableAnalytics);
-<<<<<<< HEAD
             LOGD(TAG, "Analytics enabled: " + enableAnalytics);
-=======
-            LogUtils.LOGD(TAG, "Analytics enabled: " + enableAnalytics);
->>>>>>> ioschedLarry/master
         }
 
     }

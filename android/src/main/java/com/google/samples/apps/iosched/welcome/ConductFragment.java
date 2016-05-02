@@ -23,10 +23,6 @@ import android.view.ViewGroup;
 
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
@@ -35,11 +31,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * The code of conduct fragment in the welcome screen.
  */
 public class ConductFragment extends WelcomeFragment implements WelcomeActivity.WelcomeActivityContent {
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(ConductFragment.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(ConductFragment.class);
->>>>>>> ioschedLarry/master
 
     @Override
     public boolean shouldDisplay(Context context) {
@@ -52,11 +44,7 @@ public class ConductFragment extends WelcomeFragment implements WelcomeActivity.
             @Override
             public void onClick(View v) {
                 // Ensure we don't run this fragment again
-<<<<<<< HEAD
                 LOGD(TAG, "Marking code of conduct flag.");
-=======
-                LogUtils.LOGD(TAG, "Marking code of conduct flag.");
->>>>>>> ioschedLarry/master
                 SettingsUtils.markConductAccepted(mActivity, true);
                 doNext();
             }
@@ -69,11 +57,7 @@ public class ConductFragment extends WelcomeFragment implements WelcomeActivity.
             @Override
             public void onClick(View v) {
                 // Nothing to do here
-<<<<<<< HEAD
                 LOGD(TAG, "Need to accept Code of Conduct.");
-=======
-                LogUtils.LOGD(TAG, "Need to accept Code of Conduct.");
->>>>>>> ioschedLarry/master
                 doFinish();
             }
         };

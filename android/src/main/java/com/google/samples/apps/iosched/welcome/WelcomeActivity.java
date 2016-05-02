@@ -30,10 +30,6 @@ import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -47,11 +43,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * {@link com.google.samples.apps.iosched.core.activities.BaseActivity} functionality.
  */
 public class WelcomeActivity extends AppCompatActivity implements WelcomeFragment.WelcomeFragmentContainer {
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(WelcomeActivity.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(WelcomeActivity.class);
->>>>>>> ioschedLarry/master
     WelcomeActivityContent mContentFragment;
 
     @Override
@@ -72,11 +64,7 @@ public class WelcomeActivity extends AppCompatActivity implements WelcomeFragmen
         fragmentTransaction.add(R.id.welcome_content, (Fragment) mContentFragment);
         fragmentTransaction.commit();
 
-<<<<<<< HEAD
         LOGD(TAG, "Inside Create View.");
-=======
-        LogUtils.LOGD(TAG, "Inside Create View.");
->>>>>>> ioschedLarry/master
 
         setupAnimation();
     }
@@ -171,11 +159,7 @@ public class WelcomeActivity extends AppCompatActivity implements WelcomeFragmen
         try {
             getPositiveButton().setEnabled(enabled);
         } catch (NullPointerException e) {
-<<<<<<< HEAD
             LOGD(TAG, "Positive welcome button doesn't exist to set enabled.");
-=======
-            LogUtils.LOGD(TAG, "Positive welcome button doesn't exist to set enabled.");
->>>>>>> ioschedLarry/master
         }
     }
 
@@ -189,11 +173,7 @@ public class WelcomeActivity extends AppCompatActivity implements WelcomeFragmen
         try {
             getNegativeButton().setEnabled(enabled);
         } catch (NullPointerException e) {
-<<<<<<< HEAD
             LOGD(TAG, "Negative welcome button doesn't exist to set enabled.");
-=======
-            LogUtils.LOGD(TAG, "Negative welcome button doesn't exist to set enabled.");
->>>>>>> ioschedLarry/master
         }
     }
 

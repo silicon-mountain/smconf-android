@@ -42,11 +42,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * thread safe.
  */
 public class SelectionBuilder {
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(SelectionBuilder.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(SelectionBuilder.class);
->>>>>>> ioschedLarry/master
 
     private String mTable = null;
     private Map<String, String> mProjectionMap = new HashMap<>();
@@ -191,11 +187,7 @@ public class SelectionBuilder {
             String limit) {
         assertTable();
         if (columns != null) mapColumns(columns);
-<<<<<<< HEAD
         LOGV(TAG, "query(columns=" + Arrays.toString(columns)
-=======
-        LogUtils.LOGV(TAG, "query(columns=" + Arrays.toString(columns)
->>>>>>> ioschedLarry/master
                 + ", distinct=" + distinct + ") " + this);
         return db.query(distinct, mTable, columns, getSelection(), getSelectionArgs(), mGroupBy,
                 mHaving, orderBy, limit);
@@ -206,11 +198,7 @@ public class SelectionBuilder {
      */
     public int update(SQLiteDatabase db, ContentValues values) {
         assertTable();
-<<<<<<< HEAD
         LOGV(TAG, "update() " + this);
-=======
-        LogUtils.LOGV(TAG, "update() " + this);
->>>>>>> ioschedLarry/master
         return db.update(mTable, values, getSelection(), getSelectionArgs());
     }
 
@@ -219,11 +207,7 @@ public class SelectionBuilder {
      */
     public int delete(SQLiteDatabase db) {
         assertTable();
-<<<<<<< HEAD
         LOGV(TAG, "delete() " + this);
-=======
-        LogUtils.LOGV(TAG, "delete() " + this);
->>>>>>> ioschedLarry/master
         return db.delete(mTable, getSelection(), getSelectionArgs());
     }
 }

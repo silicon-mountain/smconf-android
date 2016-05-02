@@ -16,17 +16,10 @@
 
 package com.google.samples.apps.iosched;
 
-<<<<<<< HEAD
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.security.ProviderInstaller;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
-=======
-import com.google.android.gms.security.ProviderInstaller;
-import com.google.samples.apps.iosched.settings.SettingsUtils;
-import com.google.samples.apps.iosched.util.AnalyticsHelper;
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import android.app.Application;
 import android.content.Intent;
@@ -43,11 +36,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class AppApplication extends Application {
 
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(AppApplication.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(AppApplication.class);
->>>>>>> ioschedLarry/master
 
     @Override
     public void onCreate() {
@@ -62,29 +51,17 @@ public class AppApplication extends Application {
                     new ProviderInstaller.ProviderInstallListener() {
                         @Override
                         public void onProviderInstalled() {
-<<<<<<< HEAD
                             LOGW(TAG, "New security provider installed.");
-=======
-                            LogUtils.LOGW(TAG, "New security provider installed.");
->>>>>>> ioschedLarry/master
                         }
 
                         @Override
                         public void onProviderInstallFailed(int errorCode, Intent intent) {
-<<<<<<< HEAD
                             LOGE(TAG, "New security provider install failed.");
-=======
-                            LogUtils.LOGE(TAG, "New security provider install failed.");
->>>>>>> ioschedLarry/master
                             // No notification shown there is no user intervention needed.
                         }
                     });
         } catch (Exception ignorable) {
-<<<<<<< HEAD
             LOGE(TAG, "Unknown issue trying to install a new security provider.", ignorable);
-=======
-            LogUtils.LOGE(TAG, "Unknown issue trying to install a new security provider.", ignorable);
->>>>>>> ioschedLarry/master
         }
     }
 }

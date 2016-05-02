@@ -20,20 +20,11 @@ import android.content.ContentProvider;
 import android.net.Uri;
 import android.text.format.Time;
 
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.io.JSONHandler;
-
->>>>>>> ioschedLarry/master
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 /**
-<<<<<<< HEAD
  * Various utility methods used by {@link com.google.samples.apps.iosched.io.JSONHandler}.
-=======
- * Various utility methods used by {@link JSONHandler}.
->>>>>>> ioschedLarry/master
  */
 public class ParserUtils {
     /** Used to sanitize a string to be {@link Uri} safe. */

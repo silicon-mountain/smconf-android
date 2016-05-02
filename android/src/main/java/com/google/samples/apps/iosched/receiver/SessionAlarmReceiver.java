@@ -19,26 +19,16 @@ package com.google.samples.apps.iosched.receiver;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.service.SessionAlarmService;
 
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
-=======
-
-import com.google.samples.apps.iosched.service.SessionAlarmService;
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 /**
  * {@link BroadcastReceiver} to reinitialize {@link android.app.AlarmManager} for all starred
  * session blocks.
  */
 public class SessionAlarmReceiver extends BroadcastReceiver {
-<<<<<<< HEAD
     public static final String TAG = makeLogTag(SessionAlarmReceiver.class);
-=======
-    public static final String TAG = LogUtils.makeLogTag(SessionAlarmReceiver.class);
->>>>>>> ioschedLarry/master
 
     @Override
     public void onReceive(Context context, Intent intent) {

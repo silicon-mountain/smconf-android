@@ -16,20 +16,10 @@
 package com.google.samples.apps.iosched.gcm;
 
 import com.google.samples.apps.iosched.BuildConfig;
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.gcm.command.*;
 import com.google.android.gcm.GCMBaseIntentService;
 import com.google.samples.apps.iosched.util.AccountUtils;
-=======
-import com.google.android.gcm.GCMBaseIntentService;
-import com.google.samples.apps.iosched.gcm.command.AnnouncementCommand;
-import com.google.samples.apps.iosched.gcm.command.NotificationCommand;
-import com.google.samples.apps.iosched.gcm.command.SyncCommand;
-import com.google.samples.apps.iosched.gcm.command.SyncUserCommand;
-import com.google.samples.apps.iosched.gcm.command.TestCommand;
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import android.content.Context;
 import android.content.Intent;
@@ -49,11 +39,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class GCMIntentService extends GCMBaseIntentService {
 
-<<<<<<< HEAD
     private static final String TAG = makeLogTag("GCM");
-=======
-    private static final String TAG = LogUtils.makeLogTag("GCM");
->>>>>>> ioschedLarry/master
 
     private static final Map<String, GCMCommand> MESSAGE_RECEIVERS;
     static {
@@ -73,20 +59,12 @@ public class GCMIntentService extends GCMBaseIntentService {
 
     @Override
     protected void onRegistered(Context context, String regId) {
-<<<<<<< HEAD
         LOGI(TAG, "Device registered: regId=" + regId);
-=======
-        LogUtils.LOGI(TAG, "Device registered: regId=" + regId);
->>>>>>> ioschedLarry/master
     }
 
     @Override
     protected void onUnregistered(Context context, String regId) {
-<<<<<<< HEAD
         LOGI(TAG, "Device unregistered");
-=======
-        LogUtils.LOGI(TAG, "Device unregistered");
->>>>>>> ioschedLarry/master
         ServerUtilities.unregister(context, regId);
     }
 
@@ -94,28 +72,17 @@ public class GCMIntentService extends GCMBaseIntentService {
     protected void onMessage(Context context, Intent intent) {
         String action = intent.getStringExtra("action");
         String extraData = intent.getStringExtra("extraData");
-<<<<<<< HEAD
         LOGD(TAG, "Got GCM message, action=" + action + ", extraData=" + extraData);
 
         if (action == null) {
             LOGE(TAG, "Message received without command action");
-=======
-        LogUtils.LOGD(TAG, "Got GCM message, action=" + action + ", extraData=" + extraData);
-
-        if (action == null) {
-            LogUtils.LOGE(TAG, "Message received without command action");
->>>>>>> ioschedLarry/master
             return;
         }
 
         action = action.toLowerCase();
         GCMCommand command = MESSAGE_RECEIVERS.get(action);
         if (command == null) {
-<<<<<<< HEAD
             LOGE(TAG, "Unknown command received: " + action);
-=======
-            LogUtils.LOGE(TAG, "Unknown command received: " + action);
->>>>>>> ioschedLarry/master
         } else {
             command.execute(this, action, extraData);
         }
@@ -124,21 +91,13 @@ public class GCMIntentService extends GCMBaseIntentService {
 
     @Override
     public void onError(Context context, String errorId) {
-<<<<<<< HEAD
         LOGE(TAG, "Received error: " + errorId);
-=======
-        LogUtils.LOGE(TAG, "Received error: " + errorId);
->>>>>>> ioschedLarry/master
     }
 
     @Override
     protected boolean onRecoverableError(Context context, String errorId) {
         // log message
-<<<<<<< HEAD
         LOGW(TAG, "Received recoverable error: " + errorId);
-=======
-        LogUtils.LOGW(TAG, "Received recoverable error: " + errorId);
->>>>>>> ioschedLarry/master
         return super.onRecoverableError(context, errorId);
     }
 }

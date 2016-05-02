@@ -23,10 +23,6 @@ import android.view.ViewGroup;
 
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
@@ -35,11 +31,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  * The attending in person fragment in the welcome screen.
  */
 public class AttendingFragment extends WelcomeFragment implements WelcomeActivity.WelcomeActivityContent {
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(AttendingFragment.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(AttendingFragment.class);
->>>>>>> ioschedLarry/master
 
     @Override
     public boolean shouldDisplay(Context context) {
@@ -53,11 +45,7 @@ public class AttendingFragment extends WelcomeFragment implements WelcomeActivit
             @Override
             public void onClick(View v) {
                 // Ensure we don't run this fragment again
-<<<<<<< HEAD
                 LOGD(TAG, "Marking attending flag.");
-=======
-                LogUtils.LOGD(TAG, "Marking attending flag.");
->>>>>>> ioschedLarry/master
                 SettingsUtils.setAttendeeAtVenue(mActivity, true);
                 SettingsUtils.markAnsweredLocalOrRemote(mActivity, true);
                 doNext();
@@ -70,11 +58,7 @@ public class AttendingFragment extends WelcomeFragment implements WelcomeActivit
         return new WelcomeFragmentOnClickListener(mActivity) {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
                 LOGD(TAG, "Marking not attending flag.");
-=======
-                LogUtils.LOGD(TAG, "Marking not attending flag.");
->>>>>>> ioschedLarry/master
                 SettingsUtils.setAttendeeAtVenue(mActivity, false);
                 SettingsUtils.markAnsweredLocalOrRemote(mActivity, true);
                 doNext();

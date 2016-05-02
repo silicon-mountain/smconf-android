@@ -21,11 +21,6 @@ import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.framework.PresenterFragmentImpl;
 import com.google.samples.apps.iosched.model.TagMetadata;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.session.SessionDetailActivity;
-import com.google.samples.apps.iosched.session.SessionDetailModel;
->>>>>>> ioschedLarry/master
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.util.SessionsHelper;

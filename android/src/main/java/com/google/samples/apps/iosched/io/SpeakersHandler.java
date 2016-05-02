@@ -27,24 +27,15 @@ import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.samples.apps.iosched.provider.ScheduleContractHelper;
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-<<<<<<< HEAD
 import static com.google.samples.apps.iosched.util.LogUtils.*;
 
 public class SpeakersHandler extends JSONHandler {
     private static final String TAG = makeLogTag(SpeakersHandler.class);
-=======
-public class SpeakersHandler extends JSONHandler {
-    private static final String TAG = LogUtils.makeLogTag(SpeakersHandler.class);
->>>>>>> ioschedLarry/master
     private HashMap<String, Speaker> mSpeakers = new HashMap<String, Speaker>();
 
     public SpeakersHandler(Context context) {
@@ -67,15 +58,9 @@ public class SpeakersHandler extends JSONHandler {
         boolean isIncrementalUpdate = speakerHashcodes != null && speakerHashcodes.size() > 0;
 
         if (isIncrementalUpdate) {
-<<<<<<< HEAD
             LOGD(TAG, "Doing incremental update for speakers.");
         } else {
             LOGD(TAG, "Doing FULL (non incremental) update for speakers.");
-=======
-            LogUtils.LOGD(TAG, "Doing incremental update for speakers.");
-        } else {
-            LogUtils.LOGD(TAG, "Doing FULL (non incremental) update for speakers.");
->>>>>>> ioschedLarry/master
             list.add(ContentProviderOperation.newDelete(uri).build());
         }
 
@@ -103,11 +88,7 @@ public class SpeakersHandler extends JSONHandler {
             }
         }
 
-<<<<<<< HEAD
         LOGD(TAG, "Speakers: " + (isIncrementalUpdate ? "INCREMENTAL" : "FULL") + " update. " +
-=======
-        LogUtils.LOGD(TAG, "Speakers: " + (isIncrementalUpdate ? "INCREMENTAL" : "FULL") + " update. " +
->>>>>>> ioschedLarry/master
                 updatedSpeakers + " to update, " + deletedSpeakers + " to delete. New total: " +
                 mSpeakers.size());
     }
@@ -153,19 +134,11 @@ public class SpeakersHandler extends JSONHandler {
             cursor = mContext.getContentResolver().query(uri, SpeakerHashcodeQuery.PROJECTION,
                     null, null, null);
             if (cursor == null) {
-<<<<<<< HEAD
                 LOGE(TAG, "Error querying speaker hashcodes (got null cursor)");
                 return null;
             }
             if (cursor.getCount() < 1) {
                 LOGE(TAG, "Error querying speaker hashcodes (no records returned)");
-=======
-                LogUtils.LOGE(TAG, "Error querying speaker hashcodes (got null cursor)");
-                return null;
-            }
-            if (cursor.getCount() < 1) {
-                LogUtils.LOGE(TAG, "Error querying speaker hashcodes (no records returned)");
->>>>>>> ioschedLarry/master
                 return null;
             }
             HashMap<String, String> result = new HashMap<String, String>();

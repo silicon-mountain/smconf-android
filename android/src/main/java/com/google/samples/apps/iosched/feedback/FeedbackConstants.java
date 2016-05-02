@@ -16,11 +16,8 @@
 
 package com.google.samples.apps.iosched.feedback;
 
-<<<<<<< HEAD
 import com.google.samples.apps.iosched.Config;
 
-=======
->>>>>>> ioschedLarry/master
 public class FeedbackConstants {
 
     public static final int FEEDBACK_CONNECT_TIMEOUT_MS = 15000;

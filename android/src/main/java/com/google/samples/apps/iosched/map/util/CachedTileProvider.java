@@ -18,10 +18,6 @@ package com.google.samples.apps.iosched.map.util;
 import com.google.android.gms.maps.model.Tile;
 import com.google.android.gms.maps.model.TileProvider;
 
-<<<<<<< HEAD
-=======
-import com.google.samples.apps.iosched.util.LogUtils;
->>>>>>> ioschedLarry/master
 import com.jakewharton.disklrucache.DiskLruCache;
 
 import java.io.ByteArrayOutputStream;
@@ -41,11 +37,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class CachedTileProvider implements TileProvider {
 
-<<<<<<< HEAD
     private static final String TAG = makeLogTag(SVGTileProvider.class);
-=======
-    private static final String TAG = LogUtils.makeLogTag(SVGTileProvider.class);
->>>>>>> ioschedLarry/master
 
     private static final String KEY_FORMAT = "%d_%d_%d_%s";
 
@@ -96,11 +88,7 @@ public class CachedTileProvider implements TileProvider {
             // tile not cached, load from provider and then cache
             tile = mTileProvider.getTile(x, y, zoom);
             if (cacheTile(key, tile)) {
-<<<<<<< HEAD
                 LOGD(TAG, "Added tile to cache " + key);
-=======
-                LogUtils.LOGD(TAG, "Added tile to cache " + key);
->>>>>>> ioschedLarry/master
             }
         }
         return tile;
@@ -125,11 +113,7 @@ public class CachedTileProvider implements TileProvider {
             final int height = readStreamAsInt(snapshot.getInputStream(INDEX_HEIGHT));
             final int width = readStreamAsInt(snapshot.getInputStream(INDEX_WIDTH));
             if (data != null) {
-<<<<<<< HEAD
                 LOGD(TAG, "Cache hit for tile " + key);
-=======
-                LogUtils.LOGD(TAG, "Cache hit for tile " + key);
->>>>>>> ioschedLarry/master
                 return new Tile(width, height, data);
             }
 

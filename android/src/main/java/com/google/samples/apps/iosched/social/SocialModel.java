@@ -23,11 +23,7 @@ import android.net.Uri;
 import com.google.samples.apps.iosched.R;
 
 /**
-<<<<<<< HEAD
  * The data source for {@link com.google.samples.apps.iosched.social.SocialFragment}. The data
-=======
- * The data source for {@link SocialFragment}. The data
->>>>>>> ioschedLarry/master
  * is static and not fetched through a query.
  */
 public class SocialModel {
