@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="appengine-gcs-client-0.3.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine.tools/appengine-gcs-client/0.3.8/58dfa7d044def12187f752b94cdfbacaf115d706/appengine-gcs-client-0.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine.tools/appengine-gcs-client/0.3.8/5df6dbf34a6e6e542eec63165475386505636e26/appengine-gcs-client-0.3.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

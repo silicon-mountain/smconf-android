@@ -149,6 +149,11 @@ public class Config {
     }
 
     // URL prefix for web links to session pages
+
     public static final String SESSION_DETAIL_WEB_URL_PREFIX
             = "https://www.google.com/events/io/schedule/session/";
+
+    //Youtube API key as per the BUILD.md
+    public static final String YOUTUBE_API_KEY =
+            "1050837793524-2qndhni24i1njgaf4sov87at1o493mdf.apps.googleusercontent.com\t" ;
 }
