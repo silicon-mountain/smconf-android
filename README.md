@@ -6,7 +6,7 @@ Silicon Mountain Conference Android app was created, and is maintained by [The S
 Feel free to check out the [license](LICENSE), and make contributions by pull requests.
 
 
-##Features
+## Features
 
 With the app, you can:
 
@@ -19,7 +19,7 @@ With the app, you can:
 - Send feedback on sessions, from your phone/tablet.
 
 
-##Build
+## Build
 
 We hope the source code for this app is useful for you as a reference or starting point for creating your own apps. Here is some additional reading to help you better understand and reuse this code.
 
